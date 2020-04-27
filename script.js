@@ -31,9 +31,16 @@ const track = {
 };
 
 document.addEventListener("DOMContentLoaded", function () {
+    drawHeader(track);
     const lineNodes = drawLines(track.lyrics);
     setWipings(lineNodes);
 });
+
+function drawHeader(track){
+    document.getElementById("track-title").textContent = track.title;
+    document.getElementById("track-artist").textContent = track.artist;
+    document.getElementById("track-year").textContent = track.year;
+}
 
 function drawLines(lyrics) {
     let lineCount = 0;
