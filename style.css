@@ -88,8 +88,6 @@ body {
 .word-outer .word-inner::before {
     content: attr(data-text);
     position: absolute;
-    top: 0;
-    left: 0;
     width: 0;
     overflow: hidden;
     color: rgb(255, 255, 0);
