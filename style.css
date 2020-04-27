@@ -98,3 +98,18 @@ body {
 .word-outer .word-inner.active::before {
     width: 100%;
 }
+
+/* STATUS INDICATOR */
+#status-indicator-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2em;
+    font-size: 2em;
+    /* color: #00b400; */
+    /* display: flex; */
+}
+
+#status-indicator-container #status-icon{
+    filter: invert() drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
