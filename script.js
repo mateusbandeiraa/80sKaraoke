@@ -1,70 +1,122 @@
-let lyrics = [
-    { word: "So", duration: 2.2, wait: 1 },
-    { word: "long,", duration: 0.9 },
-    { word: "I've", duration: 0.3, wait: 0.9 },
-    { word: "been", duration: 0.2, wait: 0.1 },
-    { word: "looking", duration: 1 },
-    { word: "too", duration: 0.2 },
-    { word: "hard", duration: 0.5, lineBreak: true },
-    { word: "I've", duration: 0.2 },
-    { word: "been", duration: 0.5 },
-    { word: "waiting", duration: 1 },
-    { word: "too", duration: 0.5 },
-    { word: "long", duration: 0.5 },
-];
+const track = {
+    title: "Waiting for a girl like you",
+    artist: "Foreigner",
+    year: "1981",
+    lyrics: {
+        lines: [
+            {
+                startAt: 1,
+                words: [
+                    { content: "So", duration: 2.2, wait: 1 },
+                    { content: "long,", duration: 0.9 },
+                    { content: "I've", duration: 0.3, wait: 0.9 },
+                    { content: "been", duration: 0.2, wait: 0.1 },
+                    { content: "looking", duration: 1 },
+                    { content: "too", duration: 0.2 },
+                    { content: "hard", duration: 0.5 },
+                ]
+            },
+            {
+                startAt: 10,
+                words: [
+                    { content: "I've", duration: 0.2 },
+                    { content: "been", duration: 0.5 },
+                    { content: "waiting", duration: 1 },
+                    { content: "too", duration: 0.5 },
+                    { content: "long", duration: 0.5 },
+                ]
+            },
+        ]
+    }
+};
 
 document.addEventListener("DOMContentLoaded", function () {
-    drawLines();
-    setWipings();
+    const lineNodes = drawLines(track.lyrics);
+    setWipings(lineNodes);
 });
 
-function drawLines() {
-    let lineHTML = "";
-    let count = 0;
-    let needsSpaceCharacter = false;
-    for (let element of lyrics) {
-        // let displayText = element.word;
-        let displayText = (needsSpaceCharacter ? "&nbsp;" : "") + element.word;
-        lineHTML += `<span class="word-outer" data-word-id="${count++}">`;
-        lineHTML += `<span class="word-inner" data-text="${displayText}" data-duration="${element.duration}">${displayText}</span>`;
-        lineHTML += '</span>';
+function drawLines(lyrics) {
+    let lineCount = 0;
+    let wordCount = 0;
 
+    let lineNodes = [];
+    for (let line of lyrics.lines) {
+        const lineNode = createLineNode(lineCount++);
+        let needsSpaceCharacter = false;
+        for (let word of line.words) {
+            const outerWordNode = createWordNode(word, wordCount++, needsSpaceCharacter);
 
-        if (element.lineBreak) {
-            drawSingleLine(lineHTML)
-            lineHTML = "";
-            needsSpaceCharacter = false;
-        } else {
-            needsSpaceCharacter = true;
+            if (!needsSpaceCharacter) {
+                needsSpaceCharacter = true;
+            }
+
+            lineNode.appendChild(outerWordNode);
         }
+        document.getElementById("lyrics-container").appendChild(lineNode);
+        lineNodes.push(lineNode);
     }
-    if (lineHTML != "") {
-        drawSingleLine(lineHTML);
-    }
+
+    return lineNodes;
 }
 
-function drawSingleLine(lineHTML) {
-    // let outerLineHTML = `<div class="line outer">${lineHTML}</div>`;
+function createLineNode(lineId) {
     let lineNode = document.createElement("div");
     lineNode.classList.add("line");
-    lineNode.innerHTML = lineHTML;
-    document.getElementById("lyrics-container").appendChild(lineNode);
+    lineNode.setAttribute("data-line-id", lineId);
+    return lineNode;
 }
 
-function setWipings() {
-    let currentTime = 0;
-    let count = 0;
-    for (let element of lyrics) {
-        let htmlNode = document.querySelector(`[data-word-id="${count}"] .word-inner`);
-        if (element.wait) {
-            currentTime += element.wait;
-        }
-        setTimeout(() => {
-            htmlNode.setAttribute('style', `transition-duration: ${element.duration*1000}ms`);
-            htmlNode.classList.add("active");
-        }, currentTime * 1000);
-        currentTime += element.duration;
+function createWordNode(word, wordId, needsSpaceCharacter) {
+    let outerWordNode = document.createElement("span");
+    outerWordNode.classList.add("word-outer");
+    outerWordNode.setAttribute("data-word-id", wordId);
+    
+    const innerWordNode = createInnerWordNode(word, needsSpaceCharacter);
+    outerWordNode.appendChild(innerWordNode);
+    return outerWordNode;
+}
 
-        count++;
+function createInnerWordNode(word, needsSpaceCharacter) {
+    let displayText, dataAttributeText;
+    if (needsSpaceCharacter) {
+        displayText = ` ${word.content}`;
+        /* String#fromCharCode is needed because the attribute
+         * was getting trimmed when appended to DOM
+         */
+        dataAttributeText = `${String.fromCharCode(160)}${word.content}`;
+    } else {
+        displayText = word.content;
+        dataAttributeText = word.content;
+    }
+
+    let innerWordNode = document.createElement("span");
+    innerWordNode.classList.add("word-inner");
+    innerWordNode.setAttribute("data-text", dataAttributeText);
+    innerWordNode.setAttribute("data-duration", word.duration);
+    if (word.wait) {
+        innerWordNode.setAttribute("data-wait", word.wait);
+    }
+    innerWordNode.textContent = displayText;
+    return innerWordNode;
+}
+
+function setWipings(lineNodes) {
+    let currentTime = 0;
+    for (let line of lineNodes) {
+        for (let outerWordNode of line.getElementsByClassName("word-outer")) {
+            let innerWordNode = outerWordNode.querySelector(`.word-inner`);
+
+            const duration = parseFloat(innerWordNode.getAttribute("data-duration"));
+            const wait = parseFloat(innerWordNode.getAttribute("data-wait"));
+
+            if (wait) {
+                currentTime += wait;
+            }
+            setTimeout(() => {
+                innerWordNode.setAttribute('style', `transition-duration: ${duration * 1000}ms`);
+                innerWordNode.classList.add("active");
+            }, currentTime * 1000);
+            currentTime += duration;
+        }
     }
 }
