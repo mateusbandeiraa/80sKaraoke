@@ -1,0 +1,101 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* BACKGROUND VIDEO */
+#background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+#background-video {
+    object-fit: cover;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #background-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* MAIN-CONTAINER */
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    color: #FFFFFF;
+    font-family: 'VT323', monospace;
+}
+
+body {
+    margin: 0;
+}
+
+/* TRACK DETAILS */
+#track-details-container {
+    position: fixed;
+    top: 0;
+    margin: 2em;
+}
+
+#track-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+#track-artist,
+#track-year {
+    display: inline;
+    font-size: 2em;
+    margin: 0;
+}
+
+#track-year::before {
+    content: " — ";
+}
+
+/* LYRICS */
+#lyrics-container {
+    font-size: 5em;
+    text-shadow: -2px 0px 3px #CE5937, 4px 0px 3px #0B80CE;
+}
+
+.word-outer {
+    position: relative;
+    margin-right: 20pt;
+}
+
+.word-outer .word-inner::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    color: rgb(255, 255, 0);
+    white-space: nowrap;
+    transition: all;
+    transition-duration: inherit;
+}
+
+.word-outer .word-inner.active::before {
+    width: 100%;
+}
