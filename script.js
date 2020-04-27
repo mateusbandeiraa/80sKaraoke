@@ -46,7 +46,7 @@ function drawLines() {
 function drawSingleLine(lineHTML) {
     // let outerLineHTML = `<div class="line outer">${lineHTML}</div>`;
     let lineNode = document.createElement("div");
-    lineNode.classList.add("line-outer");
+    lineNode.classList.add("line");
     lineNode.innerHTML = lineHTML;
     document.getElementById("lyrics-container").appendChild(lineNode);
 }
