@@ -23,8 +23,8 @@ function drawLines() {
     let count = 0;
     let needsSpaceCharacter = false;
     for (let element of lyrics) {
-        let displayText = element.word;
-        // let displayText = (needsSpaceCharacter ? " " : "") + element.word;
+        // let displayText = element.word;
+        let displayText = (needsSpaceCharacter ? "&nbsp;" : "") + element.word;
         lineHTML += `<span class="word-outer" data-word-id="${count++}">`;
         lineHTML += `<span class="word-inner" data-text="${displayText}" data-duration="${element.duration}">${displayText}</span>`;
         lineHTML += '</span>';

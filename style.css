@@ -82,7 +82,6 @@ body {
 
 .word-outer {
     position: relative;
-    margin-right: 20pt;
 }
 
 .word-outer .word-inner::before {
