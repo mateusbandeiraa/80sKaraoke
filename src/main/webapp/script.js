@@ -1,20 +1,12 @@
 /* PAGE SETUP */
 
-function fetchTrack(){
-    return fetch("assets/songs/song1.json").then((response) => response.json());
-}
-
-let track;
-let trackPlayer;
-document.addEventListener("DOMContentLoaded", function () {
-    fetchTrack().then(function (data) {
-        track = data;
-        drawHeader(track);
-        setControlsListeners();
-        setInterval(update, 100);
-        trackPlayer = new Audio('assets/songs/song1.mp3');
-        trackPlayer.play();
-    });
+document.addEventListener("DOMContentLoaded", async function () {
+    let trackPlayer = new Audio('assets/songs/song1.mp3');
+    let track = await fetchTrack("song1");
+    drawHeader(track);
+    setControlsListeners(trackPlayer);
+    setInterval(update, 100, track, trackPlayer);
+    trackPlayer.play();
 });
 
 
@@ -24,7 +16,7 @@ function drawHeader(track) {
     document.getElementById("track-year").textContent = track.year;
 }
 
-function setControlsListeners() {
+function setControlsListeners(trackPlayer) {
     document.getElementById("button-backwards").addEventListener("click", () => {
         trackPlayer.currentTime = 0;
         update();
@@ -51,8 +43,8 @@ function setControlsListeners() {
 }
 
 /* UPDATE METHODS */
-function update() {
-    let currentTrackTimecode = getCurrentTrackTimecode();
+function update(track, trackPlayer) {
+    let currentTrackTimecode = getCurrentTrackTimecode(trackPlayer);
     updateStatus(trackPlayer);
     drawTimecodeIndicator(currentTrackTimecode);
     const visibleLines = getLinesFromTimecode(track, currentTrackTimecode);
@@ -162,7 +154,11 @@ function removeOutOfSyncLines(timecode) {
 
 /* HELPER METHODS */
 
-function getCurrentTrackTimecode() {
+function fetchTrack(trackTitle) {
+   return fetch(`assets/songs/${trackTitle}.json`).then((response) => response.json());
+}
+
+function getCurrentTrackTimecode(trackPlayer) {
     if (trackPlayer) {
         return trackPlayer.currentTime;
     } else {
@@ -206,16 +202,16 @@ function getLineEndingTimecode(line) {
     return line.startAt + getTotalLineDuration(line) + line.remain;
 }
 
-function isLineCurrentlyDisplayed(line, track){
+function isLineCurrentlyDisplayed(line, track) {
     let lineId = getLineId(line, track);
-    if (document.querySelector(`.line[data-line-id="${lineId}"]`)){
+    if (document.querySelector(`.line[data-line-id="${lineId}"]`)) {
         return true;
     } else {
         return false;
     }
 }
 
-function getLineId(line, track){
+function getLineId(line, track) {
     return track.lyrics.lines.indexOf(line);
 }
 
