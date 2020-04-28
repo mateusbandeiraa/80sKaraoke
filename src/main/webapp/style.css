@@ -49,6 +49,8 @@
 
 body {
     margin: 0;
+    background: rgb(208,87,186);
+    background: linear-gradient(180deg, rgba(208,87,186,1) 0%, rgba(129,61,122,1) 100%);
 }
 
 /* TRACK DETAILS */
@@ -145,7 +147,6 @@ body {
     color: white;
     height: 100px;
     border-radius: 1em;
-    /* text-shadow: none; */
     opacity: 0;
     transition: opacity .25s;
 }
