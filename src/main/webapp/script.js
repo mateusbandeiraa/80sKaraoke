@@ -1,74 +1,20 @@
-const track = {
-    title: "Waiting for a girl like you",
-    artist: "Foreigner",
-    year: "1981",
-    lyrics: {
-        lines: [
-            {
-                startAt: 29,
-                remain: 1,
-                words: [
-                    { content: "...", duration: 2, wait: 0.7 },
-                    { content: "So", duration: 3 },
-                    { content: "long,", duration: 0.9 },
-                    { content: "I've", duration: 0.3, wait: 1 },
-                    { content: "been", duration: 0.2, wait: 0.1 },
-                    { content: "looking", duration: 0.8 },
-                    { content: "too", duration: 0.2 },
-                    { content: "hard", duration: 0.5 },
-                ]
-            },
-            {
-                startAt: 37,
-                remain: 1,
-                words: [
-                    { content: "I've", duration: 0.2, wait: 2 },
-                    { content: "been", duration: 0.5 },
-                    { content: "waiting", duration: .6 },
-                    { content: "too", duration: 0.5 },
-                    { content: "long", duration: 0.8 },
-                ]
-            },
-            {
-                startAt: 41,
-                remain: 0.5,
-                words: [
-                    { content: "Sometimes", duration: 0.2, wait: 1.3 },
-                    { content: "I", duration: 0.3 },
-                    { content: "don't", duration: 0.3 },
-                    { content: "know", duration: 0.5 },
-                    { content: "what", duration: 0.8 },
-                    { content: "I", duration: 0.5 },
-                    { content: "will", duration: 0.5 },
-                    { content: "find,", duration: 0.5 },
-                ]
-            },
-            {
-                startAt: 46,
-                remain: 1,
-                words: [
-                    { content: "I", duration: 0.2, wait: 1 },
-                    { content: "only", duration: 0.3 },
-                    { content: "know", duration: 0.5 },
-                    { content: "it's", duration: 0.5 },
-                    { content: "a", duration: 0.5 },
-                    { content: "matter", duration: 0.5 },
-                    { content: "of", duration: 0.5 },
-                    { content: "time", duration: 0.5 },
-                ]
-            },
-        ]
-    }
-};
-
 /* PAGE SETUP */
+
+function fetchTrack(){
+    return fetch("assets/songs/song1.json").then((response) => response.json());
+}
+
+let track;
 let trackPlayer;
 document.addEventListener("DOMContentLoaded", function () {
-    drawHeader(track);
-    setControlsListeners();
-    setInterval(update, 100);
-    trackPlayer = new Audio('assets/songs/song1.mp3');
-    trackPlayer.play();
+    fetchTrack().then(function (data) {
+        track = data;
+        drawHeader(track);
+        setControlsListeners();
+        setInterval(update, 100);
+        trackPlayer = new Audio('assets/songs/song1.mp3');
+        trackPlayer.play();
+    });
 });
 
 
