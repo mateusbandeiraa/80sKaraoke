@@ -18,9 +18,14 @@
         </video>
     </div>
     <div id="main-container">
-        <div id="status-indicator-container">
-            <span id="status-text">PLAY</span>
-            <object type="image/svg+xml" data="assets/icons/play.svg" id="status-icon"></object>
+        <div id="informations-container">
+            <div id="status-indicator-container">
+                <span id="status-text">PLAY</span>
+                <object type="image/svg+xml" data="assets/icons/play.svg" id="status-icon"></object>
+            </div>
+            <div id="timecode-indicator-container">
+                <span id="timecode-indicator">00:00</span>
+            </div>
         </div>
         <div id="track-details-container">
             <h1 id="track-title"></h1>
@@ -28,14 +33,18 @@
             <div id="track-year"></div>
         </div>
         <div id="lyrics-container">
+            <div class="line" id="line0">&nbsp;</div>
+            <div class="line" id="line1">&nbsp;</div>
+            <div class="line" id="line2">&nbsp;</div>
         </div>
-        <div id="controls-container">
-            <div id="controls-banner">
-                <i class="fas fa-backward fa-3x" id="button-backwards"></i>
-                <i class="fas fa-pause fa-3x" id="button-play-pause"></i>
-                <i class="fas fa-forward fa-3x" id="button-forward"></i>
-            </div>
+    </div>
+    <div id="controls-container">
+        <div id="controls-banner">
+            <i class="fas fa-backward fa-3x" id="button-backwards"></i>
+            <i class="fas fa-pause fa-3x" id="button-play-pause"></i>
+            <i class="fas fa-forward fa-3x" id="button-forward"></i>
         </div>
+    </div>
     </div>
 </body>
 
