@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     drawHeader(track);
     setControlsListeners(trackPlayer);
     setInterval(update, 100, track, trackPlayer);
-    trackPlayer.play();
 });
 
 
@@ -16,30 +15,52 @@ function drawHeader(track) {
     document.getElementById("track-year").textContent = track.year;
 }
 
+/* CONTROLS */
+
 function setControlsListeners(trackPlayer) {
     document.getElementById("button-backwards").addEventListener("click", () => {
         trackPlayer.currentTime = 0;
         update();
     });
 
-    document.getElementById("button-play-pause").addEventListener("click", () => {
-        let htmlButtonElement = document.getElementById("button-play-pause");
-        if (trackPlayer.paused) {
-            trackPlayer.play();
-            htmlButtonElement.classList.remove("fa-play");
-            htmlButtonElement.classList.add("fa-pause");
-        } else {
-            trackPlayer.pause();
-            htmlButtonElement.classList.remove("fa-pause");
-            htmlButtonElement.classList.add("fa-play");
-        }
-        update();
-    });
+    document.getElementById("button-play-pause").addEventListener("click", () => { toggleTrackPlayPause(trackPlayer) });
 
     document.getElementById("button-forward").addEventListener("click", () => {
         trackPlayer.currentTime = 25;
         update();
     });
+}
+
+function toggleTrackPlayPause(trackPlayer) {
+    let bodyElement = document.getElementsByTagName("body")[0];
+    let backgroundVideoElement = document.getElementById("background-video");
+    let buttonElement = document.getElementById("button-play-pause");
+    if (trackPlayer.paused) {
+        playTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement);
+    } else {
+        pauseTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement);
+    }
+    update();
+}
+
+function playTrack(trackPlayer, body, backgroundVideo, button) {
+    trackPlayer.play();
+    backgroundVideo.play();
+
+    body.classList.remove("track-paused");
+
+    button.classList.remove("fa-play");
+    button.classList.add("fa-pause");
+}
+
+function pauseTrack(trackPlayer, body, backgroundVideo, button) {
+    trackPlayer.pause();
+    backgroundVideo.pause();
+
+    body.classList.add("track-paused");
+
+    button.classList.remove("fa-pause");
+    button.classList.add("fa-play");
 }
 
 /* UPDATE METHODS */
@@ -155,7 +176,7 @@ function removeOutOfSyncLines(timecode) {
 /* HELPER METHODS */
 
 function fetchTrack(trackTitle) {
-   return fetch(`assets/songs/${trackTitle}.json`).then((response) => response.json());
+    return fetch(`assets/songs/${trackTitle}.json`).then((response) => response.json());
 }
 
 function getCurrentTrackTimecode(trackPlayer) {

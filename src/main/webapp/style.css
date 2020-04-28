@@ -85,11 +85,11 @@ body {
     align-items: center;
 }
 
-.line{
+.line {
     margin: .5em 0;
 }
 
-.line.hidden{
+.line.hidden {
     opacity: 0;
 }
 
@@ -154,6 +154,7 @@ body {
     opacity: 50%;
 }
 
+body.track-paused #controls-container #controls-banner,
 #controls-container:hover #controls-banner:hover {
     opacity: 85%;
 }
