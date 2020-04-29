@@ -63,7 +63,7 @@ body {
     text-align: center;
 }
 
-#informations-container>*{
+#informations-container>* {
     text-align: initial;
 }
 
@@ -75,7 +75,7 @@ body {
     display: inline-block;
 }
 
-#status-text{
+#status-text {
     line-height: 40px;
 }
 
@@ -131,10 +131,15 @@ body {
     position: absolute;
     width: 0;
     overflow: hidden;
-    color: rgb(255, 255, 0);
+    color: rgb(255, 204, 0);
     white-space: nowrap;
     transition: all;
     transition-duration: .2s;
+
+    /* DARKER STROKE */
+    --stroke-color: #000;
+    --stroke-blur: 2px;
+    text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE, -2px 0px var(--stroke-blur) var(--stroke-color), -2px -2px var(--stroke-blur) var(--stroke-color), 0px -2px var(--stroke-blur) var(--stroke-color), 2px -2px var(--stroke-blur) var(--stroke-color), 2px 0px var(--stroke-blur) var(--stroke-color), 2px 2px var(--stroke-blur) var(--stroke-color), 0px 2px var(--stroke-blur) var(--stroke-color), -2px 2px var(--stroke-blur) var(--stroke-color), -2px 2px var(--stroke-blur) var(--stroke-color);
 }
 
 /* CONTROLS */
