@@ -49,16 +49,43 @@
 
 body {
     margin: 0;
-    background: rgb(208,87,186);
-    background: linear-gradient(180deg, rgba(208,87,186,1) 0%, rgba(129,61,122,1) 100%);
+    background: rgb(208, 87, 186);
+    background: linear-gradient(180deg, rgba(208, 87, 186, 1) 0%, rgba(129, 61, 122, 1) 100%);
+}
+
+/* INFORMATIONS */
+#informations-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 64px;
+    text-align: center;
+}
+
+#informations-container>*{
+    text-align: initial;
+}
+
+/* STATUS INDICATOR */
+#status-indicator-container {
+    position: absolute;
+    left: 0;
+    font-size: 2em;
+    display: inline-block;
+}
+
+#status-text{
+    line-height: 40px;
+}
+
+#status-indicator-container #status-icon {
+    filter: invert() drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
 }
 
 /* TRACK DETAILS */
 #track-details-container {
-    position: fixed;
-    top: 0;
-    margin: 2em;
-    /* text-shadow: -1px 0px 3px #CE5937, 2px 0px 3px #0B80CE; */
+    display: inline-block;
 }
 
 #track-title {
@@ -108,21 +135,6 @@ body {
     white-space: nowrap;
     transition: all;
     transition-duration: .2s;
-}
-
-/* STATUS INDICATOR */
-#informations-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 2em;
-    font-size: 2em;
-    /* color: #00b400; */
-    /* display: flex; */
-}
-
-#status-indicator-container #status-icon {
-    filter: invert() drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
 }
 
 /* CONTROLS */

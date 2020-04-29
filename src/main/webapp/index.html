@@ -20,17 +20,19 @@
     <div id="main-container">
         <div id="informations-container">
             <div id="status-indicator-container">
-                <span id="status-text">PLAY</span>
-                <object type="image/svg+xml" data="assets/icons/play.svg" id="status-icon"></object>
+                <div>
+                    <span id="status-text">PLAY</span>
+                    <object type="image/svg+xml" data="assets/icons/play.svg" id="status-icon"></object>
+                </div>
+                <div id="timecode-indicator-container">
+                    <span id="timecode-indicator">--:--</span>
+                </div>
             </div>
-            <div id="timecode-indicator-container">
-                <span id="timecode-indicator">--:--</span>
+            <div id="track-details-container">
+                <h1 id="track-title"></h1>
+                <div id="track-artist"></div>
+                <div id="track-year"></div>
             </div>
-        </div>
-        <div id="track-details-container">
-            <h1 id="track-title"></h1>
-            <div id="track-artist"></div>
-            <div id="track-year"></div>
         </div>
         <div id="lyrics-container">
             <div class="line" id="line0">&nbsp;</div>
