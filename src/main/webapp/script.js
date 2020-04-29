@@ -67,7 +67,7 @@ function pauseTrack(trackPlayer, body, backgroundVideo, button) {
 function update(track, trackPlayer) {
     let currentTrackTimecode = getCurrentTrackTimecode(trackPlayer);
     updateStatus(trackPlayer);
-    drawTimecodeIndicator(currentTrackTimecode);
+    drawTimecodeIndicator(trackPlayer);
     const visibleLines = getLinesFromTimecode(track, currentTrackTimecode);
     removeOutOfSyncLines(currentTrackTimecode);
     updateLines(track, visibleLines);
@@ -187,9 +187,14 @@ function getCurrentTrackTimecode(trackPlayer) {
     }
 }
 
-function drawTimecodeIndicator(timecode) {
-    timecode *= 1000;
-    let text = new Date(timecode).toISOString().slice(14, 19);
+function drawTimecodeIndicator(trackPlayer) {
+    let timecode = getCurrentTrackTimecode(trackPlayer) * 1000;
+    let text;
+    if (timecode == 0 && trackPlayer.paused) {
+        text = "——:——";
+    } else {
+        text = new Date(timecode).toISOString().slice(14, 19);
+    }
     document.getElementById("timecode-indicator").textContent = text;
 }
 
