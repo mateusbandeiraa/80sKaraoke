@@ -1,16 +1,16 @@
 {
-    "title": "Waiting for a girl like you",
+    "title": "Waiting for a girl like you (v3)",
     "artist": "Foreigner",
     "year": "1981",
     "lyrics": {
         "lines": [
             {
-                "startAt": 29,
+                "startAt": 26,
                 "remain": 1,
                 "words": [
-                    { "content": "...", "duration": 2, "wait": 0.7 },
-                    { "content": "So", "duration": 3 },
-                    { "content": "long,", "duration": 0.9 },
+                    { "content": "...", "duration": 3, "wait": 1 },
+                    { "content": "So", "duration": 1 },
+                    { "content": "long,", "duration": 1 },
                     { "content": "I've", "duration": 0.3, "wait": 1 },
                     { "content": "been", "duration": 0.2, "wait": 0.1 },
                     { "content": "looking", "duration": 0.8 },
@@ -19,7 +19,7 @@
                 ]
             },
             {
-                "startAt": 38,
+                "startAt": 34,
                 "remain": 1,
                 "words": [
                     { "content": "I've", "duration": 0.2, "wait": 1 },
@@ -30,7 +30,7 @@
                 ]
             },
             {
-                "startAt": 41,
+                "startAt": 37,
                 "remain": 0.5,
                 "words": [
                     { "content": "Sometimes", "duration": 0.2, "wait": 1.3 },
@@ -44,7 +44,7 @@
                 ]
             },
             {
-                "startAt": 46,
+                "startAt": 41,
                 "remain": 1,
                 "words": [
                     { "content": "I", "duration": 0.2, "wait": 1 },
