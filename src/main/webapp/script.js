@@ -1,11 +1,12 @@
 /* PAGE SETUP */
-
+let updateInterval;
+const updateTimeout = 100;
 document.addEventListener("DOMContentLoaded", async function () {
     let trackPlayer = new Audio('assets/songs/song1.mp3');
     let track = await fetchTrack("song1");
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
-    setInterval(update, 100, track, trackPlayer);
+    setUpdateInterval(update, updateTimeout, track, trackPlayer);
 });
 
 
@@ -36,16 +37,17 @@ function toggleTrackPlayPause(track, trackPlayer) {
     let backgroundVideoElement = document.getElementById("background-video");
     let buttonElement = document.getElementById("button-play-pause");
     if (trackPlayer.paused) {
-        playTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement);
+        playTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement, track, trackPlayer);
     } else {
         pauseTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement);
     }
     update(track, trackPlayer);
 }
 
-function playTrack(trackPlayer, body, backgroundVideo, button) {
+function playTrack(trackPlayer, body, backgroundVideo, button, track, trackPlayer) {
     trackPlayer.play();
     backgroundVideo.play();
+    setUpdateInterval(update, updateTimeout, track, trackPlayer);
 
     body.classList.remove("track-paused");
 
@@ -56,6 +58,7 @@ function playTrack(trackPlayer, body, backgroundVideo, button) {
 function pauseTrack(trackPlayer, body, backgroundVideo, button) {
     trackPlayer.pause();
     backgroundVideo.pause();
+    clearUpdateInterval();
 
     body.classList.add("track-paused");
 
@@ -279,4 +282,17 @@ function createInnerWordNode(word, needsSpaceCharacter) {
     }
     innerWordNode.textContent = displayText;
     return innerWordNode;
+}
+
+function setUpdateInterval(updateFunction, interval, track, trackPlayer) {
+    if (updateInterval) {
+        clearUpdateInterval();
+    }
+    updateInterval = setInterval(updateFunction, interval, track, trackPlayer);
+}
+
+function clearUpdateInterval() {
+    if (updateInterval) {
+        clearInterval(updateInterval);
+    }
 }
