@@ -68,9 +68,9 @@ function pauseTrack(trackPlayer, body, backgroundVideo, button) {
 
 /* UPDATE METHODS */
 function update(track, trackPlayer) {
-    let currentTrackTimecode = getCurrentTrackTimecode(trackPlayer);
+    const currentTrackTimecode = getCurrentTrackTimecode(trackPlayer);
     updateStatus(trackPlayer);
-    drawTimecodeIndicator(trackPlayer);
+    drawTimecodeIndicator(currentTrackTimecode, trackPlayer);
     const visibleLines = getLinesFromTimecode(track, currentTrackTimecode);
     removeOutOfSyncLines(currentTrackTimecode);
     updateLines(track, visibleLines);
@@ -190,12 +190,12 @@ function getCurrentTrackTimecode(trackPlayer) {
     }
 }
 
-function drawTimecodeIndicator(trackPlayer) {
-    let timecode = getCurrentTrackTimecode(trackPlayer) * 1000;
+function drawTimecodeIndicator(timecode, trackPlayer) {
     let text;
     if (timecode == 0 && trackPlayer.paused) {
         text = "——:——";
     } else {
+        timecode *= 1000; // We want miliseconds.
         text = new Date(timecode).toISOString().slice(14, 19);
     }
     document.getElementById("timecode-indicator").textContent = text;
