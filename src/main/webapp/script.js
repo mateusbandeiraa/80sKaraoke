@@ -33,34 +33,34 @@ function setControlsListeners(track, trackPlayer) {
 }
 
 function toggleTrackPlayPause(track, trackPlayer) {
-    let bodyElement = document.getElementsByTagName("body")[0];
+    let controlsContainerElement = document.getElementById("controls-container");
     let backgroundVideoElement = document.getElementById("background-video");
     let buttonElement = document.getElementById("button-play-pause");
     if (trackPlayer.paused) {
-        playTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement, track, trackPlayer);
+        playTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement, track, trackPlayer);
     } else {
-        pauseTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement);
+        pauseTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement);
     }
     update(track, trackPlayer);
 }
 
-function playTrack(trackPlayer, body, backgroundVideo, button, track, trackPlayer) {
+function playTrack(trackPlayer, controlsContainerElement, backgroundVideo, button, track, trackPlayer) {
     trackPlayer.play();
     backgroundVideo.play();
     setUpdateInterval(update, updateTimeout, track, trackPlayer);
 
-    body.classList.remove("track-paused");
+    controlsContainerElement.classList.remove("track-paused");
 
     button.classList.remove("fa-play");
     button.classList.add("fa-pause");
 }
 
-function pauseTrack(trackPlayer, body, backgroundVideo, button) {
+function pauseTrack(trackPlayer, controlsContainerElement, backgroundVideo, button) {
     trackPlayer.pause();
     backgroundVideo.pause();
     clearUpdateInterval();
 
-    body.classList.add("track-paused");
+    controlsContainerElement.classList.add("track-paused");
 
     button.classList.remove("fa-pause");
     button.classList.add("fa-play");
@@ -104,13 +104,8 @@ function updateLines(track, lines) {
 
         let lineElement = document.getElementById(`line${currentHTMLLine}`);
         lineElement.innerHTML = "";
-        let needsSpaceCharacter = false;
         for (let word of line.words) {
-            const outerWordNode = createWordNode(word, line.words.indexOf(word), needsSpaceCharacter);
-
-            if (!needsSpaceCharacter) {
-                needsSpaceCharacter = true;
-            }
+            const outerWordNode = createWordNode(word, line.words.indexOf(word));
             lineElement.appendChild(outerWordNode);
         }
         lineElement.setAttribute("data-line-start-timecode", line.startAt);
@@ -245,37 +240,27 @@ function getLineId(line, track) {
 }
 
 function createCSSWithPercentageSpent(lineId, wordId, percentageSpent) {
-    return `.line[data-line-id="${lineId}"] [data-word-id="${wordId}"] .word-inner::before{
+    return `.line[data-line-id="${lineId}"] [data-word-id="${wordId}"] .word-inner::after{
         width: ${percentageSpent}% !important;
     }`;
 }
 
-function createWordNode(word, wordId, needsSpaceCharacter) {
+function createWordNode(word, wordId) {
     let outerWordNode = document.createElement("span");
     outerWordNode.classList.add("word-outer");
     outerWordNode.setAttribute("data-word-id", wordId);
 
-    const innerWordNode = createInnerWordNode(word, needsSpaceCharacter);
+    const innerWordNode = createInnerWordNode(word);
     outerWordNode.appendChild(innerWordNode);
     return outerWordNode;
 }
 
-function createInnerWordNode(word, needsSpaceCharacter) {
-    let displayText, dataAttributeText;
-    if (needsSpaceCharacter) {
-        displayText = ` ${word.content}`;
-        /* String#fromCharCode is needed because the attribute
-         * was getting trimmed when appended to DOM
-         */
-        dataAttributeText = `${String.fromCharCode(160)}${word.content}`;
-    } else {
-        displayText = word.content;
-        dataAttributeText = word.content;
-    }
+function createInnerWordNode(word) {
+    const displayText = `${word.content} `;
 
     let innerWordNode = document.createElement("span");
     innerWordNode.classList.add("word-inner");
-    innerWordNode.setAttribute("data-text", dataAttributeText);
+    innerWordNode.setAttribute("data-text", word.content);
     innerWordNode.setAttribute("data-duration", word.duration);
     if (word.wait) {
         innerWordNode.setAttribute("data-wait", word.wait);

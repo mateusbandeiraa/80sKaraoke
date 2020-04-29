@@ -11,16 +11,11 @@
     <script src="https://kit.fontawesome.com/9cf8053a87.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="track-paused">
-    <div id="background-container">
-        <video muted loop id="background-video">
-            <source src="assets/video-backgrounds/video-background-1.mp4" type="video/mp4">
-        </video>
-    </div>
+<body>
     <div id="main-container">
         <div id="informations-container">
             <div id="status-indicator-container">
-                <div>
+                <div id="status-indicator-text-container">
                     <span id="status-text">PLAY</span>
                     <object type="image/svg+xml" data="assets/icons/play.svg" id="status-icon"></object>
                 </div>
@@ -39,13 +34,18 @@
             <div class="line" id="line1">&nbsp;</div>
             <div class="line" id="line2">&nbsp;</div>
         </div>
-    </div>
-    <div id="controls-container">
-        <div id="controls-banner">
-            <i class="fas fa-backward fa-3x" id="button-backwards"></i>
-            <i class="fas fa-play fa-3x" id="button-play-pause"></i>
-            <i class="fas fa-forward fa-3x" id="button-forward"></i>
+        <div id="controls-container" class="track-paused">
+            <div id="controls-banner">
+                <i class="fas fa-backward" id="button-backwards"></i>
+                <i class="fas fa-play" id="button-play-pause"></i>
+                <i class="fas fa-forward" id="button-forward"></i>
+            </div>
         </div>
+    </div>
+    <div id="background-container">
+        <video muted loop id="background-video">
+            <source src="assets/video-backgrounds/video-background-1.mp4" type="video/mp4">
+        </video>
     </div>
 </body>
 
