@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     let trackPlayer = new Audio('assets/songs/song1.mp3');
     let track = await fetchTrack("song1");
     drawHeader(track);
-    setControlsListeners(trackPlayer);
+    setControlsListeners(track, trackPlayer);
     setInterval(update, 100, track, trackPlayer);
 });
 
@@ -17,21 +17,21 @@ function drawHeader(track) {
 
 /* CONTROLS */
 
-function setControlsListeners(trackPlayer) {
+function setControlsListeners(track, trackPlayer) {
     document.getElementById("button-backwards").addEventListener("click", () => {
         trackPlayer.currentTime = 0;
-        update();
+        update(track, trackPlayer);
     });
 
-    document.getElementById("button-play-pause").addEventListener("click", () => { toggleTrackPlayPause(trackPlayer) });
+    document.getElementById("button-play-pause").addEventListener("click", () => { toggleTrackPlayPause(track, trackPlayer) });
 
     document.getElementById("button-forward").addEventListener("click", () => {
         trackPlayer.currentTime = 25;
-        update();
+        update(track, trackPlayer);
     });
 }
 
-function toggleTrackPlayPause(trackPlayer) {
+function toggleTrackPlayPause(track, trackPlayer) {
     let bodyElement = document.getElementsByTagName("body")[0];
     let backgroundVideoElement = document.getElementById("background-video");
     let buttonElement = document.getElementById("button-play-pause");
@@ -40,7 +40,7 @@ function toggleTrackPlayPause(trackPlayer) {
     } else {
         pauseTrack(trackPlayer, bodyElement, backgroundVideoElement, buttonElement);
     }
-    update();
+    update(track, trackPlayer);
 }
 
 function playTrack(trackPlayer, body, backgroundVideo, button) {
