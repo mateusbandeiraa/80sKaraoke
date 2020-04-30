@@ -2,7 +2,7 @@
 let updateInterval;
 const updateTimeout = 70;
 document.addEventListener("DOMContentLoaded", async function () {
-    let trackPlayer = new Audio('assets/songs/song2.mp3');
+    let trackPlayer = new Audio('/assets/songs/song2.mp3');
     let track = await fetchTrack("song2");
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
@@ -82,10 +82,10 @@ function updateStatus(trackPlayer) {
     let htmlStatusIconElement = document.getElementById("status-icon");
     if (trackPlayer.paused && htmlStatusTextElement.textContent != "PAUSE") {
         htmlStatusTextElement.textContent = "PAUSE";
-        htmlStatusIconElement.setAttribute("data", "assets/icons/pause.svg");
+        htmlStatusIconElement.setAttribute("data", "/assets/icons/pause.svg");
     } else if (!trackPlayer.paused && htmlStatusTextElement.textContent != "PLAY") {
         htmlStatusTextElement.textContent = "PLAY";
-        htmlStatusIconElement.setAttribute("data", "assets/icons/play.svg");
+        htmlStatusIconElement.setAttribute("data", "/assets/icons/play.svg");
     }
 }
 
@@ -175,7 +175,7 @@ function removeOutOfSyncLines(timecode) {
 /* HELPER METHODS */
 
 function fetchTrack(trackTitle) {
-    return fetch(`assets/songs/${trackTitle}.json`).then((response) => response.json());
+    return fetch(`/assets/songs/${trackTitle}.json`).then((response) => response.json());
 }
 
 function getCurrentTrackTimecode(trackPlayer) {
