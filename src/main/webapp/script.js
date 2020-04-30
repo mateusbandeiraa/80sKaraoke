@@ -107,6 +107,7 @@ function updateLines(track, lines) {
         for (let word of line.words) {
             const outerWordNode = createWordNode(word, line.words.indexOf(word));
             lineElement.appendChild(outerWordNode);
+            lineElement.innerHTML += " ";
         }
         lineElement.setAttribute("data-line-start-timecode", line.startAt);
         lineElement.setAttribute("data-line-ending-timecode", getLineEndingTimecode(line));
@@ -256,7 +257,7 @@ function createWordNode(word, wordId) {
 }
 
 function createInnerWordNode(word) {
-    const displayText = `${word.content} `;
+    const displayText = `${word.content}`;
 
     let innerWordNode = document.createElement("span");
     innerWordNode.classList.add("word-inner");

@@ -46,10 +46,13 @@
     text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
 }
 
+html,
 body {
-    margin: 16px;
-    height: calc(100vh - 32px);
-    width: calc(100vw - 32px);
+    margin: 0;
+    height: 100%;
+}
+
+body {
     background: rgb(208, 87, 186);
     background: linear-gradient(180deg, rgba(208, 87, 186, 1) 0%, rgba(129, 61, 122, 1) 100%);
 }
@@ -193,8 +196,10 @@ body {
     content: attr(data-text);
     position: absolute;
     width: 0;
+    line-height: 1em;
     text-align: left;
     left: 0;
+    top: 0;
     overflow: hidden;
     color: rgb(255, 204, 0);
     white-space: nowrap;
@@ -229,6 +234,8 @@ body {
     opacity: 0;
     transition: opacity .25s;
     box-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
+    max-width: 75vw;
+    width: 75%;
 }
 
 @media (min-height: 441px) {
@@ -240,6 +247,12 @@ body {
 @media (min-height: 581px) {
     #controls-banner {
         font-size: 3em;
+    }
+}
+
+@media (min-width: 566px) {
+    #controls-banner{
+        width: initial;
     }
 }
 
@@ -258,5 +271,11 @@ body {
 
 #controls-banner i {
     cursor: pointer;
-    margin: 0.5em 1em;
+    margin: 0.5em 0;
+}
+
+@media (min-width: 566px) {
+    #controls-banner i {
+        margin: 0.5em 1em;
+    }
 }
