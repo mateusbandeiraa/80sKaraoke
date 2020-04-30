@@ -1,9 +1,9 @@
 /* PAGE SETUP */
 let updateInterval;
-const updateTimeout = 100;
+const updateTimeout = 70;
 document.addEventListener("DOMContentLoaded", async function () {
-    let trackPlayer = new Audio('assets/songs/song1.mp3');
-    let track = await fetchTrack("song1");
+    let trackPlayer = new Audio('assets/songs/song2.mp3');
+    let track = await fetchTrack("song2");
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
     setUpdateInterval(update, updateTimeout, track, trackPlayer);

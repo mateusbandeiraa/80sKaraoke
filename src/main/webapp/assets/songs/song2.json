@@ -50,10 +50,10 @@
                     { "content": "I", "duration": 0.2, "wait": 1 },
                     { "content": "only", "duration": 0.5 },
                     { "content": "know", "duration": 0.5, "wait": 0.1 },
-                    { "content": "it's", "duration": 0.5 },
-                    { "content": "a", "duration": 0.5 },
+                    { "content": "it's", "duration": 0.3 },
+                    { "content": "a", "duration": 0.3 },
                     { "content": "matter", "duration": 0.5 },
-                    { "content": "of", "duration": 0.5 },
+                    { "content": "of", "duration": 0.2 },
                     { "content": "time", "duration": 0.5 }
                 ]
             }

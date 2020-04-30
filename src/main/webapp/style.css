@@ -204,7 +204,7 @@ body {
     color: rgb(255, 204, 0);
     white-space: nowrap;
     transition: all;
-    transition-duration: .1s;
+    transition-duration: .07s;
     transition-timing-function: linear;
 
     /* DARKER STROKE */
