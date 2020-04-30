@@ -1,9 +1,14 @@
+/* METADATA */
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const urlTrackId = urlParams.get("trackid");
+
 /* PAGE SETUP */
 let updateInterval;
 const updateTimeout = 70;
 document.addEventListener("DOMContentLoaded", async function () {
-    let trackPlayer = new Audio('/assets/songs/song2.mp3');
-    let track = await fetchTrack("song2");
+    let trackPlayer = new Audio(`/assets/songs/song${urlTrackId}.mp3`);
+    let track = await fetchTrack(urlTrackId);
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
     setUpdateInterval(update, updateTimeout, track, trackPlayer);
@@ -174,8 +179,8 @@ function removeOutOfSyncLines(timecode) {
 
 /* HELPER METHODS */
 
-function fetchTrack(trackTitle) {
-    return fetch(`/assets/songs/${trackTitle}.json`).then((response) => response.json());
+function fetchTrack(trackId) {
+    return fetch(`/assets/songs/song${trackId}.json`).then((response) => response.json());
 }
 
 function getCurrentTrackTimecode(trackPlayer) {
