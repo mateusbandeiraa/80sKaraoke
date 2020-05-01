@@ -1,8 +1,10 @@
 /* METADATA */
+const API_ENDPOINT = '/rest';
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const urlTrackId = urlParams.get("trackid");
 const urlStartAt = urlParams.get("startat");
+const startAt = parseFloat(urlStartAt);
 
 /* PAGE SETUP */
 let updateInterval;
@@ -11,10 +13,16 @@ const updateTimeout = 1000 / updatesPerSecond;
 const transitionCSS = `<style>.word-inner{transition-duration: calc(1000ms/${updatesPerSecond}) !important}</style>`;
 document.addEventListener("DOMContentLoaded", async function () {
     document.querySelector("head").innerHTML += transitionCSS;
+    let trackPlayer;
+    let track;
+    await Promise.all([fetchTrackAudio(urlTrackId), fetchTrack(urlTrackId)]).then(([trackPlayerResult, trackResult]) => {
+        trackPlayer = trackPlayerResult;
+        track = trackResult;
+    });
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
-    if(urlStartAt){
-    	trackPlayer.currentTime = parseFloat(urlStartAt);
+    if (startAt) {
+        trackPlayer.seek(startAt);
     }
     setUpdateInterval(update, updateTimeout, track, trackPlayer);
 });
@@ -30,10 +38,10 @@ function drawHeader(track) {
 
 function setControlsListeners(track, trackPlayer) {
     document.getElementById("button-backwards").addEventListener("click", () => {
-        if(trackPlayer.paused){
-            trackPlayer.currentTime -= 0.5;
-        } else{
-            trackPlayer.currentTime = 0;
+        if (trackPlayer.paused) {
+            trackPlayer.seek(getCurrentTrackTimecode(trackPlayer) + 0.5);
+        } else {
+            trackPlayer.seek(0);
         }
         update(track, trackPlayer);
     });
@@ -41,10 +49,10 @@ function setControlsListeners(track, trackPlayer) {
     document.getElementById("button-play-pause").addEventListener("click", () => { toggleTrackPlayPause(track, trackPlayer) });
 
     document.getElementById("button-forward").addEventListener("click", () => {
-        if(trackPlayer.paused){
-            trackPlayer.currentTime += 0.1;
+        if (trackPlayer.paused) {
+            trackPlayer.seek(getCurrentTrackTimecode(trackPlayer) + 0.1);
         } else {
-            trackPlayer.currentTime = startAt || 25;
+            trackPlayer.seek(startAt || 25);
         }
         update(track, trackPlayer);
     });
@@ -54,10 +62,10 @@ function toggleTrackPlayPause(track, trackPlayer) {
     let controlsContainerElement = document.getElementById("controls-container");
     let backgroundVideoElement = document.getElementById("background-video");
     let buttonElement = document.getElementById("button-play-pause");
-    if (trackPlayer.paused) {
-        playTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement, track, trackPlayer);
-    } else {
+    if (trackPlayer.playing()) {
         pauseTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement);
+    } else {
+        playTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement, track, trackPlayer);
     }
     update(track, trackPlayer);
 }
@@ -184,7 +192,7 @@ function removeOutOfSyncLines(timecode) {
                 lineElement.classList.add("hidden");
                 lineElement.removeAttribute("data-line-id");
                 let elementsToRemove = document.querySelectorAll(`.removeWithLine[data-line-id="${lineId}"]`);
-                for(let element of elementsToRemove){
+                for (let element of elementsToRemove) {
                     element.remove();
                 }
             }
@@ -195,12 +203,25 @@ function removeOutOfSyncLines(timecode) {
 /* HELPER METHODS */
 
 function fetchTrack(trackId) {
-    return fetch(`/assets/songs/song${trackId}.json`).then((response) => response.json());
+    return fetch(`${API_ENDPOINT}/track/${trackId}`).then((response) => response.json());
+}
+
+function fetchTrackAudio(trackId) {
+    let trackPlayer = new Howl({ src: [`${API_ENDPOINT}/track/${trackId}/audio`], format:['mp3'] });
+    let promise = new Promise(function (resolve, reject) {
+        trackPlayer.once('load', () => {
+            resolve(trackPlayer);
+        });
+        trackPlayer.once("loaderror", () => {
+            reject();
+        })
+    });
+    return promise;
 }
 
 function getCurrentTrackTimecode(trackPlayer) {
     if (trackPlayer) {
-        return trackPlayer.currentTime;
+        return trackPlayer.seek();
     } else {
         return 0;
     }
