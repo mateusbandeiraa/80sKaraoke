@@ -2,6 +2,7 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const urlTrackId = urlParams.get("trackid");
+const urlStartAt = urlParams.get("startat");
 
 /* PAGE SETUP */
 let updateInterval;
@@ -11,6 +12,9 @@ document.addEventListener("DOMContentLoaded", async function () {
     let track = await fetchTrack(urlTrackId);
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
+    if(urlStartAt){
+    	trackPlayer.currentTime = parseFloat(urlStartAt);
+    }
     setUpdateInterval(update, updateTimeout, track, trackPlayer);
 });
 
@@ -25,14 +29,22 @@ function drawHeader(track) {
 
 function setControlsListeners(track, trackPlayer) {
     document.getElementById("button-backwards").addEventListener("click", () => {
-        trackPlayer.currentTime = 0;
+        if(trackPlayer.paused){
+            trackPlayer.currentTime -= 0.5;
+        } else{
+            trackPlayer.currentTime = 0;
+        }
         update(track, trackPlayer);
     });
 
     document.getElementById("button-play-pause").addEventListener("click", () => { toggleTrackPlayPause(track, trackPlayer) });
 
     document.getElementById("button-forward").addEventListener("click", () => {
-        trackPlayer.currentTime = 25;
+        if(trackPlayer.paused){
+            trackPlayer.currentTime += 0.1;
+        } else {
+            trackPlayer.currentTime = startAt || 25;
+        }
         update(track, trackPlayer);
     });
 }
