@@ -192,6 +192,12 @@ body {
     position: relative;
 }
 
+.word-inner{
+    transition-property: width;
+    transition-timing-function: linear;
+    transition-duration: calc(1/30)s;
+}
+
 .word-outer .word-inner::after {
     content: attr(data-text);
     position: absolute;
@@ -203,9 +209,7 @@ body {
     overflow: hidden;
     color: rgb(255, 204, 0);
     white-space: nowrap;
-    transition: all;
-    transition-duration: .07s;
-    transition-timing-function: linear;
+    transition: inherit;
 
     /* DARKER STROKE */
     --stroke-color: #000;

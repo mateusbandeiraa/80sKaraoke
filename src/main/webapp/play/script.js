@@ -6,10 +6,11 @@ const urlStartAt = urlParams.get("startat");
 
 /* PAGE SETUP */
 let updateInterval;
-const updateTimeout = 70;
+const updatesPerSecond = 30;
+const updateTimeout = 1000 / updatesPerSecond;
+const transitionCSS = `<style>.word-inner{transition-duration: calc(1000ms/${updatesPerSecond}) !important}</style>`;
 document.addEventListener("DOMContentLoaded", async function () {
-    let trackPlayer = new Audio(`/assets/songs/song${urlTrackId}.mp3`);
-    let track = await fetchTrack(urlTrackId);
+    document.querySelector("head").innerHTML += transitionCSS;
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
     if(urlStartAt){
