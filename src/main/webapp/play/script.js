@@ -179,11 +179,13 @@ function removeOutOfSyncLines(timecode) {
             startTimecode = parseFloat(startTimecode);
             endingTimecode = parseFloat(endingTimecode);
             if (startTimecode > timecode || endingTimecode < timecode) {
+                const lineId = lineElement.getAttribute("data-line-id");
                 lineElement.classList.add("hidden");
                 lineElement.removeAttribute("data-line-id");
-                document.querySelectorAll(`.removeWithLine[data-line-id="${lineElement.getAttribute("data-line-id")}"]`).forEach((element) => {
+                let elementsToRemove = document.querySelectorAll(`.removeWithLine[data-line-id="${lineId}"]`);
+                for(let element of elementsToRemove){
                     element.remove();
-                });
+                }
             }
         }
     }
