@@ -181,7 +181,8 @@ body {
 
 /* LYRICS */
 #lyrics-container {
-    width: 100%;
+    width: calc(100% - 32px);
+    margin: 0 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
