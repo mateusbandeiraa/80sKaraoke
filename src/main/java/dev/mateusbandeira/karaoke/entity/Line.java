@@ -2,12 +2,19 @@ package dev.mateusbandeira.karaoke.entity;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonView;
+
+import dev.mateusbandeira.karaoke.view.TrackView;
+
 public class Line {
+	@JsonView(TrackView.class)
 	Float startAt;
+	@JsonView(TrackView.class)
 	Float remain;
 
+	@JsonView(TrackView.class)
 	List<Word> words;
-	
+
 	public Line() {
 		super();
 	}

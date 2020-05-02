@@ -16,7 +16,7 @@
 
 		<init-param>
 			<param-name>jersey.config.server.provider.packages</param-name>
-			<param-value>dev.mateusbandeira.karaoke.service</param-value>
+			<param-value>dev.mateusbandeira.karaoke.service, dev.mateusbandeira.karaoke.config</param-value>
 		</init-param>
 	</servlet>
 
