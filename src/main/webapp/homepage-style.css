@@ -1,0 +1,67 @@
+/* MAIN CONTAINER*/
+#main-container {
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+header {
+    padding: 16px;
+    font-size: 2em;
+}
+
+header>* {
+    margin: 0;
+}
+
+header .tagline {
+    font-size: 0.75em;
+}
+
+header .tagline:first-child {
+    margin-bottom: 0;
+}
+
+header .tagline:last-child {
+    margin-top: 0;
+    text-align: right;
+}
+
+/* SECTIONS */
+section {
+    width: 100%;
+}
+
+.section-title-container {
+    display: block;
+    overflow-x: hidden;
+}
+
+section .section-title {
+    display: flex;
+}
+
+section .section-title::before,
+section .section-title::after {
+    content: "";
+    flex: 1;
+    margin: auto 1em;
+    background: url('assets/dashes.svg');
+    height: 3px;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
+section .section-title::before{
+    margin-left: 0;
+}
+
+section .section-title::after{
+    margin-right: 0;
+}
+
+/* SEARCH */
+#search-container {
+    max-width: 560px;
+    font-size: 1.5em;
+}

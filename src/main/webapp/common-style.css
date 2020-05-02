@@ -2,28 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* PAGE SETUP */
-html,
-body {
-    margin: 0;
-    height: 100vh;
-}
-
 body {
     background: rgb(208, 87, 186);
     background: linear-gradient(180deg, rgba(208, 87, 186, 1) 0%, rgba(129, 61, 122, 1) 100%);
-}
-
-body>div {
-    position: fixed;
-    width: 100%;
-}
-
-@media (min-width: 1025px) {
-    body {
-        padding: 32px;
-        height: calc(100vh - 64px);
-        width: calc(100vw - 64px);
-    }
 }
 
 /* BACKGROUND VIDEO */
@@ -35,7 +16,7 @@ body>div {
     height: 100vh;
     display: flex;
     justify-content: center;
-    z-index: -1;
+    z-index: -999;
 }
 
 #background-video {
@@ -72,7 +53,7 @@ body>div {
     opacity: 15%;
 }
 
-.scanlines-disabled #scanlines-overlay{
+.scanlines-disabled #scanlines-overlay {
     display: none;
 }
 
@@ -149,4 +130,36 @@ body>div {
 
 #loading-indicator {
     font-size: 4em;
+}
+
+/* FORMS */
+form input[type="search"]{
+    -webkit-appearance: none;
+    background: rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+form .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form .form-group>label {
+    margin-right: 16px;
+}
+
+form .form-group>input {
+    flex: 1;
+}
+
+form input {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    color: inherit;
+    text-transform: uppercase;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
 }
