@@ -58,25 +58,18 @@ body {
 }
 
 /* MAIN-CONTAINER */
-
 #main-container {
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 100%;
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     width: calc(100% - (env(safe-area-inset-right) + env(safe-area-inset-left)));
     color: #FFFFFF;
     font-family: 'VT323', monospace;
     text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
-}
-
-@media (min-width: 1025px) {
-    #main-container {
-        height: calc(100% - 64px);
-        width: calc(100% - 64px);
-    }
 }
 
 /* LOADING INDICATOR*/
