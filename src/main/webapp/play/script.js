@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     await Promise.all([fetchTrackAudio(urlTrackId), fetchTrack(urlTrackId)]).then(([trackPlayerResult, trackResult]) => {
         trackPlayer = trackPlayerResult;
         track = trackResult;
+        clearLoadingScreen();
     });
     drawHeader(track);
     setControlsListeners(track, trackPlayer);
@@ -32,6 +33,10 @@ function drawHeader(track) {
     document.getElementById("track-title").textContent = track.title;
     document.getElementById("track-artist").textContent = track.artist;
     document.getElementById("track-year").textContent = track.year;
+}
+
+function clearLoadingScreen(){
+    document.getElementById("main-container").classList.remove("loading");
 }
 
 /* CONTROLS */
