@@ -2,12 +2,21 @@ package dev.mateusbandeira.karaoke.entity;
 
 import java.io.InputStream;
 
+import com.fasterxml.jackson.annotation.JsonView;
+
+import dev.mateusbandeira.karaoke.view.TrackView;
+
 public class Track {
+	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
 	Integer trackId;
+	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
 	String title;
+	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
 	String artist;
+	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
 	String year;
 
+	@JsonView({ TrackView.class })
 	Lyrics lyrics;
 
 	public Track() {
