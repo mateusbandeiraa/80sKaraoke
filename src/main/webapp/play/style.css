@@ -60,6 +60,13 @@
     text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
 }
 
+@media (min-width: 1025px) {
+    #main-container {
+        height: calc(100% - 64px);
+        width: calc(100% - 64px);
+    }
+}
+
 /* LOADING INDICATOR*/
 #main-container.loading {
     justify-content: center;
@@ -132,7 +139,7 @@ body>div {
 
 @media (min-width: 1025px) {
     body {
-        margin: 32px;
+        padding: 32px;
         height: calc(100vh - 64px);
         width: calc(100vw - 64px);
     }
