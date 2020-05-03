@@ -57,14 +57,28 @@ body {
     display: none;
 }
 
-/* MAIN-CONTAINER */
+/* HEADER */
+header {
+    padding: 16px;
+    font-size: 2em;
+}
 
+header>* {
+    margin: 0;
+}
+
+header a[href] {
+    text-decoration: none;
+}
+
+/* MAIN-CONTAINER */
 #main-container {
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 100%;
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     width: calc(100% - (env(safe-area-inset-right) + env(safe-area-inset-left)));
     color: #FFFFFF;
@@ -72,11 +86,40 @@ body {
     text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
 }
 
-@media (min-width: 1025px) {
-    #main-container {
-        height: calc(100% - 64px);
-        width: calc(100% - 64px);
-    }
+/* SECTIONS */
+section {
+    width: 100%;
+    max-width: 560px;
+    font-size: 1.5em;
+}
+
+.section-title-container {
+    display: block;
+    overflow-x: hidden;
+    margin: 1em 0;
+}
+
+section .section-title {
+    display: flex;
+    margin: 0;
+}
+
+section .section-title::before,
+section .section-title::after {
+    content: "";
+    flex: 1;
+    margin: auto 1em;
+    background: url('assets/dashes.svg');
+    height: 3px;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
+section .section-title::before {
+    margin-left: 0;
+}
+
+section .section-title::after {
+    margin-right: 0;
 }
 
 /* LOADING INDICATOR*/
@@ -133,7 +176,7 @@ body {
 }
 
 /* FORMS */
-form input[type="search"]{
+form input[type="search"] {
     -webkit-appearance: none;
     background: rgba(0, 0, 0, 0.2);
     border-top-left-radius: 3px;
@@ -141,6 +184,7 @@ form input[type="search"]{
     border-bottom: 2px solid white;
     outline: none;
 }
+
 form .form-group {
     display: flex;
     flex-direction: row;
@@ -162,4 +206,35 @@ form input {
     color: inherit;
     text-transform: uppercase;
     filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
+/* LINKS */
+
+a[href] {
+    padding: 3px;
+    color: inherit;
+    text-decoration: underline solid white;
+    text-transform: uppercase;
+}
+
+a[href].uppercase-disable {
+    text-transform: initial;
+}
+
+a[href]:hover {
+    background-color: white;
+    color: blue;
+    text-decoration-color: blue;
+    text-shadow: none;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 64px;
+    font-size: 1.5em;
+}
+
+footer a[href]{
+    text-decoration: none;
 }

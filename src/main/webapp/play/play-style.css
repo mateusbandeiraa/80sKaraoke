@@ -18,6 +18,25 @@ body>div {
     }
 }
 
+/* MAIN-CONTAINER */
+#main-container {
+    max-width: initial;
+    justify-content: space-between;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    height: calc(100% - (env(safe-area-inset-top) + env(safe-area-inset-bottom)));
+    width: calc(100% - (env(safe-area-inset-right) + env(safe-area-inset-left)));
+    color: #FFFFFF;
+    font-family: 'VT323', monospace;
+    text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
+}
+
+@media (min-width: 1025px) {
+    #main-container {
+        height: calc(100% - 64px);
+        width: calc(100% - 64px);
+    }
+}
+
 /* INFORMATIONS */
 #informations-container {
     position: relative;
