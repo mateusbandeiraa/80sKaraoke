@@ -24,4 +24,8 @@
 		<servlet-name>80s-karaoke</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
+	
+	<listener>
+		<listener-class>dev.mateusbandeira.karaoke.persistence.PersistenceManager</listener-class>
+	</listener>
 </web-app>
