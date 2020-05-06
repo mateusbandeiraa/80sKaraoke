@@ -140,7 +140,7 @@ public abstract class DAO<T> {
 
 		boolean schemaChangesLogExists = false;
 		while (resultSet.next()) {
-			if (resultSet.getString(1).equals("SchemaChangesLog")) {
+			if (resultSet.getString(1).equalsIgnoreCase("SchemaChangesLog")) {
 				schemaChangesLogExists = true;
 			}
 		}
