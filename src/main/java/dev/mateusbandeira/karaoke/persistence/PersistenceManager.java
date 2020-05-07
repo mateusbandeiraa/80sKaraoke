@@ -10,9 +10,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -75,9 +79,9 @@ public class PersistenceManager implements ServletContextListener {
 
 		if (!schemaChangesLogExists) {
 			System.out.println(
-					"Did not find the SchemaChangesLog table. Will try to run the file 1.0.0.0-schemachangeslog-baseline.sql now.");
-			runUpdateFromFile(conn, "1.0.0.0-schemachangeslog-baseline.sql");
-			System.out.println("Ran 1.0.0.0-schemachangeslog-baseline.sql successfully.");
+					"Did not find the SchemaChangesLog table. Will try to run the file 1.0.0-schemachangeslog-baseline.sql now.");
+			runUpdateFromFile(conn, "1.0.0-schemachangeslog-baseline.sql");
+			System.out.println("Ran 1.0.0-schemachangeslog-baseline.sql successfully.");
 		}
 
 		resultSet = stmt.executeQuery("SELECT ScriptName FROM SchemaChangesLog");
@@ -88,6 +92,8 @@ public class PersistenceManager implements ServletContextListener {
 		}
 
 		String[] sqlFilesList = getSQLFilesList();
+
+		Arrays.sort(sqlFilesList);
 
 		for (String sqlFileName : sqlFilesList) {
 			if (!executedScriptFiles.contains(sqlFileName)) {
@@ -123,11 +129,35 @@ public class PersistenceManager implements ServletContextListener {
 			String string = (String) iterator.next();
 			filenames[index++] = string.replace(SQL_RESOURCES_PATH, "");
 		}
+
+		Arrays.sort(filenames, new Comparator<String>() {
+			// Comparing files to decide order of execution.
+			// <major_version>.<minor_version>.<point>-description.sql
+			@Override
+			public int compare(String a, String b) {
+				Pattern pattern = Pattern.compile("(\\d+).(\\d+).(\\d+)");
+				Matcher matcherA = pattern.matcher(a);
+				Matcher matcherB = pattern.matcher(b);
+				matcherA.find();
+				matcherB.find();
+				for (int i = 1; i <= 3; i++) {
+					int versionA = Integer.valueOf(matcherA.group(i));
+					int versionB = Integer.valueOf(matcherB.group(i));
+
+					if (Integer.compare(versionA, versionB) != 0) {
+						return Integer.compare(versionA, versionB);
+					}
+				}
+				return 0;
+			}
+		});
+
 		return filenames;
 	}
 
 	private String getSQLFromFile(String filename) throws IOException {
-		InputStream stream = sce.getServletContext().getResourceAsStream(SQL_RESOURCES_PATH + filename);
+		InputStream stream = sce.getServletContext()
+				.getResourceAsStream(SQL_RESOURCES_PATH + filename);
 		String sqlText = IOUtils.toString(stream, StandardCharsets.UTF_8.name());
 		return sqlText;
 	}
