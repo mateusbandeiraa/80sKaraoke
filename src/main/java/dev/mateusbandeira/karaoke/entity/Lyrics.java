@@ -4,10 +4,14 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import dev.mateusbandeira.karaoke.view.TrackView;
+import dev.mateusbandeira.karaoke.view.Views;
+import dev.mateusbandeira.karaoke.view.Views.ViewInsert;
 
 public class Lyrics {
-	@JsonView({TrackView.class})
+	Integer id;
+	@JsonView({ Views.class, Views.ViewInsert.class })
+	String writers;
+	@JsonView({ Views.class, ViewInsert.class })
 	List<Line> lines;
 
 	public Lyrics() {

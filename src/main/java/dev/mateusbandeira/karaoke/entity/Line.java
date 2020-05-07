@@ -4,15 +4,16 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import dev.mateusbandeira.karaoke.view.TrackView;
+import dev.mateusbandeira.karaoke.view.Views;
 
 public class Line {
-	@JsonView(TrackView.class)
+	Integer lineId;
+	@JsonView({Views.class, Views.ViewInsert.class})
 	Float startAt;
-	@JsonView(TrackView.class)
+	@JsonView({Views.class, Views.ViewInsert.class})
 	Float remain;
 
-	@JsonView(TrackView.class)
+	@JsonView({Views.class, Views.ViewInsert.class})
 	List<Word> words;
 
 	public Line() {
