@@ -1,7 +1,11 @@
 package dev.mateusbandeira.karaoke.view;
 
-public class TrackView {
+public class Views {
 	public static class ViewSearch {
+
+	}
+
+	public static class ViewInsert {
 
 	}
 }
