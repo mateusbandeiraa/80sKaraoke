@@ -12,17 +12,16 @@ import dev.mateusbandeira.karaoke.entity.Track;
 public class TrackDao extends DAO<Track> {
 
 	private static void insert(Connection conn, Track track) throws SQLException {
-		String sql = "INSERT INTO Tracks (title, lyricsId, artist, trackYear) values (?, ?, ?, ?)";
+		String sql = "INSERT INTO Tracks (title, artist, trackYear) values (?, ?, ?)";
 		PreparedStatement stmt = conn.prepareStatement(sql,
 				PreparedStatement.RETURN_GENERATED_KEYS);
 		stmt.setString(1, track.getTitle());
-		stmt.setInt(2, track.getLyrics().getId());
-		stmt.setString(3, track.getArtist());
-		stmt.setString(4, track.getYear());
+		stmt.setString(2, track.getArtist());
+		stmt.setString(3, track.getYear());
 		stmt.execute();
-		ResultSet generatedTrackKeys = stmt.getGeneratedKeys();
-		generatedTrackKeys.next();
-		track.setTrackId(generatedTrackKeys.getInt(1));
+		ResultSet generatedTrackKey = stmt.getGeneratedKeys();
+		generatedTrackKey.next();
+		track.setTrackId(generatedTrackKey.getInt(1));
 	}
 
 	@Override
@@ -36,14 +35,14 @@ public class TrackDao extends DAO<Track> {
 		}
 		try {
 			conn.setAutoCommit(false);
-
-			// INSERT LYRICS
-			System.out.println("Inserting lyrics");
-			LyricsDao.insert(conn, track.getLyrics());
-
+	
 			// INSERT TRACK
 			System.out.println("Inserting track");
 			insert(conn, track);
+
+			// INSERT LYRICS
+			System.out.println("Inserting lyrics");
+			LyricsDao.insertFromTrack(conn, track);
 
 			System.out.println("Committing");
 			conn.setAutoCommit(true);
@@ -59,7 +58,7 @@ public class TrackDao extends DAO<Track> {
 	@Override
 	public Track select(Integer primaryKey) {
 		Track track = null;
-		String sql = "SELECT title, artist, trackYear, lyricsId FROM Tracks WHERE trackId = ?";
+		String sql = "SELECT title, artist, trackYear FROM Tracks WHERE trackId = ?";
 
 		try (Connection conn = PersistenceManager.getConnection()) {
 			PreparedStatement stmt = conn.prepareStatement(sql);

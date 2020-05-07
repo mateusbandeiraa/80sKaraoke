@@ -7,14 +7,18 @@ import java.sql.SQLException;
 import java.util.List;
 
 import dev.mateusbandeira.karaoke.entity.Lyrics;
+import dev.mateusbandeira.karaoke.entity.Track;
 
 public class LyricsDao extends DAO<Lyrics> {
 
-	protected static void insert(Connection conn, Lyrics lyrics) throws SQLException {
-		String sql = "INSERT INTO Lyrics (writers) values (?)";
+	protected static void insertFromTrack(Connection conn, Track track) throws SQLException {
+		Lyrics lyrics = track.getLyrics();
+		String sql = "INSERT INTO Lyrics (writers, trackId, delay) values (?, ?, ?)";
 		PreparedStatement stmt = conn.prepareStatement(sql,
 				PreparedStatement.RETURN_GENERATED_KEYS);
 		stmt.setString(1, lyrics.getWriters());
+		stmt.setInt(2, track.getTrackId());
+		stmt.setFloat(3, lyrics.getDelay());
 		stmt.execute();
 		ResultSet generatedLyricKeys = stmt.getGeneratedKeys();
 		generatedLyricKeys.next();
@@ -44,17 +48,35 @@ public class LyricsDao extends DAO<Lyrics> {
 
 	protected static Lyrics select(Connection conn, Integer primaryKey) throws SQLException {
 		Lyrics lyrics = null;
-		String sql = "SELECT writers FROM Lyrics where lyricsId = ?";
+		String sql = "SELECT writers, delay, trackId FROM Lyrics where lyricsId = ?";
 
 		try (PreparedStatement stmt = conn.prepareStatement(sql)) {
 			stmt.setInt(1, primaryKey);
 			ResultSet rs = stmt.executeQuery();
 			if (rs.next()) {
-				lyrics = new Lyrics(primaryKey, rs.getString(1));
+				lyrics = new Lyrics(primaryKey, rs.getString(1), rs.getFloat(2));
+				lyrics.setTrackId(rs.getInt(3));
 			}
 		}
 		if (lyrics != null) {
 			lyrics.setLines(LineDao.selectByLyricsId(conn, primaryKey));
+		}
+		return lyrics;
+	}
+	
+	protected static Lyrics selectFromTrack(Connection conn, Track track) throws SQLException {
+		Lyrics lyrics = null;
+		String sql = "SELECT lyricsId, writers, delay FROM Lyrics where trackId = ?";
+
+		try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+			stmt.setInt(1, track.getTrackId());
+			ResultSet rs = stmt.executeQuery();
+			if (rs.next()) {
+				lyrics = new Lyrics(rs.getInt(1), rs.getString(2), rs.getFloat(3));
+			}
+		}
+		if (lyrics != null) {
+			lyrics.setLines(LineDao.selectByLyricsId(conn, lyrics.getId()));
 		}
 		return lyrics;
 	}

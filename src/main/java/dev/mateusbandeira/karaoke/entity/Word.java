@@ -10,13 +10,13 @@ public class Word {
 	@JsonView({Views.class, Views.ViewInsert.class})
 	private Float duration;
 	@JsonView({Views.class, Views.ViewInsert.class})
-	private Float wait;
+	private float wait;
 
 	public Word() {
 		super();
 	}
 
-	public Word(String content, Float duration, Float wait) {
+	public Word(String content, Float duration, float wait) {
 		this();
 		this.content = content;
 		this.duration = duration;
@@ -31,7 +31,7 @@ public class Word {
 		return duration;
 	}
 
-	public Float getWait() {
+	public float getWait() {
 		return wait;
 	}
 }
