@@ -1,5 +1,0 @@
-CREATE TABLE Lyrics(
-lyricsId INT AUTO_INCREMENT,
-writers VARCHAR(255),
-PRIMARY KEY (lyricsId)
-);
