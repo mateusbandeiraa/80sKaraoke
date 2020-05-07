@@ -1,5 +1,6 @@
 package dev.mateusbandeira.karaoke.service;
 
+import java.io.InputStream;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -37,16 +38,16 @@ public class TrackService {
 		track.getLyrics().applyDelay();
 		return track;
 	}
-//
-//	@GET
-//	@Path("/{trackid}/audio")
-//	@Produces(MediaType.APPLICATION_OCTET_STREAM)
-//	public InputStream getAudio(@PathParam("trackid") Integer trackId) {
-//		Track track = new Track();
-//		track.setTrackId(trackId);
-//		return track.getAudioStream();
-//	}
-//
+
+	@GET
+	@Path("/{trackid}/audio")
+	@Produces(MediaType.APPLICATION_OCTET_STREAM)
+	public InputStream getAudio(@PathParam("trackid") Integer trackId) {
+		Track track = new Track();
+		track.setTrackId(trackId);
+		return track.getAudioStream();
+	}
+
 	@GET
 	@Path("/search")
 	@JsonView(Views.ViewSearch.class)
