@@ -33,7 +33,7 @@ public class PersistenceManager implements ServletContextListener {
 		this.sce = sce;
 		try (Connection conn = DAO.getConnection()) {
 			updateTablesToLatestStructure(conn);
-		} catch (SQLException | URISyntaxException | IOException | ClassNotFoundException ex) {
+		} catch (SQLException | URISyntaxException | IOException ex) {
 			throw new RuntimeException(ex);
 		}
 	}
@@ -43,7 +43,7 @@ public class PersistenceManager implements ServletContextListener {
 		this.sce = null;
 	}
 
-	protected static void restoreSchema() throws URISyntaxException, IOException, SQLException {
+	protected static void restoreSchema() throws URISyntaxException, SQLException {
 		DAO.DBCredentials credentials = DAO.getDBCredentials();
 		String url = "jdbc:mysql://" + credentials.dbHost;
 		String databaseName = credentials.dbName;
