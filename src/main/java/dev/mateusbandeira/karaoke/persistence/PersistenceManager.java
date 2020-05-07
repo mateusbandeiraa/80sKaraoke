@@ -2,6 +2,7 @@ package dev.mateusbandeira.karaoke.persistence;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
@@ -31,7 +32,7 @@ public class PersistenceManager implements ServletContextListener {
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 		this.sce = sce;
-		try (Connection conn = DAO.getConnection()) {
+		try (Connection conn = getConnection()) {
 			updateTablesToLatestStructure(conn);
 		} catch (SQLException | URISyntaxException | IOException ex) {
 			throw new RuntimeException(ex);
@@ -43,8 +44,57 @@ public class PersistenceManager implements ServletContextListener {
 		this.sce = null;
 	}
 
+	static class DBCredentials {
+		final String username;
+		final String password;
+		final String dbUrl;
+		final String dbHost;
+		final String dbName;
+
+		public DBCredentials(String username, String password, String dbHost, String dbName) {
+			this.username = username;
+			this.password = password;
+			this.dbHost = dbHost;
+			this.dbName = dbName;
+			this.dbUrl = "jdbc:mysql://" + dbHost + "/" + dbName;
+		}
+
+	}
+
+	protected static DBCredentials getDBCredentials() throws URISyntaxException {
+		URI dbUri = new URI(System.getenv("DATABASE_URL"));
+		String username = dbUri.getUserInfo().split(":")[0];
+		String password = dbUri.getUserInfo().split(":")[1];
+
+		return new DBCredentials(username, password, dbUri.getHost(),
+				dbUri.getPath().replace("/", ""));
+	}
+
+	protected static Connection getConnection() throws SQLException {
+		try {
+			DBCredentials credentials = getDBCredentials();
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			return DriverManager.getConnection(credentials.dbUrl, credentials.username,
+					credentials.password);
+		} catch (SQLException ex) {
+			if (ex.getMessage().contains("Unknown database")) {
+				System.out.println("Database does not exist. Will try to create one.");
+				try {
+					PersistenceManager.restoreSchema();
+				} catch (URISyntaxException | SQLException ex1) {
+					System.out.println("Could not create a new schema.");
+					throw new RuntimeException(ex1);
+				}
+				return getConnection();
+			}
+			throw ex;
+		} catch (ClassNotFoundException | URISyntaxException ex) {
+			throw new RuntimeException(ex);
+		}
+	}
+
 	protected static void restoreSchema() throws URISyntaxException, SQLException {
-		DAO.DBCredentials credentials = DAO.getDBCredentials();
+		DBCredentials credentials = getDBCredentials();
 		String url = "jdbc:mysql://" + credentials.dbHost;
 		String databaseName = credentials.dbName;
 

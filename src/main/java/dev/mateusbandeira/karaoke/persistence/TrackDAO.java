@@ -28,7 +28,7 @@ public class TrackDao extends DAO<Track> {
 	public void insert(Track track) throws SQLException {
 		Connection conn;
 		try {
-			conn = DAO.getConnection();
+			conn = PersistenceManager.getConnection();
 		} catch (SQLException ex1) {
 			ex1.printStackTrace();
 			throw new RuntimeException(ex1);
@@ -60,7 +60,7 @@ public class TrackDao extends DAO<Track> {
 		Track track = null;
 		String sql = "SELECT title, artist, trackYear, lyricsId FROM Tracks WHERE trackId = ?";
 
-		try (Connection conn = DAO.getConnection()) {
+		try (Connection conn = PersistenceManager.getConnection()) {
 			PreparedStatement stmt = conn.prepareStatement(sql);
 			stmt.setInt(1, primaryKey);
 			ResultSet rs = stmt.executeQuery();

@@ -35,7 +35,7 @@ public class LyricsDao extends DAO<Lyrics> {
 
 	@Override
 	public Lyrics select(Integer primaryKey) {
-		try (Connection conn = DAO.getConnection()) {
+		try (Connection conn = PersistenceManager.getConnection()) {
 			return select(conn, primaryKey);
 		} catch (SQLException ex) {
 			throw new RuntimeException(ex);

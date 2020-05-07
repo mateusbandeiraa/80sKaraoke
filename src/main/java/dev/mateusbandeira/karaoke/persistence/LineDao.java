@@ -50,7 +50,7 @@ public class LineDao extends DAO<Line> {
 
 	public List<Line> selectByLyricsId(Integer lyricsId) {
 		try {
-			return selectByLyricsId(getConnection(), lyricsId);
+			return selectByLyricsId(PersistenceManager.getConnection(), lyricsId);
 		} catch (SQLException ex) {
 			throw new RuntimeException(ex);
 		}
@@ -60,7 +60,7 @@ public class LineDao extends DAO<Line> {
 		List<Line> lines = new ArrayList<>();
 		String sql = "SELECT lineId, startAt, remain FROM `Lines` where lyricsId = ? ORDER BY startAt ASC";
 
-		try (Connection conn = DAO.getConnection()) {
+		try (Connection conn = PersistenceManager.getConnection()) {
 			PreparedStatement stmt = conn.prepareStatement(sql);
 			stmt.setInt(1, lyricsId);
 			ResultSet rs = stmt.executeQuery();
