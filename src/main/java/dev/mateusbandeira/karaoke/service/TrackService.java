@@ -59,7 +59,7 @@ public class TrackService {
 			throw new BadRequestException(Response.status(Status.BAD_REQUEST)
 					.entity("The searchterms parameter must have at least 3 characters.").build());
 		}
-		return new TrackDao().selectByTitle(searchTerms);
+		return new TrackDao().search(searchTerms);
 	}
 	
 	@POST

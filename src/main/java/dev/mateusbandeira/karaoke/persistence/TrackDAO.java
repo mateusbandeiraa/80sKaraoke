@@ -78,14 +78,17 @@ public class TrackDao extends DAO<Track> {
 		return track;
 	}
 
-	public List<Track> selectByTitle(String searchTerms) {
+	public List<Track> search(String searchTerms) {
 		List<Track> searchResults = new ArrayList<>();
 
-		String sql = "SELECT trackId, title, artist, trackYear FROM Tracks WHERE UPPER(title) LIKE ?";
+		String sql = "SELECT trackId, title, artist, trackYear FROM Tracks WHERE title LIKE ? " + 
+				" UNION " + 
+				" SELECT trackId, title, artist, trackYear FROM Tracks WHERE artist LIKE ? ";
 
 		try (Connection conn = PersistenceManager.getConnection()) {
 			PreparedStatement stmt = conn.prepareStatement(sql);
 			stmt.setString(1, "%" + searchTerms + "%");
+			stmt.setString(2, "%" + searchTerms + "%");
 			ResultSet resultSet = stmt.executeQuery();
 
 			while (resultSet.next()) {
