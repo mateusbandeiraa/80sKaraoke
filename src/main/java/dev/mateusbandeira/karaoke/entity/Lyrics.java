@@ -11,6 +11,9 @@ public class Lyrics {
 	Integer id;
 	@JsonView({ Views.class, Views.ViewInsert.class })
 	String writers;
+	@JsonView({ ViewInsert.class })
+	float delay;
+	Integer trackId;
 	@JsonView({ Views.class, ViewInsert.class })
 	List<Line> lines;
 
@@ -18,10 +21,17 @@ public class Lyrics {
 		super();
 	}
 
-	public Lyrics(Integer id, String writers) {
+	public Lyrics(Integer id, String writers, float delay) {
 		super();
 		this.id = id;
 		this.writers = writers;
+		this.delay = delay;
+	}
+	
+	public void applyDelay() {
+		for(Line line : getLines()) {
+			line.startAt += this.delay;
+		}
 	}
 
 	public Lyrics(List<Line> lines) {
@@ -39,6 +49,18 @@ public class Lyrics {
 
 	public String getWriters() {
 		return writers;
+	}
+
+	public float getDelay() {
+		return delay;
+	}
+
+	public Integer getTrackId() {
+		return trackId;
+	}
+
+	public void setTrackId(Integer trackId) {
+		this.trackId = trackId;
 	}
 
 	public List<Line> getLines() {

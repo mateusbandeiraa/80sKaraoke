@@ -33,7 +33,9 @@ public class TrackService {
 	@Path("/{trackid}")
 	@JsonView(Views.class)
 	public Track getTrack(@PathParam("trackid") Integer trackId) {
-		return new TrackDao().select(trackId);
+		Track track = new TrackDao().select(trackId);
+		track.getLyrics().applyDelay();
+		return track;
 	}
 //
 //	@GET
