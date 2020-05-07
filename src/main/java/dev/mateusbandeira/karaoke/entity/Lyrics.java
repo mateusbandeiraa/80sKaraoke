@@ -18,13 +18,35 @@ public class Lyrics {
 		super();
 	}
 
+	public Lyrics(Integer id, String writers) {
+		super();
+		this.id = id;
+		this.writers = writers;
+	}
+
 	public Lyrics(List<Line> lines) {
 		this();
 		this.lines = lines;
 	}
 
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getWriters() {
+		return writers;
+	}
+
 	public List<Line> getLines() {
 		return lines;
+	}
+
+	public void setLines(List<Line> lines) {
+		this.lines = lines;
 	}
 
 }

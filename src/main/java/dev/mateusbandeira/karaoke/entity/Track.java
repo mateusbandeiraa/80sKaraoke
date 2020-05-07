@@ -64,4 +64,8 @@ public class Track {
 		return lyrics;
 	}
 
+	public void setLyrics(Lyrics lyrics) {
+		this.lyrics = lyrics;
+	}
+
 }
