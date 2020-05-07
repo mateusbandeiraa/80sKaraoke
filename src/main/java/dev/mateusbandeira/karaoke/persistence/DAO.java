@@ -1,6 +1,5 @@
 package dev.mateusbandeira.karaoke.persistence;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.sql.Connection;
@@ -46,9 +45,9 @@ public abstract class DAO<T> {
 				dbUri.getPath().replace("/", ""));
 	}
 
-	protected static Connection getConnection() throws SQLException, URISyntaxException, ClassNotFoundException {
-		DBCredentials credentials = getDBCredentials();
+	protected static Connection getConnection() throws SQLException {
 		try {
+			DBCredentials credentials = getDBCredentials();
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			return DriverManager.getConnection(credentials.dbUrl, credentials.username,
 					credentials.password);
@@ -57,13 +56,15 @@ public abstract class DAO<T> {
 				System.out.println("Database does not exist. Will try to create one.");
 				try {
 					PersistenceManager.restoreSchema();
-				} catch (URISyntaxException | IOException | SQLException ex1) {
+				} catch (URISyntaxException | SQLException ex1) {
 					System.out.println("Could not create a new schema.");
 					throw new RuntimeException(ex1);
 				}
 				return getConnection();
 			}
 			throw ex;
+		} catch (ClassNotFoundException | URISyntaxException ex) {
+			throw new RuntimeException(ex);
 		}
 	}
 }
