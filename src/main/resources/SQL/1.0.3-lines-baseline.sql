@@ -5,4 +5,5 @@ remain FLOAT NOT NULL,
 lyricsId INT NOT NULL,
 PRIMARY KEY (lineId),
 FOREIGN KEY (lyricsId) REFERENCES Lyrics (lyricsId)
+ON DELETE CASCADE
 );

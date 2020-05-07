@@ -6,4 +6,5 @@ duration FLOAT NOT NULL,
 wait FLOAT NOT NULL,
 PRIMARY KEY (lineId, wordOrder),
 FOREIGN KEY (lineId) REFERENCES `Lines` (lineId)
+ON DELETE CASCADE
 );
