@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import dev.mateusbandeira.karaoke.entity.Track;
@@ -76,6 +77,29 @@ public class TrackDao extends DAO<Track> {
 		}
 
 		return track;
+	}
+
+	public List<Track> selectByTitle(String searchTerms) {
+		List<Track> searchResults = new ArrayList<>();
+
+		String sql = "SELECT trackId, title, artist, trackYear FROM Tracks WHERE UPPER(title) LIKE ?";
+
+		try (Connection conn = PersistenceManager.getConnection()) {
+			PreparedStatement stmt = conn.prepareStatement(sql);
+			stmt.setString(1, "%" + searchTerms + "%");
+			ResultSet resultSet = stmt.executeQuery();
+
+			while (resultSet.next()) {
+				Track track = new Track(resultSet.getInt(1), resultSet.getString(2),
+						resultSet.getString(3), resultSet.getString(4), null);
+				searchResults.add(track);
+			}
+
+		} catch (SQLException ex) {
+			throw new RuntimeException(ex);
+		}
+
+		return searchResults;
 	}
 
 	@Override
