@@ -1,14 +1,11 @@
 package dev.mateusbandeira.karaoke.service;
 
 import java.io.InputStream;
-import java.sql.SQLException;
 import java.util.List;
 
 import javax.ws.rs.BadRequestException;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
-import javax.ws.rs.InternalServerErrorException;
-import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -62,14 +59,14 @@ public class TrackService {
 		return new TrackDao().search(searchTerms);
 	}
 	
-	@POST
-	@JsonView(Views.class)
-	public void createTrack(@JsonView(Views.ViewInsert.class) Track track) {
-		try {
-			new TrackDao().insert(track);
-		} catch (SQLException ex) {
-			ex.printStackTrace();
-			throw new InternalServerErrorException();
-		}
-	}
+//	@POST
+//	@JsonView(Views.class)
+//	public void createTrack(@JsonView(Views.ViewInsert.class) Track track) {
+//		try {
+//			new TrackDao().insert(track);
+//		} catch (SQLException ex) {
+//			ex.printStackTrace();
+//			throw new InternalServerErrorException();
+//		}
+//	}
 }
