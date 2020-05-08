@@ -130,6 +130,59 @@ section .section-title::after {
     margin-right: 0;
 }
 
+/* MESSAGES */
+.message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    max-width: min(560px, 85vw);
+    font-size: 1.5em;
+    background: rgb(27 142 36 / 95%);
+    padding: 16px;
+    text-align: center;
+    z-index: 10;
+}
+
+.message-title-container {
+    display: block;
+    overflow-x: hidden;
+    margin-bottom: 1em;
+}
+
+.message .message-title {
+    display: flex;
+    margin: 0;
+}
+
+.message .message-title::before,
+.message .message-title::after {
+    content: "";
+    flex: 1;
+    margin: auto .2em;
+    background: url('assets/dashes.svg');
+    height: 3px;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
+.message .message-title::before {
+    margin-left: 0;
+}
+
+.message .message-title::after {
+    margin-right: 0;
+}
+
+.message .message-content{
+    font-size: 1.5em;
+}
+
+.message .message-actions-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* LOADING INDICATOR*/
 #main-container.loading {
     justify-content: center;
@@ -216,6 +269,27 @@ form input {
     filter: drop-shadow(-2pt 0 3pt var(--red-glow)) drop-shadow(2pt 0 3pt var(--blue-glow));
 }
 
+/* BUTTONS */
+.button {
+    font-size: 1.4em;
+    font-family: inherit;
+    padding: 3px 10px;
+    color: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: blue;
+    text-decoration-color: blue;
+    text-shadow: none;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
 /* LINKS */
 
 a[href] {
@@ -243,6 +317,6 @@ footer {
     font-size: 1.5em;
 }
 
-footer a[href]{
+footer a[href] {
     text-decoration: none;
 }
