@@ -1,7 +1,6 @@
 package dev.mateusbandeira.karaoke.service;
 
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.ws.rs.BadRequestException;
@@ -20,8 +19,8 @@ import org.apache.commons.lang3.StringUtils;
 import com.fasterxml.jackson.annotation.JsonView;
 
 import dev.mateusbandeira.karaoke.entity.Track;
-import dev.mateusbandeira.karaoke.persistence.MockedTrackDAO;
-import dev.mateusbandeira.karaoke.view.TrackView;
+import dev.mateusbandeira.karaoke.persistence.TrackDao;
+import dev.mateusbandeira.karaoke.view.Views;
 
 @Path("/track")
 @Consumes(MediaType.APPLICATION_JSON)
@@ -30,9 +29,11 @@ public class TrackService {
 
 	@GET
 	@Path("/{trackid}")
-	@JsonView(TrackView.class)
+	@JsonView(Views.class)
 	public Track getTrack(@PathParam("trackid") Integer trackId) {
-		return new MockedTrackDAO().get(trackId);
+		Track track = new TrackDao().select(trackId);
+		track.getLyrics().applyDelay();
+		return track;
 	}
 
 	@GET
@@ -46,7 +47,7 @@ public class TrackService {
 
 	@GET
 	@Path("/search")
-	@JsonView(TrackView.ViewSearch.class)
+	@JsonView(Views.ViewSearch.class)
 	public List<Track> search(@QueryParam("searchterms") String searchTerms,
 			@QueryParam("maxresults") Integer maxResults,
 			@QueryParam("pagenumber") Integer pageNumber) {
@@ -55,8 +56,17 @@ public class TrackService {
 			throw new BadRequestException(Response.status(Status.BAD_REQUEST)
 					.entity("The searchterms parameter must have at least 3 characters.").build());
 		}
-		List<Track> results = new ArrayList<>();
-		results.add(getTrack(4));
-		return results;
+		return new TrackDao().search(searchTerms);
 	}
+	
+//	@POST
+//	@JsonView(Views.class)
+//	public void createTrack(@JsonView(Views.ViewInsert.class) Track track) {
+//		try {
+//			new TrackDao().insert(track);
+//		} catch (SQLException ex) {
+//			ex.printStackTrace();
+//			throw new InternalServerErrorException();
+//		}
+//	}
 }

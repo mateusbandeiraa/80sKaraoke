@@ -2,21 +2,21 @@ package dev.mateusbandeira.karaoke.entity;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import dev.mateusbandeira.karaoke.view.TrackView;
+import dev.mateusbandeira.karaoke.view.Views;
 
 public class Word {
-	@JsonView(TrackView.class)
+	@JsonView({Views.class, Views.ViewInsert.class})
 	private String content;
-	@JsonView(TrackView.class)
+	@JsonView({Views.class, Views.ViewInsert.class})
 	private Float duration;
-	@JsonView(TrackView.class)
-	private Float wait;
+	@JsonView({Views.class, Views.ViewInsert.class})
+	private float wait;
 
 	public Word() {
 		super();
 	}
 
-	public Word(String content, Float duration, Float wait) {
+	public Word(String content, Float duration, float wait) {
 		this();
 		this.content = content;
 		this.duration = duration;
@@ -31,7 +31,7 @@ public class Word {
 		return duration;
 	}
 
-	public Float getWait() {
+	public float getWait() {
 		return wait;
 	}
 }

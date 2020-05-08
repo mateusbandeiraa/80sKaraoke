@@ -4,19 +4,20 @@ import java.io.InputStream;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import dev.mateusbandeira.karaoke.view.TrackView;
+import dev.mateusbandeira.karaoke.view.Views;
+import dev.mateusbandeira.karaoke.view.Views.ViewInsert;
 
 public class Track {
-	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
+	@JsonView({ Views.class, Views.ViewSearch.class })
 	Integer trackId;
-	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
+	@JsonView({ Views.class, Views.ViewSearch.class, ViewInsert.class })
 	String title;
-	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
+	@JsonView({ Views.class, Views.ViewSearch.class, ViewInsert.class })
 	String artist;
-	@JsonView({ TrackView.class, TrackView.ViewSearch.class })
+	@JsonView({ Views.class, Views.ViewSearch.class, ViewInsert.class })
 	String year;
 
-	@JsonView({ TrackView.class })
+	@JsonView({ Views.class, ViewInsert.class })
 	Lyrics lyrics;
 
 	public Track() {
@@ -61,6 +62,10 @@ public class Track {
 
 	public Lyrics getLyrics() {
 		return lyrics;
+	}
+
+	public void setLyrics(Lyrics lyrics) {
+		this.lyrics = lyrics;
 	}
 
 }

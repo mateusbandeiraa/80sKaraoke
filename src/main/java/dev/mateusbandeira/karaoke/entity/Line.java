@@ -1,18 +1,20 @@
 package dev.mateusbandeira.karaoke.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import dev.mateusbandeira.karaoke.view.TrackView;
+import dev.mateusbandeira.karaoke.view.Views;
 
 public class Line {
-	@JsonView(TrackView.class)
+	Integer lineId;
+	@JsonView({Views.class, Views.ViewInsert.class})
 	Float startAt;
-	@JsonView(TrackView.class)
+	@JsonView({Views.class, Views.ViewInsert.class})
 	Float remain;
 
-	@JsonView(TrackView.class)
+	@JsonView({Views.class, Views.ViewInsert.class})
 	List<Word> words;
 
 	public Line() {
@@ -26,6 +28,14 @@ public class Line {
 		this.words = words;
 	}
 
+	public Integer getLineId() {
+		return lineId;
+	}
+
+	public void setLineId(Integer lineId) {
+		this.lineId = lineId;
+	}
+
 	public Float getStartAt() {
 		return startAt;
 	}
@@ -35,6 +45,9 @@ public class Line {
 	}
 
 	public List<Word> getWords() {
+		if(words == null) {
+			words = new ArrayList<>();
+		}
 		return words;
 	}
 }

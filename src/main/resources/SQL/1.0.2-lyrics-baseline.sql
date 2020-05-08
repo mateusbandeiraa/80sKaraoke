@@ -1,0 +1,9 @@
+CREATE TABLE Lyrics(
+lyricsId INT AUTO_INCREMENT,
+writers VARCHAR(255),
+trackId INT NOT NULL,
+delay FLOAT DEFAULT 0,
+PRIMARY KEY (lyricsId),
+FOREIGN KEY (trackId) REFERENCES Tracks (trackId)
+ON DELETE CASCADE
+);
