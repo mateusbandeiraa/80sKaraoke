@@ -257,3 +257,11 @@ body>div {
         margin: 0.5em 1em;
     }
 }
+
+.controls-section{
+    border-right: 1px solid grey;
+}
+
+.controls-section:last-child{
+    border-right: none;
+}
