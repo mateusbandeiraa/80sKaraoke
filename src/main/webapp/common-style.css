@@ -1,10 +1,18 @@
+/* VAR */
+:root{
+    --background-pri-color:#555EBC;
+    --background-sec-color: #58508E;
+    --red-glow: #CE5937;
+    --blue-glow: #0B80CE;
+}
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* PAGE SETUP */
 body {
-    background: rgb(208, 87, 186);
-    background: linear-gradient(180deg, rgba(208, 87, 186, 1) 0%, rgba(129, 61, 122, 1) 100%);
+    background: var(--background-pri-color);
+    background: linear-gradient(180deg, var(--background-pri-color) 0%, var(--background-sec-color) 100%);
+    min-height: calc(100vh - 16px);
 }
 
 /* BACKGROUND VIDEO */
@@ -83,7 +91,7 @@ header a[href] {
     width: calc(100% - (env(safe-area-inset-right) + env(safe-area-inset-left)));
     color: #FFFFFF;
     font-family: 'VT323', monospace;
-    text-shadow: -2pt 0 3pt #CE5937, 2pt 0 3pt #0B80CE;
+    text-shadow: -2pt 0 3pt var(--red-glow), 2pt 0 3pt var(--blue-glow);
 }
 
 /* SECTIONS */
@@ -111,7 +119,7 @@ section .section-title::after {
     margin: auto 1em;
     background: url('assets/dashes.svg');
     height: 3px;
-    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+    filter: drop-shadow(-2pt 0 3pt var(--red-glow)) drop-shadow(2pt 0 3pt var(--blue-glow));
 }
 
 section .section-title::before {
@@ -120,6 +128,61 @@ section .section-title::before {
 
 section .section-title::after {
     margin-right: 0;
+}
+
+/* MESSAGES */
+.message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    max-width: min(560px, 85vw);
+    font-size: 1.5em;
+    background: rgb(85, 94, 188);
+    background: linear-gradient(180deg, rgba(85, 94, 188, .55) 0%, rgba(88, 80, 142, .55) 100%);
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+    padding: 16px;
+    text-align: center;
+    z-index: 10;
+}
+
+.message-title-container {
+    display: block;
+    overflow-x: hidden;
+    margin-bottom: 1em;
+}
+
+.message .message-title {
+    display: flex;
+    margin: 0;
+}
+
+.message .message-title::before,
+.message .message-title::after {
+    content: "";
+    flex: 1;
+    margin: auto .2em;
+    background: url('assets/dashes.svg');
+    height: 3px;
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+}
+
+.message .message-title::before {
+    margin-left: 0;
+}
+
+.message .message-title::after {
+    margin-right: 0;
+}
+
+.message .message-content{
+    font-size: 1.5em;
+}
+
+.message .message-actions-row{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* LOADING INDICATOR*/
@@ -205,6 +268,28 @@ form input {
     border: none;
     color: inherit;
     text-transform: uppercase;
+    filter: drop-shadow(-2pt 0 3pt var(--red-glow)) drop-shadow(2pt 0 3pt var(--blue-glow));
+}
+
+/* BUTTONS */
+.button {
+    font-size: 1.4em;
+    font-family: inherit;
+    padding: 3px 10px;
+    color: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    text-decoration: none;
+    text-shadow: inherit;
+}
+
+.button:hover {
+    background-color: white;
+    color: blue;
+    text-decoration-color: blue;
+    text-shadow: none;
     filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
 }
 
@@ -226,7 +311,7 @@ a[href]:hover {
     color: blue;
     text-decoration-color: blue;
     text-shadow: none;
-    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
+    filter: drop-shadow(-2pt 0 3pt var(--red-glow)) drop-shadow(2pt 0 3pt var(--blue-glow));
 }
 
 /* FOOTER */
@@ -235,6 +320,6 @@ footer {
     font-size: 1.5em;
 }
 
-footer a[href]{
+footer a[href] {
     text-decoration: none;
 }
