@@ -69,4 +69,10 @@ public class TrackService {
 //			throw new InternalServerErrorException();
 //		}
 //	}
+	@GET
+	@Path("/featured")
+	@JsonView(Views.ViewSearch.class)
+	public List<Track> getFeaturedTracks(){
+		return new TrackDao().selectFeaturedTracks();
+	}
 }
