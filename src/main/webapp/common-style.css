@@ -139,7 +139,9 @@ section .section-title::after {
     width: 100%;
     max-width: min(560px, 85vw);
     font-size: 1.5em;
-    background: rgb(27 142 36 / 95%);
+    background: rgb(85, 94, 188);
+    background: linear-gradient(180deg, rgba(85, 94, 188, .55) 0%, rgba(88, 80, 142, .55) 100%);
+    filter: drop-shadow(-2pt 0 3pt #CE5937) drop-shadow(2pt 0 3pt #0B80CE);
     padding: 16px;
     text-align: center;
     z-index: 10;
@@ -280,6 +282,7 @@ form input {
     background: rgba(255,255,255,0.5);
     border: none;
     text-decoration: none;
+    text-shadow: inherit;
 }
 
 .button:hover {
