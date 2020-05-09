@@ -103,6 +103,29 @@ public class TrackDao extends DAO<Track> {
 
 		return searchResults;
 	}
+	
+	public List<Track> selectFeaturedTracks() {
+		List<Track> searchResults = new ArrayList<>();
+
+		String sql = "SELECT t.trackId, t.title, t.artist, t.trackYear FROM Tracks t"
+				+ " INNER JOIN featuredTracks ft ON ft.trackId = t.trackId";
+
+		try (Connection conn = PersistenceManager.getConnection()) {
+			PreparedStatement stmt = conn.prepareStatement(sql);
+			ResultSet resultSet = stmt.executeQuery();
+
+			while (resultSet.next()) {
+				Track track = new Track(resultSet.getInt(1), resultSet.getString(2),
+						resultSet.getString(3), resultSet.getString(4), null);
+				searchResults.add(track);
+			}
+
+		} catch (SQLException ex) {
+			throw new RuntimeException(ex);
+		}
+
+		return searchResults;
+	}
 
 	@Override
 	public List<Track> selectAll() {
