@@ -35,7 +35,7 @@ function drawHeader(track) {
     document.getElementById("track-year").textContent = track.year;
 }
 
-function clearLoadingScreen() {
+function clearLoadingScreen(){
     document.getElementById("main-container").classList.remove("loading");
 }
 
@@ -61,10 +61,6 @@ function setControlsListeners(track, trackPlayer) {
         }
         update(track, trackPlayer);
     });
-
-    document.getElementById("button-exit").addEventListener("click", () => {
-        confirmExit(track, trackPlayer);
-    })
 }
 
 function toggleTrackPlayPause(track, trackPlayer) {
@@ -99,41 +95,6 @@ function pauseTrack(trackPlayer, controlsContainerElement, backgroundVideo, butt
 
     button.classList.remove("fa-pause");
     button.classList.add("fa-play");
-}
-
-function confirmExit(track, trackPlayer) {
-    let controlsContainerElement = document.getElementById("controls-container");
-    let backgroundVideoElement = document.getElementById("background-video");
-    let buttonElement = document.getElementById("button-play-pause");
-    let wasPlayingBeforeConfirmation = false;
-    if(trackPlayer.playing()){
-        wasPlayingBeforeConfirmation = true;
-        pauseTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement);
-    }
-
-    const confirmationDialogHTML =
-            `<div class="message-title-container">
-                <h1 class="message-title">CONFIRMATION</h1>
-            </div>
-            <div class="message-content"><p>Do you really want to exit?</p>
-                <div class="message-actions-row">
-                    <input type="button" class="button" value="YES">
-                    <input type="button" class="button" value="NO">
-                </div>
-            </div>`;
-    let messageElement = document.createElement("div");
-    messageElement.classList.add('message', 'confirmation-message');
-    messageElement.innerHTML = confirmationDialogHTML;
-    messageElement.querySelector('.button[value="YES"]').addEventListener('click', function(){
-        window.location.href = '../';
-    });
-    messageElement.querySelector('.button[value="NO"]').addEventListener('click', function(){
-        messageElement.remove();
-        if(wasPlayingBeforeConfirmation){
-            playTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement, track, trackPlayer);
-        }
-    });
-    document.getElementById('main-container').appendChild(messageElement);
 }
 
 /* UPDATE METHODS */
@@ -251,7 +212,7 @@ function fetchTrack(trackId) {
 }
 
 function fetchTrackAudio(trackId) {
-    let trackPlayer = new Howl({ src: [`${API_ENDPOINT}/track/${trackId}/audio`], format: ['mp3'] });
+    let trackPlayer = new Howl({ src: [`${API_ENDPOINT}/track/${trackId}/audio`], format:['mp3'] });
     let promise = new Promise(function (resolve, reject) {
         trackPlayer.once('load', () => {
             resolve(trackPlayer);
