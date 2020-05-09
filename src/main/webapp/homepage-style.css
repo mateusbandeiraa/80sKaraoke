@@ -16,7 +16,7 @@ header .tagline:last-child {
     margin-bottom: 32px;
 }
 
-a.track-search-result {
+a.track-link {
     padding: 6px;
     display: block;
     text-decoration: none;

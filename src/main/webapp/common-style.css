@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* VAR */
-:root{
-    --background-pri-color:#555EBC;
-    --background-sec-color: #58508E;
+:root {
+    --background-pri-color: #555EBC;
+    --background-sec-color: #58508e;
     --red-glow: #CE5937;
     --blue-glow: #0B80CE;
 }
@@ -100,12 +100,16 @@ section {
     width: 100%;
     max-width: 560px;
     font-size: 1.5em;
+    background: rgba(46 2 86 / 30%);
+    margin: 8px;
+    padding: 8px;
+    filter: drop-shadow(-2pt 0 3pt var(--red-glow)) drop-shadow(2pt 0 3pt var(--blue-glow));
 }
 
 .section-title-container {
     display: block;
     overflow-x: hidden;
-    margin: 1em 0;
+    margin: .5em 0;
 }
 
 section .section-title {
@@ -177,16 +181,16 @@ section .section-title::after {
     margin-right: 0;
 }
 
-.message .message-content{
+.message .message-content {
     font-size: 1.5em;
 }
 
-.message .message-actions-row{
+.message .message-actions-row {
     display: flex;
     justify-content: space-evenly;
 }
 
-.message .message-actions-row *{
+.message .message-actions-row * {
     flex-basis: 25%;
 }
 
@@ -284,7 +288,7 @@ form input {
     color: inherit;
     text-transform: uppercase;
     cursor: pointer;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     border: none;
     text-decoration: none;
     text-shadow: inherit;
