@@ -1,3 +1,6 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 /* VAR */
 :root{
     --background-pri-color:#555EBC;
@@ -5,8 +8,6 @@
     --red-glow: #CE5937;
     --blue-glow: #0B80CE;
 }
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* PAGE SETUP */
 body {
