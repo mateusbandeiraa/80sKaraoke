@@ -11,6 +11,15 @@ header .tagline:last-child {
     text-align: right;
 }
 
+/* FEATURED */
+#featured-tracks-container a.track-link {
+    margin: 0.5em 0;
+}
+
+#featured-tracks-container a.track-link::before {
+    content: "> ";
+}
+
 /* SEARCH */
 #search-form {
     margin-bottom: 32px;
