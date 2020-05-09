@@ -185,6 +185,10 @@ section .section-title::after {
     justify-content: space-evenly;
 }
 
+.message .message-actions-row *{
+    flex-basis: 25%;
+}
+
 /* LOADING INDICATOR*/
 #main-container.loading {
     justify-content: center;
