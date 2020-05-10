@@ -54,11 +54,13 @@ function updateTrackResults(tracks) {
 }
 
 function updateFeaturedTracks(tracks){
-    let featuredTracksContainer = document.getElementById("featured-tracks-container");
-    featuredTracksContainer.innerHTML = "";
+    let featuredTracksList = document.getElementById("featured-tracks-list");
+    featuredTracksList.innerHTML = "";
     for (let track of tracks) {
         let featuredTrackElement = createTrackLinkElement(track);
-        featuredTracksContainer.appendChild(featuredTrackElement);
+        let listItemElement = document.createElement('li');
+        listItemElement.appendChild(featuredTrackElement);
+        featuredTracksList.appendChild(listItemElement);
     }
 }
 
