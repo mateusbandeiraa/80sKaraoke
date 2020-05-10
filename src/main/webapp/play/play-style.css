@@ -222,7 +222,7 @@ body>div {
     #controls-banner {
         font-size: 3em;
     }
-} */
+}
 
 #controls-container:hover #controls-banner {
     opacity: 50%;
