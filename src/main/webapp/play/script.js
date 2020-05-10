@@ -12,6 +12,12 @@ const updatesPerSecond = 30;
 const updateTimeout = 1000 / updatesPerSecond;
 const transitionCSS = `<style>.word-inner{transition-duration: calc(1000ms/${updatesPerSecond}) !important}</style>`;
 document.addEventListener("DOMContentLoaded", async function () {
+    // <unmute.js>
+    // https://github.com/swevans/unmute
+    let context = (window.AudioContext || window.webkitAudioContext) ?
+        new (window.AudioContext || window.webkitAudioContext)() : null;
+    if (context) unmute(context);
+    // </unmute.js>
     document.querySelector("head").innerHTML += transitionCSS;
     let trackPlayer;
     let track;
@@ -106,13 +112,13 @@ function confirmExit(track, trackPlayer) {
     let backgroundVideoElement = document.getElementById("background-video");
     let buttonElement = document.getElementById("button-play-pause");
     let wasPlayingBeforeConfirmation = false;
-    if(trackPlayer.playing()){
+    if (trackPlayer.playing()) {
         wasPlayingBeforeConfirmation = true;
         pauseTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement);
     }
 
     const confirmationDialogHTML =
-            `<div class="message-title-container">
+        `<div class="message-title-container">
                 <h1 class="message-title">CONFIRMATION</h1>
             </div>
             <div class="message-content"><p>Do you really want to exit?</p>
@@ -124,12 +130,12 @@ function confirmExit(track, trackPlayer) {
     let messageElement = document.createElement("div");
     messageElement.classList.add('message', 'confirmation-message');
     messageElement.innerHTML = confirmationDialogHTML;
-    messageElement.querySelector('.button[value="YES"]').addEventListener('click', function(){
+    messageElement.querySelector('.button[value="YES"]').addEventListener('click', function () {
         window.location.href = '../';
     });
-    messageElement.querySelector('.button[value="NO"]').addEventListener('click', function(){
+    messageElement.querySelector('.button[value="NO"]').addEventListener('click', function () {
         messageElement.remove();
-        if(wasPlayingBeforeConfirmation){
+        if (wasPlayingBeforeConfirmation) {
             playTrack(trackPlayer, controlsContainerElement, backgroundVideoElement, buttonElement, track, trackPlayer);
         }
     });

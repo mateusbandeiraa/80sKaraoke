@@ -332,3 +332,22 @@ footer {
 footer a[href] {
     text-decoration: none;
 }
+
+/* LISTS */
+
+ul{
+    position: relative;
+    list-style: none;
+    padding-left: 1.2em;
+    margin-left: 10px;
+}
+
+ul li{
+    margin: 0.6em 0;
+}
+
+ul li::before{
+    content: "> ";
+    position: absolute;
+    left: 0;
+}
