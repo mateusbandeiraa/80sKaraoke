@@ -1,11 +1,14 @@
 package dev.mateusbandeira.karaoke.service;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
 import javax.ws.rs.BadRequestException;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.InternalServerErrorException;
+import javax.ws.rs.NotFoundException;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -31,7 +34,15 @@ public class TrackService {
 	@Path("/{trackid}")
 	@JsonView(Views.class)
 	public Track getTrack(@PathParam("trackid") Integer trackId) {
-		Track track = new TrackDao().select(trackId);
+		Track track;
+		try {
+			track = new TrackDao().select(trackId);
+		} catch (IOException ex) {
+			ex.printStackTrace();
+			throw new InternalServerErrorException();
+		} catch (NotFoundException ex) {
+			throw ex;
+		}
 		track.getLyrics().applyDelay();
 		return track;
 	}
@@ -58,21 +69,16 @@ public class TrackService {
 		}
 		return new TrackDao().search(searchTerms);
 	}
-	
-//	@POST
-//	@JsonView(Views.class)
-//	public void createTrack(@JsonView(Views.ViewInsert.class) Track track) {
-//		try {
-//			new TrackDao().insert(track);
-//		} catch (SQLException ex) {
-//			ex.printStackTrace();
-//			throw new InternalServerErrorException();
-//		}
-//	}
+
 	@GET
 	@Path("/featured")
 	@JsonView(Views.ViewSearch.class)
-	public List<Track> getFeaturedTracks(){
-		return new TrackDao().selectFeaturedTracks();
+	public List<Track> getFeaturedTracks() {
+		try {
+			return new TrackDao().selectFeaturedTracks();
+		} catch (IOException ex) {
+			ex.printStackTrace();
+			throw new InternalServerErrorException();
+		}
 	}
 }

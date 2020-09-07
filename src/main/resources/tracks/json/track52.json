@@ -1,0 +1,1566 @@
+{
+  "trackId": 52,
+  "title": "Whisky a Go Go",
+  "artist": "Roupa Nova",
+  "year": "1984",
+  "lyrics": {
+    "lines": [
+      {
+        "startAt": 18.78,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Foi",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "numa",
+            "duration": 0.23
+          },
+          {
+            "content": "festa,",
+            "duration": 0.47
+          },
+          {
+            "content": "gelo",
+            "duration": 0.46
+          },
+          {
+            "content": "e",
+            "duration": 0.25
+          },
+          {
+            "content": "cuba",
+            "duration": 0.72
+          },
+          {
+            "content": "libre",
+            "duration": 1.2
+          }
+        ]
+      },
+      {
+        "startAt": 22.51,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "na",
+            "duration": 0.22
+          },
+          {
+            "content": "vitrola",
+            "duration": 0.71
+          },
+          {
+            "content": "whisky",
+            "duration": 0.45
+          },
+          {
+            "content": "a",
+            "duration": 0.27
+          },
+          {
+            "content": "go",
+            "duration": 0.42
+          },
+          {
+            "content": "go",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 26.24,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "À",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "meia",
+            "duration": 0.45
+          },
+          {
+            "content": "luz",
+            "duration": 0.24
+          },
+          {
+            "content": "o",
+            "duration": 0.23
+          },
+          {
+            "content": "som",
+            "duration": 0.23
+          },
+          {
+            "content": "do",
+            "duration": 0.25
+          },
+          {
+            "content": "Johnny",
+            "duration": 0.69
+          },
+          {
+            "content": "Rivers",
+            "duration": 1.2
+          }
+        ]
+      },
+      {
+        "startAt": 29.93,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Aquele",
+            "duration": 0.69,
+            "wait": 1.0
+          },
+          {
+            "content": "tempo",
+            "duration": 0.45
+          },
+          {
+            "content": "que",
+            "duration": 0.23
+          },
+          {
+            "content": "você",
+            "duration": 0.49
+          },
+          {
+            "content": "sonhou",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 33.66,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Senti",
+            "duration": 0.41,
+            "wait": 1.0
+          },
+          {
+            "content": "na",
+            "duration": 0.24
+          },
+          {
+            "content": "pele",
+            "duration": 0.48
+          },
+          {
+            "content": "a",
+            "duration": 0.25
+          },
+          {
+            "content": "tua",
+            "duration": 0.24
+          },
+          {
+            "content": "energia",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 37.39,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Quando",
+            "duration": 0.41,
+            "wait": 1.0
+          },
+          {
+            "content": "peguei",
+            "duration": 0.48
+          },
+          {
+            "content": "de",
+            "duration": 0.22
+          },
+          {
+            "content": "leve",
+            "duration": 0.46
+          },
+          {
+            "content": "a",
+            "duration": 0.26
+          },
+          {
+            "content": "tua",
+            "duration": 0.47
+          },
+          {
+            "content": "mão",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 41.07,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "A",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "noite",
+            "duration": 0.41
+          },
+          {
+            "content": "inteira",
+            "duration": 0.49
+          },
+          {
+            "content": "passa",
+            "duration": 0.5
+          },
+          {
+            "content": "num",
+            "duration": 0.28
+          },
+          {
+            "content": "segundo",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 44.78,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "O",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "tempo",
+            "duration": 0.44
+          },
+          {
+            "content": "voa",
+            "duration": 0.29
+          },
+          {
+            "content": "mais",
+            "duration": 0.21
+          },
+          {
+            "content": "do",
+            "duration": 0.24
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "a",
+            "duration": 0.28
+          },
+          {
+            "content": "canção",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 48.51,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Quase",
+            "duration": 0.42,
+            "wait": 1.0
+          },
+          {
+            "content": "no",
+            "duration": 0.25
+          },
+          {
+            "content": "fim",
+            "duration": 0.25
+          },
+          {
+            "content": "da",
+            "duration": 0.23
+          },
+          {
+            "content": "festa",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 50.79,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Num",
+            "duration": 0.26,
+            "wait": 1.0
+          },
+          {
+            "content": "beijo",
+            "duration": 0.5
+          },
+          {
+            "content": "então",
+            "duration": 0.19
+          },
+          {
+            "content": "você",
+            "duration": 0.46
+          },
+          {
+            "content": "se",
+            "duration": 0.22
+          },
+          {
+            "content": "rendeu",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 55.91,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Na",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "minha",
+            "duration": 0.45
+          },
+          {
+            "content": "fantasia",
+            "duration": 1.2
+          }
+        ]
+      },
+      {
+        "startAt": 58.23,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "O",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "mundo",
+            "duration": 0.49
+          },
+          {
+            "content": "era",
+            "duration": 0.21
+          },
+          {
+            "content": "você",
+            "duration": 0.49
+          },
+          {
+            "content": "e",
+            "duration": 0.3
+          },
+          {
+            "content": "eu",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 64.29,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "perguntava",
+            "duration": 0.89
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.24
+          },
+          {
+            "content": "you",
+            "duration": 0.23
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 67.97,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.23
+          },
+          {
+            "content": "abraçava",
+            "duration": 0.71
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.23
+          },
+          {
+            "content": "you",
+            "duration": 0.24
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 70.99,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.76,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 0.7
+          }
+        ]
+      },
+      {
+        "startAt": 73.09,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.25
+          },
+          {
+            "content": "a",
+            "duration": 0.42
+          },
+          {
+            "content": "mais",
+            "duration": 0.49
+          },
+          {
+            "content": "não",
+            "duration": 0.21
+          },
+          {
+            "content": "faz",
+            "duration": 0.26
+          },
+          {
+            "content": "mal",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 79.13,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.21,
+            "wait": 1.0
+          },
+          {
+            "content": "perguntava",
+            "duration": 0.92
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.22
+          },
+          {
+            "content": "you",
+            "duration": 0.25
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 82.85,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.22
+          },
+          {
+            "content": "abraçava",
+            "duration": 0.7
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.23
+          },
+          {
+            "content": "you",
+            "duration": 0.24
+          },
+          {
+            "content": "wanna",
+            "duration": 0.73
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.68
+          }
+        ]
+      },
+      {
+        "startAt": 85.85,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.76,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 87.95,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.24
+          },
+          {
+            "content": "a",
+            "duration": 0.46
+          },
+          {
+            "content": "mais",
+            "duration": 0.47
+          },
+          {
+            "content": "não",
+            "duration": 0.22
+          },
+          {
+            "content": "faz",
+            "duration": 0.24
+          },
+          {
+            "content": "mal",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 93.04,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Foi",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "numa",
+            "duration": 0.23
+          },
+          {
+            "content": "festa,",
+            "duration": 0.47
+          },
+          {
+            "content": "gelo",
+            "duration": 0.46
+          },
+          {
+            "content": "e",
+            "duration": 0.25
+          },
+          {
+            "content": "cuba",
+            "duration": 0.72
+          },
+          {
+            "content": "libre",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 96.77,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "na",
+            "duration": 0.22
+          },
+          {
+            "content": "vitrola",
+            "duration": 0.71
+          },
+          {
+            "content": "whisky",
+            "duration": 0.45
+          },
+          {
+            "content": "a",
+            "duration": 0.27
+          },
+          {
+            "content": "go",
+            "duration": 0.42
+          },
+          {
+            "content": "go",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 100.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "À",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "meia",
+            "duration": 0.45
+          },
+          {
+            "content": "luz",
+            "duration": 0.24
+          },
+          {
+            "content": "o",
+            "duration": 0.23
+          },
+          {
+            "content": "som",
+            "duration": 0.23
+          },
+          {
+            "content": "do",
+            "duration": 0.25
+          },
+          {
+            "content": "Johnny",
+            "duration": 0.69
+          },
+          {
+            "content": "Rivers",
+            "duration": 0.7
+          }
+        ]
+      },
+      {
+        "startAt": 104.19,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Aquele",
+            "duration": 0.69,
+            "wait": 1.0
+          },
+          {
+            "content": "tempo",
+            "duration": 0.45
+          },
+          {
+            "content": "que",
+            "duration": 0.23
+          },
+          {
+            "content": "você",
+            "duration": 0.49
+          },
+          {
+            "content": "sonhou",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 107.92,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Senti",
+            "duration": 0.41,
+            "wait": 1.0
+          },
+          {
+            "content": "na",
+            "duration": 0.24
+          },
+          {
+            "content": "pele",
+            "duration": 0.48
+          },
+          {
+            "content": "a",
+            "duration": 0.25
+          },
+          {
+            "content": "tua",
+            "duration": 0.24
+          },
+          {
+            "content": "energia",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 111.64,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Quando",
+            "duration": 0.41,
+            "wait": 1.0
+          },
+          {
+            "content": "peguei",
+            "duration": 0.48
+          },
+          {
+            "content": "de",
+            "duration": 0.22
+          },
+          {
+            "content": "leve",
+            "duration": 0.46
+          },
+          {
+            "content": "a",
+            "duration": 0.26
+          },
+          {
+            "content": "tua",
+            "duration": 0.47
+          },
+          {
+            "content": "mão",
+            "duration": 1.39
+          }
+        ]
+      },
+      {
+        "startAt": 115.33,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "A",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "noite",
+            "duration": 0.41
+          },
+          {
+            "content": "inteira",
+            "duration": 0.49
+          },
+          {
+            "content": "passa",
+            "duration": 0.5
+          },
+          {
+            "content": "num",
+            "duration": 0.28
+          },
+          {
+            "content": "segundo",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 119.03,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "O",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "tempo",
+            "duration": 0.44
+          },
+          {
+            "content": "voa",
+            "duration": 0.29
+          },
+          {
+            "content": "mais",
+            "duration": 0.21
+          },
+          {
+            "content": "do",
+            "duration": 0.24
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "a",
+            "duration": 0.28
+          },
+          {
+            "content": "canção",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 122.76,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Quase",
+            "duration": 0.42,
+            "wait": 1.0
+          },
+          {
+            "content": "no",
+            "duration": 0.25
+          },
+          {
+            "content": "fim",
+            "duration": 0.25
+          },
+          {
+            "content": "da",
+            "duration": 0.23
+          },
+          {
+            "content": "festa",
+            "duration": 0.25
+          }
+        ]
+      },
+      {
+        "startAt": 125.05,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Num",
+            "duration": 0.26,
+            "wait": 1.0
+          },
+          {
+            "content": "beijo",
+            "duration": 0.5
+          },
+          {
+            "content": "então",
+            "duration": 0.19
+          },
+          {
+            "content": "você",
+            "duration": 0.46
+          },
+          {
+            "content": "se",
+            "duration": 0.22
+          },
+          {
+            "content": "rendeu",
+            "duration": 0.3
+          }
+        ]
+      },
+      {
+        "startAt": 130.17,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Na",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "minha",
+            "duration": 0.45
+          },
+          {
+            "content": "fantasia",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 132.48,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "O",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "mundo",
+            "duration": 0.49
+          },
+          {
+            "content": "era",
+            "duration": 0.21
+          },
+          {
+            "content": "você",
+            "duration": 0.49
+          },
+          {
+            "content": "e",
+            "duration": 0.3
+          },
+          {
+            "content": "eu",
+            "duration": 0.3
+          }
+        ]
+      },
+      {
+        "startAt": 138.54,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "perguntava",
+            "duration": 0.89
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.24
+          },
+          {
+            "content": "you",
+            "duration": 0.23
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 142.23,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.23
+          },
+          {
+            "content": "abraçava",
+            "duration": 0.71
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.23
+          },
+          {
+            "content": "you",
+            "duration": 0.24
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.67
+          }
+        ]
+      },
+      {
+        "startAt": 145.24,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.76,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.34
+          }
+        ]
+      },
+      {
+        "startAt": 147.35,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.25
+          },
+          {
+            "content": "a",
+            "duration": 0.42
+          },
+          {
+            "content": "mais",
+            "duration": 0.49
+          },
+          {
+            "content": "não",
+            "duration": 0.21
+          },
+          {
+            "content": "faz",
+            "duration": 0.26
+          },
+          {
+            "content": "mal",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 153.39,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.21,
+            "wait": 1.0
+          },
+          {
+            "content": "perguntava",
+            "duration": 0.92
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.22
+          },
+          {
+            "content": "you",
+            "duration": 0.25
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 157.11,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.22
+          },
+          {
+            "content": "abraçava",
+            "duration": 0.7
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.23
+          },
+          {
+            "content": "you",
+            "duration": 0.24
+          },
+          {
+            "content": "wanna",
+            "duration": 0.73
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.68
+          }
+        ]
+      },
+      {
+        "startAt": 160.11,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.76,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.34
+          }
+        ]
+      },
+      {
+        "startAt": 162.21,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.24
+          },
+          {
+            "content": "a",
+            "duration": 0.46
+          },
+          {
+            "content": "mais",
+            "duration": 0.47
+          },
+          {
+            "content": "não",
+            "duration": 0.22
+          },
+          {
+            "content": "faz",
+            "duration": 0.24
+          },
+          {
+            "content": "mal",
+            "duration": 0.3
+          }
+        ]
+      },
+      {
+        "startAt": 227.64,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "perguntava",
+            "duration": 0.9
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.24
+          },
+          {
+            "content": "you",
+            "duration": 0.25
+          },
+          {
+            "content": "wanna",
+            "duration": 0.67
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 231.36,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.21
+          },
+          {
+            "content": "abraçava",
+            "duration": 0.69
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.24
+          },
+          {
+            "content": "you",
+            "duration": 0.24
+          },
+          {
+            "content": "wanna",
+            "duration": 0.66
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.71
+          }
+        ]
+      },
+      {
+        "startAt": 234.33,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.75,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.12
+          }
+        ]
+      },
+      {
+        "startAt": 236.19,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.49,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.25
+          },
+          {
+            "content": "a",
+            "duration": 0.45
+          },
+          {
+            "content": "mais",
+            "duration": 0.48
+          },
+          {
+            "content": "não",
+            "duration": 0.21
+          },
+          {
+            "content": "faz",
+            "duration": 0.24
+          },
+          {
+            "content": "mal",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 242.49,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "perguntava",
+            "duration": 0.89
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.23
+          },
+          {
+            "content": "you",
+            "duration": 0.25
+          },
+          {
+            "content": "wanna",
+            "duration": 0.72
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 246.25,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.21,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.22
+          },
+          {
+            "content": "abraçava",
+            "duration": 0.69
+          },
+          {
+            "content": "\"Do",
+            "duration": 0.22
+          },
+          {
+            "content": "you",
+            "duration": 0.25
+          },
+          {
+            "content": "wanna",
+            "duration": 0.73
+          },
+          {
+            "content": "dance?\"",
+            "duration": 0.64
+          }
+        ]
+      },
+      {
+        "startAt": 249.21,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.74,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.16
+          }
+        ]
+      },
+      {
+        "startAt": 251.11,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.48,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.25
+          },
+          {
+            "content": "a",
+            "duration": 0.44
+          },
+          {
+            "content": "mais",
+            "duration": 0.49
+          },
+          {
+            "content": "não",
+            "duration": 0.18
+          },
+          {
+            "content": "faz",
+            "duration": 0.29
+          },
+          {
+            "content": "mal",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 256.67,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.73,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.15
+          }
+        ]
+      },
+      {
+        "startAt": 258.55,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.44,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.28
+          },
+          {
+            "content": "a",
+            "duration": 0.44
+          },
+          {
+            "content": "mais",
+            "duration": 0.47
+          },
+          {
+            "content": "não",
+            "duration": 0.23
+          },
+          {
+            "content": "faz",
+            "duration": 0.26
+          },
+          {
+            "content": "mal",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 264.13,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Lembrar",
+            "duration": 0.7,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 1.09
+          }
+        ]
+      },
+      {
+        "startAt": 266.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Um",
+            "duration": 0.44,
+            "wait": 1.0
+          },
+          {
+            "content": "sonho",
+            "duration": 0.28
+          },
+          {
+            "content": "a",
+            "duration": 0.44
+          },
+          {
+            "content": "mais",
+            "duration": 0.47
+          },
+          {
+            "content": "não",
+            "duration": 0.23
+          },
+          {
+            "content": "faz",
+            "duration": 0.26
+          },
+          {
+            "content": "mal",
+            "duration": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

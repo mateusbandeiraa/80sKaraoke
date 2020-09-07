@@ -34,7 +34,7 @@ public class Track {
 	}
 
 	public InputStream getAudioStream() {
-		String audioFilename = "track" + this.getTrackId() + ".mp3";
+		String audioFilename = "tracks/audio/track" + this.getTrackId() + ".mp3";
 		InputStream audioResourceStream = Thread.currentThread().getContextClassLoader()
 				.getResourceAsStream(audioFilename);
 		return audioResourceStream;

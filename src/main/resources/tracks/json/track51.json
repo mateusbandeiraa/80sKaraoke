@@ -1,0 +1,2263 @@
+{
+  "trackId": 51,
+  "title": "Total Eclipse of the Heart",
+  "artist": "Bonnie Tyler",
+  "year": "1983",
+  "lyrics": {
+    "lines": [
+      {
+        "startAt": 14.85,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.43,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.24
+          },
+          {
+            "content": "and",
+            "duration": 0.2
+          },
+          {
+            "content": "then",
+            "duration": 0.24
+          },
+          {
+            "content": "I",
+            "duration": 0.21
+          },
+          {
+            "content": "get",
+            "duration": 0.19
+          },
+          {
+            "content": "a",
+            "duration": 0.23
+          },
+          {
+            "content": "little",
+            "duration": 0.46
+          },
+          {
+            "content": "bit",
+            "duration": 0.24
+          },
+          {
+            "content": "lonely",
+            "duration": 0.67
+          }
+        ]
+      },
+      {
+        "startAt": 17.96,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "and",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "you're",
+            "duration": 0.25
+          },
+          {
+            "content": "never",
+            "duration": 0.43
+          },
+          {
+            "content": "coming",
+            "duration": 0.43
+          },
+          {
+            "content": "round.",
+            "duration": 2.6
+          }
+        ]
+      },
+      {
+        "startAt": 21.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.44,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.23
+          },
+          {
+            "content": "then",
+            "duration": 0.21
+          },
+          {
+            "content": "I",
+            "duration": 0.2
+          },
+          {
+            "content": "get",
+            "duration": 0.23
+          },
+          {
+            "content": "a",
+            "duration": 0.23
+          },
+          {
+            "content": "little",
+            "duration": 0.44
+          },
+          {
+            "content": "bit",
+            "duration": 0.24
+          },
+          {
+            "content": "tired",
+            "duration": 0.42
+          }
+        ]
+      },
+      {
+        "startAt": 24.77,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "of",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "listening",
+            "duration": 0.63
+          },
+          {
+            "content": "to",
+            "duration": 0.23
+          },
+          {
+            "content": "the",
+            "duration": 0.25
+          },
+          {
+            "content": "sound",
+            "duration": 0.22
+          },
+          {
+            "content": "of",
+            "duration": 0.19
+          },
+          {
+            "content": "my",
+            "duration": 0.23
+          },
+          {
+            "content": "tears.",
+            "duration": 2.16
+          }
+        ]
+      },
+      {
+        "startAt": 28.91,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.44,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.2
+          },
+          {
+            "content": "and",
+            "duration": 0.24
+          },
+          {
+            "content": "then",
+            "duration": 0.22
+          },
+          {
+            "content": "I",
+            "duration": 0.22
+          },
+          {
+            "content": "get",
+            "duration": 0.22
+          },
+          {
+            "content": "a",
+            "duration": 0.24
+          },
+          {
+            "content": "little",
+            "duration": 0.49
+          },
+          {
+            "content": "bit",
+            "duration": 0.27
+          },
+          {
+            "content": "nervous",
+            "duration": 0.64
+          }
+        ]
+      },
+      {
+        "startAt": 32.09,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "that",
+            "duration": 0.21,
+            "wait": 1.0
+          },
+          {
+            "content": "the",
+            "duration": 0.23
+          },
+          {
+            "content": "best",
+            "duration": 0.37
+          },
+          {
+            "content": "of",
+            "duration": 0.24
+          },
+          {
+            "content": "all",
+            "duration": 0.22
+          },
+          {
+            "content": "theyears",
+            "duration": 0.21
+          },
+          {
+            "content": "have",
+            "duration": 0.22
+          },
+          {
+            "content": "gone",
+            "duration": 0.49
+          },
+          {
+            "content": "by.",
+            "duration": 1.76
+          }
+        ]
+      },
+      {
+        "startAt": 36.04,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.44,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.19
+          },
+          {
+            "content": "and",
+            "duration": 0.23
+          },
+          {
+            "content": "then",
+            "duration": 0.2
+          },
+          {
+            "content": "I",
+            "duration": 0.27
+          },
+          {
+            "content": "get",
+            "duration": 0.21
+          },
+          {
+            "content": "a",
+            "duration": 0.24
+          },
+          {
+            "content": "little",
+            "duration": 0.44
+          },
+          {
+            "content": "bit",
+            "duration": 0.23
+          }
+        ]
+      },
+      {
+        "startAt": 38.49,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "terrified",
+            "duration": 0.92,
+            "wait": 1.0
+          },
+          {
+            "content": "andthen",
+            "duration": 0.18
+          },
+          {
+            "content": "I",
+            "duration": 0.39
+          },
+          {
+            "content": "see",
+            "duration": 0.23
+          },
+          {
+            "content": "the",
+            "duration": 0.22
+          },
+          {
+            "content": "look",
+            "duration": 0.21
+          },
+          {
+            "content": "in",
+            "duration": 0.25
+          },
+          {
+            "content": "your",
+            "duration": 0.27
+          },
+          {
+            "content": "eyes.",
+            "duration": 3.65
+          }
+        ]
+      },
+      {
+        "startAt": 44.81,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.42,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.25
+          },
+          {
+            "content": "and",
+            "duration": 0.23
+          },
+          {
+            "content": "then",
+            "duration": 0.21
+          },
+          {
+            "content": "I",
+            "duration": 0.26
+          },
+          {
+            "content": "fall",
+            "duration": 0.21
+          },
+          {
+            "content": "apart.",
+            "duration": 3.75
+          }
+        ]
+      },
+      {
+        "startAt": 50.14,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.47,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.18
+          },
+          {
+            "content": "and",
+            "duration": 0.24
+          },
+          {
+            "content": "then",
+            "duration": 0.22
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "fall",
+            "duration": 0.24
+          },
+          {
+            "content": "apart.",
+            "duration": 2.44
+          }
+        ]
+      },
+      {
+        "startAt": 54.17,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.34,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.18
+          },
+          {
+            "content": "and",
+            "duration": 0.2
+          },
+          {
+            "content": "then",
+            "duration": 0.2
+          },
+          {
+            "content": "I",
+            "duration": 0.17
+          },
+          {
+            "content": "get",
+            "duration": 0.2
+          },
+          {
+            "content": "a",
+            "duration": 0.21
+          },
+          {
+            "content": "little",
+            "duration": 0.47
+          },
+          {
+            "content": "bit",
+            "duration": 0.41
+          }
+        ]
+      },
+      {
+        "startAt": 56.56,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "restless",
+            "duration": 0.41,
+            "wait": 1.0
+          },
+          {
+            "content": "andI",
+            "duration": 0.25
+          },
+          {
+            "content": "dream",
+            "duration": 0.17
+          },
+          {
+            "content": "of",
+            "duration": 0.2
+          },
+          {
+            "content": "something",
+            "duration": 0.4
+          },
+          {
+            "content": "wild.",
+            "duration": 2.66
+          }
+        ]
+      },
+      {
+        "startAt": 60.65,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.45,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.26
+          },
+          {
+            "content": "and",
+            "duration": 0.18
+          },
+          {
+            "content": "then",
+            "duration": 0.22
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "get",
+            "duration": 0.23
+          },
+          {
+            "content": "a",
+            "duration": 0.21
+          },
+          {
+            "content": "little",
+            "duration": 0.51
+          },
+          {
+            "content": "bit",
+            "duration": 0.23
+          }
+        ]
+      },
+      {
+        "startAt": 63.17,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "helpless",
+            "duration": 0.66,
+            "wait": 1.0
+          },
+          {
+            "content": "and",
+            "duration": 0.17
+          },
+          {
+            "content": "I'm",
+            "duration": 0.25
+          },
+          {
+            "content": "lying",
+            "duration": 0.4
+          },
+          {
+            "content": "like",
+            "duration": 0.17
+          },
+          {
+            "content": "a",
+            "duration": 0.22
+          },
+          {
+            "content": "child",
+            "duration": 0.16
+          },
+          {
+            "content": "in",
+            "duration": 0.27
+          },
+          {
+            "content": "your",
+            "duration": 0.28
+          },
+          {
+            "content": "arms.",
+            "duration": 1.89
+          }
+        ]
+      },
+      {
+        "startAt": 67.65,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.2
+          },
+          {
+            "content": "and",
+            "duration": 0.24
+          },
+          {
+            "content": "then",
+            "duration": 0.19
+          },
+          {
+            "content": "I",
+            "duration": 0.26
+          },
+          {
+            "content": "get",
+            "duration": 0.25
+          },
+          {
+            "content": "a",
+            "duration": 0.25
+          },
+          {
+            "content": "little",
+            "duration": 0.43
+          },
+          {
+            "content": "bit",
+            "duration": 0.23
+          },
+          {
+            "content": "angry",
+            "duration": 0.63
+          }
+        ]
+      },
+      {
+        "startAt": 70.82,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "and",
+            "duration": 0.23,
+            "wait": 1.0
+          },
+          {
+            "content": "Iknow",
+            "duration": 0.21
+          },
+          {
+            "content": "I've",
+            "duration": 0.41
+          },
+          {
+            "content": "got",
+            "duration": 0.23
+          },
+          {
+            "content": "to",
+            "duration": 0.21
+          },
+          {
+            "content": "get",
+            "duration": 0.25
+          },
+          {
+            "content": "out",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.29
+          },
+          {
+            "content": "cry.",
+            "duration": 1.88
+          }
+        ]
+      },
+      {
+        "startAt": 74.76,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.48,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.23
+          },
+          {
+            "content": "and",
+            "duration": 0.2
+          },
+          {
+            "content": "then",
+            "duration": 0.2
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "get",
+            "duration": 0.24
+          },
+          {
+            "content": "a",
+            "duration": 0.22
+          },
+          {
+            "content": "little",
+            "duration": 0.49
+          },
+          {
+            "content": "bit",
+            "duration": 0.25
+          }
+        ]
+      },
+      {
+        "startAt": 77.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "terrified",
+            "duration": 1.02,
+            "wait": 1.0
+          },
+          {
+            "content": "butthen",
+            "duration": 0.43
+          },
+          {
+            "content": "Isee",
+            "duration": 0.19
+          },
+          {
+            "content": "the",
+            "duration": 0.22
+          },
+          {
+            "content": "look",
+            "duration": 0.25
+          },
+          {
+            "content": "in",
+            "duration": 0.22
+          },
+          {
+            "content": "your",
+            "duration": 0.31
+          },
+          {
+            "content": "eyes.",
+            "duration": 3.75
+          }
+        ]
+      },
+      {
+        "startAt": 83.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.48,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.22
+          },
+          {
+            "content": "then",
+            "duration": 0.24
+          },
+          {
+            "content": "I",
+            "duration": 0.25
+          },
+          {
+            "content": "fall",
+            "duration": 0.23
+          },
+          {
+            "content": "apart.",
+            "duration": 3.63
+          }
+        ]
+      },
+      {
+        "startAt": 88.96,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.24
+          },
+          {
+            "content": "then",
+            "duration": 0.23
+          },
+          {
+            "content": "I",
+            "duration": 0.28
+          },
+          {
+            "content": "fall",
+            "duration": 0.2
+          },
+          {
+            "content": "apart.",
+            "duration": 1.43
+          }
+        ]
+      },
+      {
+        "startAt": 92.06,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "And",
+            "duration": 0.21,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.22
+          },
+          {
+            "content": "need",
+            "duration": 0.48
+          },
+          {
+            "content": "you",
+            "duration": 0.26
+          },
+          {
+            "content": "now",
+            "duration": 0.54
+          },
+          {
+            "content": "tonight",
+            "duration": 1.88
+          },
+          {
+            "content": "and",
+            "duration": 0.2
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "need",
+            "duration": 0.44
+          },
+          {
+            "content": "you",
+            "duration": 0.28
+          },
+          {
+            "content": "more",
+            "duration": 0.49
+          },
+          {
+            "content": "than",
+            "duration": 0.21
+          },
+          {
+            "content": "ever",
+            "duration": 1.53
+          }
+        ]
+      },
+      {
+        "startAt": 99.04,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "and",
+            "duration": 0.17,
+            "wait": 1.0
+          },
+          {
+            "content": "if",
+            "duration": 0.2
+          },
+          {
+            "content": "you",
+            "duration": 0.17
+          },
+          {
+            "content": "only",
+            "duration": 0.71
+          },
+          {
+            "content": "hold",
+            "duration": 0.56
+          },
+          {
+            "content": "me",
+            "duration": 0.43
+          },
+          {
+            "content": "tight",
+            "duration": 1.42
+          },
+          {
+            "content": "we'll",
+            "duration": 0.17
+          },
+          {
+            "content": "be",
+            "duration": 0.23
+          },
+          {
+            "content": "holding",
+            "duration": 0.42
+          },
+          {
+            "content": "on",
+            "duration": 0.89
+          },
+          {
+            "content": "forever.",
+            "duration": 1.65
+          }
+        ]
+      },
+      {
+        "startAt": 106.07,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "And",
+            "duration": 0.16,
+            "wait": 1.0
+          },
+          {
+            "content": "we'll",
+            "duration": 0.15
+          },
+          {
+            "content": "only",
+            "duration": 0.47
+          },
+          {
+            "content": "be",
+            "duration": 0.22
+          },
+          {
+            "content": "making",
+            "duration": 0.83
+          },
+          {
+            "content": "it",
+            "duration": 0.36
+          },
+          {
+            "content": "right",
+            "duration": 1.47
+          },
+          {
+            "content": "'cause",
+            "duration": 0.21
+          },
+          {
+            "content": "we'll",
+            "duration": 0.22
+          },
+          {
+            "content": "never",
+            "duration": 0.42
+          },
+          {
+            "content": "be",
+            "duration": 0.26
+          },
+          {
+            "content": "wrong.",
+            "duration": 0.78
+          }
+        ]
+      },
+      {
+        "startAt": 111.61,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Together",
+            "duration": 0.68,
+            "wait": 1.0
+          },
+          {
+            "content": "we",
+            "duration": 0.18
+          },
+          {
+            "content": "can",
+            "duration": 0.23
+          },
+          {
+            "content": "take",
+            "duration": 0.24
+          },
+          {
+            "content": "it",
+            "duration": 0.21
+          },
+          {
+            "content": "to",
+            "duration": 0.2
+          },
+          {
+            "content": "the",
+            "duration": 0.24
+          },
+          {
+            "content": "end",
+            "duration": 0.43
+          },
+          {
+            "content": "of",
+            "duration": 0.23
+          },
+          {
+            "content": "the",
+            "duration": 0.23
+          },
+          {
+            "content": "line",
+            "duration": 0.73
+          }
+        ]
+      },
+      {
+        "startAt": 115.21,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Your",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "love",
+            "duration": 0.26
+          },
+          {
+            "content": "is",
+            "duration": 0.21
+          },
+          {
+            "content": "like",
+            "duration": 0.2
+          },
+          {
+            "content": "a",
+            "duration": 0.19
+          },
+          {
+            "content": "shadow",
+            "duration": 0.48
+          },
+          {
+            "content": "on",
+            "duration": 0.17
+          },
+          {
+            "content": "me",
+            "duration": 0.27
+          },
+          {
+            "content": "all",
+            "duration": 0.22
+          },
+          {
+            "content": "of",
+            "duration": 0.27
+          },
+          {
+            "content": "the",
+            "duration": 0.27
+          },
+          {
+            "content": "time",
+            "duration": 2.47
+          }
+        ]
+      },
+      {
+        "startAt": 120.43,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.25,
+            "wait": 1.0
+          },
+          {
+            "content": "don't",
+            "duration": 0.31
+          },
+          {
+            "content": "know",
+            "duration": 0.21
+          },
+          {
+            "content": "what",
+            "duration": 0.2
+          },
+          {
+            "content": "to",
+            "duration": 0.23
+          },
+          {
+            "content": "do",
+            "duration": 0.4
+          },
+          {
+            "content": "and",
+            "duration": 0.22
+          },
+          {
+            "content": "I'm",
+            "duration": 0.49
+          },
+          {
+            "content": "always",
+            "duration": 0.44
+          },
+          {
+            "content": "in",
+            "duration": 0.19
+          },
+          {
+            "content": "the",
+            "duration": 0.28
+          },
+          {
+            "content": "dark",
+            "duration": 0.38
+          }
+        ]
+      },
+      {
+        "startAt": 124.05,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "We're",
+            "duration": 0.19,
+            "wait": 1.0
+          },
+          {
+            "content": "living",
+            "duration": 0.46
+          },
+          {
+            "content": "in",
+            "duration": 0.22
+          },
+          {
+            "content": "a",
+            "duration": 0.23
+          },
+          {
+            "content": "powder",
+            "duration": 0.41
+          },
+          {
+            "content": "keg",
+            "duration": 0.18
+          },
+          {
+            "content": "and",
+            "duration": 0.22
+          },
+          {
+            "content": "giving",
+            "duration": 0.5
+          },
+          {
+            "content": "off",
+            "duration": 0.24
+          },
+          {
+            "content": "sparks",
+            "duration": 1.37
+          }
+        ]
+      },
+      {
+        "startAt": 128.07,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.22,
+            "wait": 1.0
+          },
+          {
+            "content": "really",
+            "duration": 0.37
+          },
+          {
+            "content": "need",
+            "duration": 0.27
+          },
+          {
+            "content": "you",
+            "duration": 0.17
+          },
+          {
+            "content": "tonight",
+            "duration": 1.76
+          }
+        ]
+      },
+      {
+        "startAt": 130.86,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "forever's",
+            "duration": 0.93,
+            "wait": 1.0
+          },
+          {
+            "content": "gonna",
+            "duration": 0.87
+          },
+          {
+            "content": "start",
+            "duration": 0.51
+          },
+          {
+            "content": "tonight,",
+            "duration": 1.25
+          }
+        ]
+      },
+      {
+        "startAt": 134.42,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "forever's",
+            "duration": 0.9,
+            "wait": 1.0
+          },
+          {
+            "content": "gonna",
+            "duration": 0.8
+          },
+          {
+            "content": "start",
+            "duration": 0.26
+          },
+          {
+            "content": "tonight.",
+            "duration": 0.27
+          }
+        ]
+      },
+      {
+        "startAt": 136.65,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Once",
+            "duration": 0.18,
+            "wait": 1.0
+          },
+          {
+            "content": "upon",
+            "duration": 0.4
+          },
+          {
+            "content": "a",
+            "duration": 0.25
+          },
+          {
+            "content": "time",
+            "duration": 0.42
+          },
+          {
+            "content": "I",
+            "duration": 0.25
+          },
+          {
+            "content": "was",
+            "duration": 0.21
+          },
+          {
+            "content": "falling",
+            "duration": 0.41
+          },
+          {
+            "content": "in",
+            "duration": 0.25
+          },
+          {
+            "content": "love",
+            "duration": 0.76
+          }
+        ]
+      },
+      {
+        "startAt": 139.78,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "but",
+            "duration": 0.26,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.27
+          },
+          {
+            "content": "I'm",
+            "duration": 0.21
+          },
+          {
+            "content": "only",
+            "duration": 0.44
+          },
+          {
+            "content": "falling",
+            "duration": 0.43
+          },
+          {
+            "content": "apart.",
+            "duration": 3.79
+          }
+        ]
+      },
+      {
+        "startAt": 145.18,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "There's",
+            "duration": 0.4,
+            "wait": 1.0
+          },
+          {
+            "content": "nothing",
+            "duration": 0.42
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "can",
+            "duration": 0.49
+          },
+          {
+            "content": "do,",
+            "duration": 0.18
+          }
+        ]
+      },
+      {
+        "startAt": 146.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "a",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "total",
+            "duration": 0.46
+          },
+          {
+            "content": "eclipse",
+            "duration": 0.75
+          },
+          {
+            "content": "of",
+            "duration": 0.19
+          },
+          {
+            "content": "the",
+            "duration": 0.28
+          },
+          {
+            "content": "heart.",
+            "duration": 7.19
+          }
+        ]
+      },
+      {
+        "startAt": 156.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Once",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "upon",
+            "duration": 0.38
+          },
+          {
+            "content": "a",
+            "duration": 0.23
+          },
+          {
+            "content": "time",
+            "duration": 0.44
+          },
+          {
+            "content": "there",
+            "duration": 0.18
+          },
+          {
+            "content": "was",
+            "duration": 0.22
+          },
+          {
+            "content": "light",
+            "duration": 0.24
+          },
+          {
+            "content": "in",
+            "duration": 0.22
+          },
+          {
+            "content": "my",
+            "duration": 0.25
+          },
+          {
+            "content": "life",
+            "duration": 0.85
+          }
+        ]
+      },
+      {
+        "startAt": 159.26,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "but",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.25
+          },
+          {
+            "content": "there's",
+            "duration": 0.21
+          },
+          {
+            "content": "only",
+            "duration": 0.45
+          },
+          {
+            "content": "love",
+            "duration": 0.26
+          },
+          {
+            "content": "in",
+            "duration": 0.17
+          },
+          {
+            "content": "the",
+            "duration": 0.25
+          },
+          {
+            "content": "dark.",
+            "duration": 2.0
+          }
+        ]
+      },
+      {
+        "startAt": 163.05,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Nothing",
+            "duration": 0.45,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.19
+          },
+          {
+            "content": "can",
+            "duration": 0.24
+          },
+          {
+            "content": "say,",
+            "duration": 0.45
+          },
+          {
+            "content": "a",
+            "duration": 0.2
+          },
+          {
+            "content": "total",
+            "duration": 0.47
+          },
+          {
+            "content": "eclipse",
+            "duration": 0.95
+          },
+          {
+            "content": "of",
+            "duration": 0.18
+          },
+          {
+            "content": "the",
+            "duration": 0.39
+          },
+          {
+            "content": "heart.",
+            "duration": 42.43
+          }
+        ]
+      },
+      {
+        "startAt": 209.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.48,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.22
+          },
+          {
+            "content": "then",
+            "duration": 0.24
+          },
+          {
+            "content": "I",
+            "duration": 0.25
+          },
+          {
+            "content": "fall",
+            "duration": 0.23
+          },
+          {
+            "content": "apart.",
+            "duration": 3.63
+          }
+        ]
+      },
+      {
+        "startAt": 214.27,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Every",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.24
+          },
+          {
+            "content": "then",
+            "duration": 0.23
+          },
+          {
+            "content": "I",
+            "duration": 0.28
+          },
+          {
+            "content": "fall",
+            "duration": 0.2
+          },
+          {
+            "content": "apart.",
+            "duration": 1.4
+          }
+        ]
+      },
+      {
+        "startAt": 217.33,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "And",
+            "duration": 0.19,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "need",
+            "duration": 0.44
+          },
+          {
+            "content": "you",
+            "duration": 0.19
+          },
+          {
+            "content": "now",
+            "duration": 1.14
+          },
+          {
+            "content": "tonight",
+            "duration": 1.57
+          },
+          {
+            "content": "and",
+            "duration": 0.2
+          },
+          {
+            "content": "I",
+            "duration": 0.43
+          },
+          {
+            "content": "need",
+            "duration": 0.21
+          },
+          {
+            "content": "you",
+            "duration": 0.78
+          },
+          {
+            "content": "more",
+            "duration": 0.01
+          },
+          {
+            "content": "than",
+            "duration": 0.16
+          },
+          {
+            "content": "ever",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 224.39,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "and",
+            "duration": 0.17,
+            "wait": 1.0
+          },
+          {
+            "content": "if",
+            "duration": 0.23
+          },
+          {
+            "content": "you",
+            "duration": 0.22
+          },
+          {
+            "content": "only",
+            "duration": 0.16
+          },
+          {
+            "content": "hold",
+            "duration": 0.29
+          },
+          {
+            "content": "me",
+            "duration": 0.79
+          },
+          {
+            "content": "tight",
+            "duration": 1.8
+          },
+          {
+            "content": "we'll",
+            "duration": 0.27
+          },
+          {
+            "content": "be",
+            "duration": 0.2
+          },
+          {
+            "content": "holding",
+            "duration": 0.44
+          },
+          {
+            "content": "on",
+            "duration": 0.75
+          },
+          {
+            "content": "forever.",
+            "duration": 1.68
+          }
+        ]
+      },
+      {
+        "startAt": 231.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Andwe'll",
+            "duration": 0.17,
+            "wait": 1.0
+          },
+          {
+            "content": "only",
+            "duration": 0.45
+          },
+          {
+            "content": "be",
+            "duration": 0.19
+          },
+          {
+            "content": "making",
+            "duration": 0.73
+          },
+          {
+            "content": "it",
+            "duration": 0.51
+          },
+          {
+            "content": "right",
+            "duration": 1.51
+          },
+          {
+            "content": "'cause",
+            "duration": 0.18
+          },
+          {
+            "content": "we'll",
+            "duration": 0.23
+          },
+          {
+            "content": "never",
+            "duration": 0.4
+          },
+          {
+            "content": "be",
+            "duration": 0.24
+          },
+          {
+            "content": "wrong.",
+            "duration": 0.92
+          }
+        ]
+      },
+      {
+        "startAt": 236.93,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Together",
+            "duration": 0.63,
+            "wait": 1.0
+          },
+          {
+            "content": "we",
+            "duration": 0.2
+          },
+          {
+            "content": "can",
+            "duration": 0.21
+          },
+          {
+            "content": "take",
+            "duration": 0.23
+          },
+          {
+            "content": "it",
+            "duration": 0.21
+          },
+          {
+            "content": "to",
+            "duration": 0.17
+          },
+          {
+            "content": "the",
+            "duration": 0.22
+          },
+          {
+            "content": "end",
+            "duration": 0.36
+          },
+          {
+            "content": "of",
+            "duration": 0.36
+          },
+          {
+            "content": "the",
+            "duration": 0.24
+          },
+          {
+            "content": "line",
+            "duration": 0.85
+          }
+        ]
+      },
+      {
+        "startAt": 240.61,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Your",
+            "duration": 0.06,
+            "wait": 1.0
+          },
+          {
+            "content": "love",
+            "duration": 0.02
+          },
+          {
+            "content": "is",
+            "duration": 0.17
+          },
+          {
+            "content": "like",
+            "duration": 0.23
+          },
+          {
+            "content": "a",
+            "duration": 0.22
+          },
+          {
+            "content": "shadow",
+            "duration": 0.42
+          },
+          {
+            "content": "on",
+            "duration": 0.2
+          },
+          {
+            "content": "me",
+            "duration": 0.2
+          },
+          {
+            "content": "all",
+            "duration": 0.45
+          },
+          {
+            "content": "of",
+            "duration": 0.28
+          },
+          {
+            "content": "the",
+            "duration": 0.24
+          },
+          {
+            "content": "time",
+            "duration": 2.66
+          }
+        ]
+      },
+      {
+        "startAt": 245.76,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.16,
+            "wait": 1.0
+          },
+          {
+            "content": "don't",
+            "duration": 0.27
+          },
+          {
+            "content": "know",
+            "duration": 0.19
+          },
+          {
+            "content": "what",
+            "duration": 0.21
+          },
+          {
+            "content": "to",
+            "duration": 0.19
+          },
+          {
+            "content": "do",
+            "duration": 0.5
+          },
+          {
+            "content": "andI'm",
+            "duration": 0.2
+          },
+          {
+            "content": "always",
+            "duration": 0.64
+          },
+          {
+            "content": "in",
+            "duration": 0.24
+          },
+          {
+            "content": "the",
+            "duration": 0.19
+          },
+          {
+            "content": "dark",
+            "duration": 0.79
+          }
+        ]
+      },
+      {
+        "startAt": 249.34,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "We'reliving",
+            "duration": 0.37,
+            "wait": 1.0
+          },
+          {
+            "content": "in",
+            "duration": 0.2
+          },
+          {
+            "content": "a",
+            "duration": 0.21
+          },
+          {
+            "content": "powder",
+            "duration": 0.41
+          },
+          {
+            "content": "keg",
+            "duration": 0.22
+          },
+          {
+            "content": "and",
+            "duration": 0.25
+          },
+          {
+            "content": "giving",
+            "duration": 0.51
+          },
+          {
+            "content": "off",
+            "duration": 0.45
+          },
+          {
+            "content": "sparks",
+            "duration": 1.43
+          }
+        ]
+      },
+      {
+        "startAt": 253.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "really",
+            "duration": 0.4
+          },
+          {
+            "content": "need",
+            "duration": 0.2
+          },
+          {
+            "content": "you",
+            "duration": 0.27
+          },
+          {
+            "content": "tonight",
+            "duration": 1.65
+          }
+        ]
+      },
+      {
+        "startAt": 256.13,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "forever's",
+            "duration": 0.85,
+            "wait": 1.0
+          },
+          {
+            "content": "gonna",
+            "duration": 0.88
+          },
+          {
+            "content": "start",
+            "duration": 0.69
+          },
+          {
+            "content": "tonight,",
+            "duration": 1.15
+          }
+        ]
+      },
+      {
+        "startAt": 259.71,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "forever's",
+            "duration": 0.88,
+            "wait": 1.0
+          },
+          {
+            "content": "gonna",
+            "duration": 0.85
+          },
+          {
+            "content": "start",
+            "duration": 0.2
+          },
+          {
+            "content": "tonight.",
+            "duration": 0.3
+          }
+        ]
+      },
+      {
+        "startAt": 261.94,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Once",
+            "duration": 0.18,
+            "wait": 1.0
+          },
+          {
+            "content": "upon",
+            "duration": 0.4
+          },
+          {
+            "content": "a",
+            "duration": 0.25
+          },
+          {
+            "content": "time",
+            "duration": 0.42
+          },
+          {
+            "content": "I",
+            "duration": 0.25
+          },
+          {
+            "content": "was",
+            "duration": 0.21
+          },
+          {
+            "content": "falling",
+            "duration": 0.41
+          },
+          {
+            "content": "in",
+            "duration": 0.25
+          },
+          {
+            "content": "love",
+            "duration": 0.76
+          }
+        ]
+      },
+      {
+        "startAt": 265.08,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "but",
+            "duration": 0.26,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.27
+          },
+          {
+            "content": "I'm",
+            "duration": 0.21
+          },
+          {
+            "content": "only",
+            "duration": 0.44
+          },
+          {
+            "content": "falling",
+            "duration": 0.43
+          },
+          {
+            "content": "apart.",
+            "duration": 3.79
+          }
+        ]
+      },
+      {
+        "startAt": 270.47,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "There's",
+            "duration": 0.4,
+            "wait": 1.0
+          },
+          {
+            "content": "nothing",
+            "duration": 0.42
+          },
+          {
+            "content": "I",
+            "duration": 0.23
+          },
+          {
+            "content": "can",
+            "duration": 0.49
+          },
+          {
+            "content": "do,",
+            "duration": 0.18
+          }
+        ]
+      },
+      {
+        "startAt": 272.19,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "a",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "total",
+            "duration": 0.46
+          },
+          {
+            "content": "eclipse",
+            "duration": 0.75
+          },
+          {
+            "content": "of",
+            "duration": 0.19
+          },
+          {
+            "content": "the",
+            "duration": 0.28
+          },
+          {
+            "content": "heart.",
+            "duration": 7.19
+          }
+        ]
+      },
+      {
+        "startAt": 281.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Once",
+            "duration": 0.24,
+            "wait": 1.0
+          },
+          {
+            "content": "upon",
+            "duration": 0.38
+          },
+          {
+            "content": "a",
+            "duration": 0.23
+          },
+          {
+            "content": "time",
+            "duration": 0.44
+          },
+          {
+            "content": "there",
+            "duration": 0.18
+          },
+          {
+            "content": "was",
+            "duration": 0.22
+          },
+          {
+            "content": "light",
+            "duration": 0.24
+          },
+          {
+            "content": "in",
+            "duration": 0.22
+          },
+          {
+            "content": "my",
+            "duration": 0.25
+          },
+          {
+            "content": "life",
+            "duration": 0.85
+          }
+        ]
+      },
+      {
+        "startAt": 284.55,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "but",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "now",
+            "duration": 0.25
+          },
+          {
+            "content": "there's",
+            "duration": 0.21
+          },
+          {
+            "content": "only",
+            "duration": 0.45
+          },
+          {
+            "content": "love",
+            "duration": 0.26
+          },
+          {
+            "content": "in",
+            "duration": 0.17
+          },
+          {
+            "content": "the",
+            "duration": 0.25
+          },
+          {
+            "content": "dark.",
+            "duration": 2.0
+          }
+        ]
+      }
+    ]
+  }
+}
