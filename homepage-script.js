@@ -1,5 +1,5 @@
 /* METADATA */
-const API_ENDPOINT = '/rest';
+const API_ENDPOINT = '/assets';
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const searchterms = urlParams.get("searchterms");
@@ -39,8 +39,9 @@ function fetchSearchTracks(searchTerms) {
 }
 
 function fetchFeaturedTracks() {
-    const url = `${API_ENDPOINT}/track/featured`;
+    const url = `${API_ENDPOINT}/tracks/featured.json`;
     const featuredTracks = fetch(url).then((data) => data.json());
+    // const featuredTracks
     return featuredTracks;
 }
 

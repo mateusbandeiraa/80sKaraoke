@@ -1,0 +1,2013 @@
+{
+  "trackId": 1,
+  "title": "Evidências",
+  "artist": "Chitãozinho e Xororó",
+  "year": "1989",
+  "lyrics": {
+    "lines": [
+      {
+        "startAt": 22.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "Quando",
+            "duration": 0.3
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "digo",
+            "duration": 0.4
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "deixei",
+            "duration": 0.5
+          },
+          {
+            "content": "de",
+            "duration": 0.5
+          },
+          {
+            "content": "te",
+            "duration": 0.5
+          },
+          {
+            "content": "amar",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 29.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "É",
+            "duration": 0.5,
+            "wait": 1.5
+          },
+          {
+            "content": "porque",
+            "duration": 0.5
+          },
+          {
+            "content": "eu",
+            "duration": 0.3
+          },
+          {
+            "content": "te",
+            "duration": 0.5
+          },
+          {
+            "content": "amo",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 32.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "Quando",
+            "duration": 0.25
+          },
+          {
+            "content": "eu",
+            "duration": 0.1
+          },
+          {
+            "content": "digo",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.5
+          },
+          {
+            "content": "não",
+            "duration": 0.2
+          },
+          {
+            "content": "quero",
+            "duration": 0.5
+          },
+          {
+            "content": "mais",
+            "duration": 0.5
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 38.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "É",
+            "duration": 0.5,
+            "wait": 2.0
+          },
+          {
+            "content": "porque",
+            "duration": 0.5
+          },
+          {
+            "content": "eu",
+            "duration": 0.5
+          },
+          {
+            "content": "te",
+            "duration": 0.5
+          },
+          {
+            "content": "quero",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 43.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.6,
+            "wait": 1.0
+          },
+          {
+            "content": "tenho",
+            "duration": 0.7
+          },
+          {
+            "content": "medo",
+            "duration": 0.6
+          },
+          {
+            "content": "de",
+            "duration": 0.3
+          },
+          {
+            "content": "te",
+            "duration": 0.3
+          },
+          {
+            "content": "dar",
+            "duration": 0.5
+          },
+          {
+            "content": "meu",
+            "duration": 0.5
+          },
+          {
+            "content": "coração",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 49.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "confessar",
+            "duration": 0.9
+          },
+          {
+            "content": "que",
+            "duration": 0.1
+          },
+          {
+            "content": "eu",
+            "duration": 0.1
+          },
+          {
+            "content": "estou",
+            "duration": 0.5
+          },
+          {
+            "content": "em",
+            "duration": 0.5
+          },
+          {
+            "content": "tuas",
+            "duration": 0.5
+          },
+          {
+            "content": "mãos",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 54.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "não",
+            "duration": 0.2
+          },
+          {
+            "content": "posso",
+            "duration": 0.3
+          },
+          {
+            "content": "imaginar",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 56.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "O",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "vai",
+            "duration": 0.2
+          },
+          {
+            "content": "ser",
+            "duration": 0.2
+          },
+          {
+            "content": "de",
+            "duration": 0.5
+          },
+          {
+            "content": "mim",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 58.3,
+        "remain": 0.5,
+        "words": [
+          {
+            "content": "Se",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "te",
+            "duration": 0.2
+          },
+          {
+            "content": "perder",
+            "duration": 0.9
+          },
+          {
+            "content": "um",
+            "duration": 0.4
+          },
+          {
+            "content": "dia",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 61.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "Eu",
+            "duration": 0.1
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "afasto",
+            "duration": 0.6
+          },
+          {
+            "content": "e",
+            "duration": 0.5
+          },
+          {
+            "content": "me",
+            "duration": 0.1
+          },
+          {
+            "content": "defendo",
+            "duration": 0.5
+          },
+          {
+            "content": "de",
+            "duration": 0.5
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 68.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "depois",
+            "duration": 0.5
+          },
+          {
+            "content": "me",
+            "duration": 0.2
+          },
+          {
+            "content": "entrego",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 73.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Faço",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "tipo,",
+            "duration": 0.7
+          },
+          {
+            "content": "falo",
+            "duration": 0.4
+          },
+          {
+            "content": "coisas",
+            "duration": 0.6
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "sou",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 77.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "depois",
+            "duration": 0.8
+          },
+          {
+            "content": "eu",
+            "duration": 0.3
+          },
+          {
+            "content": "nego",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 81.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "a",
+            "duration": 0.4
+          },
+          {
+            "content": "verdade",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 83.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "É",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "sou",
+            "duration": 0.2
+          },
+          {
+            "content": "louco",
+            "duration": 0.3
+          },
+          {
+            "content": "por",
+            "duration": 0.3
+          },
+          {
+            "content": "você",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 87.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "tenho",
+            "duration": 0.3
+          },
+          {
+            "content": "medo",
+            "duration": 0.6
+          },
+          {
+            "content": "de",
+            "duration": 0.3
+          },
+          {
+            "content": "pensar",
+            "duration": 0.5
+          },
+          {
+            "content": "em",
+            "duration": 0.3
+          },
+          {
+            "content": "te",
+            "duration": 0.5
+          },
+          {
+            "content": "perder",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 92.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "preciso",
+            "duration": 0.6
+          },
+          {
+            "content": "aceitar",
+            "duration": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.25
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "dá",
+            "duration": 0.3
+          },
+          {
+            "content": "mais",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 95.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Pra",
+            "duration": 0.25,
+            "wait": 1.0
+          },
+          {
+            "content": "separar",
+            "duration": 0.7
+          },
+          {
+            "content": "as",
+            "duration": 0.2
+          },
+          {
+            "content": "nossas",
+            "duration": 1.1
+          },
+          {
+            "content": "vidas",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 99.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "E",
+            "duration": 0.3
+          },
+          {
+            "content": "nessa",
+            "duration": 0.4
+          },
+          {
+            "content": "loucura",
+            "duration": 0.9
+          },
+          {
+            "content": "de",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "dizer",
+            "duration": 0.4
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "te",
+            "duration": 0.3
+          },
+          {
+            "content": "quero",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 106.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Vou",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "negando",
+            "duration": 0.7
+          },
+          {
+            "content": "as",
+            "duration": 0.2
+          },
+          {
+            "content": "aparências",
+            "duration": 1.15
+          }
+        ]
+      },
+      {
+        "startAt": 109.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Disfarçando",
+            "duration": 0.8,
+            "wait": 1.0
+          },
+          {
+            "content": "as",
+            "duration": 0.3
+          },
+          {
+            "content": "evidências",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 111.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "pra",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "viver",
+            "duration": 0.3
+          },
+          {
+            "content": "fingindo",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 113.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Se",
+            "duration": 0.1,
+            "wait": 1.0
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "posso",
+            "duration": 0.5
+          },
+          {
+            "content": "enganar",
+            "duration": 1.1
+          },
+          {
+            "content": "meu",
+            "duration": 0.3
+          },
+          {
+            "content": "coração?",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 118.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "sei",
+            "duration": 0.4
+          },
+          {
+            "content": "que",
+            "duration": 0.2,
+            "wait": 0.1
+          },
+          {
+            "content": "te",
+            "duration": 0.3
+          },
+          {
+            "content": "amo!",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 121.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Chega",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "de",
+            "duration": 0.1
+          },
+          {
+            "content": "mentiras",
+            "duration": 1.1
+          }
+        ]
+      },
+      {
+        "startAt": 123.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "De",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "negar",
+            "duration": 0.3
+          },
+          {
+            "content": "o",
+            "duration": 0.2
+          },
+          {
+            "content": "meu",
+            "duration": 0.3
+          },
+          {
+            "content": "desejo",
+            "duration": 1.1
+          }
+        ]
+      },
+      {
+        "startAt": 125.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.2
+          },
+          {
+            "content": "quero",
+            "duration": 0.5
+          },
+          {
+            "content": "mais",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "tudo",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 128.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "preciso",
+            "duration": 0.6,
+            "wait": 0.1
+          },
+          {
+            "content": "do",
+            "duration": 0.3
+          },
+          {
+            "content": "seu",
+            "duration": 0.3,
+            "wait": 0.1
+          },
+          {
+            "content": "beijo",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 130.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "entrego",
+            "duration": 0.5
+          },
+          {
+            "content": "a",
+            "duration": 0.2
+          },
+          {
+            "content": "minha",
+            "duration": 0.4
+          },
+          {
+            "content": "vida",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 132.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Pra",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 0.4
+          },
+          {
+            "content": "fazer",
+            "duration": 0.4
+          },
+          {
+            "content": "o",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "quiser",
+            "duration": 0.8
+          },
+          {
+            "content": "de",
+            "duration": 0.3
+          },
+          {
+            "content": "mim",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 137.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Só",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "quero",
+            "duration": 0.6
+          },
+          {
+            "content": "ouvir",
+            "duration": 0.3
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          },
+          {
+            "content": "dizer",
+            "duration": 0.6
+          },
+          {
+            "content": "que",
+            "duration": 0.4
+          },
+          {
+            "content": "sim!",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 141.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Diz",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "é",
+            "duration": 0.2
+          },
+          {
+            "content": "verdade,",
+            "duration": 1.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "tem",
+            "duration": 0.3
+          },
+          {
+            "content": "saudade",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 147.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Que",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "ainda",
+            "duration": 0.4
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          },
+          {
+            "content": "pensa",
+            "duration": 0.7
+          },
+          {
+            "content": "muito",
+            "duration": 0.6
+          },
+          {
+            "content": "em",
+            "duration": 0.3
+          },
+          {
+            "content": "mim",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 151.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Diz",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "é",
+            "duration": 0.2
+          },
+          {
+            "content": "verdade,",
+            "duration": 1.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "tem",
+            "duration": 0.3
+          },
+          {
+            "content": "saudade",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 156.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Que",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "ainda",
+            "duration": 0.5
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          },
+          {
+            "content": "quer",
+            "duration": 0.6
+          },
+          {
+            "content": "viver",
+            "duration": 0.6
+          },
+          {
+            "content": "pra",
+            "duration": 0.4
+          },
+          {
+            "content": "mim",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 170.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "Eu",
+            "duration": 0.1
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "afasto",
+            "duration": 0.6
+          },
+          {
+            "content": "e",
+            "duration": 0.5
+          },
+          {
+            "content": "me",
+            "duration": 0.1
+          },
+          {
+            "content": "defendo",
+            "duration": 0.5
+          },
+          {
+            "content": "de",
+            "duration": 0.5
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 177.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "depois",
+            "duration": 0.5
+          },
+          {
+            "content": "me",
+            "duration": 0.2
+          },
+          {
+            "content": "entrego",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 178.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "Faço",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "tipo,",
+            "duration": 0.7
+          },
+          {
+            "content": "falo",
+            "duration": 0.4
+          },
+          {
+            "content": "coisas",
+            "duration": 0.6
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "sou",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 186.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "depois",
+            "duration": 0.8
+          },
+          {
+            "content": "eu",
+            "duration": 0.3
+          },
+          {
+            "content": "nego",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 191.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "a",
+            "duration": 0.4
+          },
+          {
+            "content": "verdade",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 193.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "É",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "sou",
+            "duration": 0.2
+          },
+          {
+            "content": "louco",
+            "duration": 0.3
+          },
+          {
+            "content": "por",
+            "duration": 0.3
+          },
+          {
+            "content": "você",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 196.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "E",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "tenho",
+            "duration": 0.3
+          },
+          {
+            "content": "medo",
+            "duration": 0.6
+          },
+          {
+            "content": "de",
+            "duration": 0.3
+          },
+          {
+            "content": "pensar",
+            "duration": 0.5
+          },
+          {
+            "content": "em",
+            "duration": 0.3
+          },
+          {
+            "content": "te",
+            "duration": 0.5
+          },
+          {
+            "content": "perder",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 201.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "preciso",
+            "duration": 0.6
+          },
+          {
+            "content": "aceitar",
+            "duration": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.25
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "dá",
+            "duration": 0.3
+          },
+          {
+            "content": "mais",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 205.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Pra",
+            "duration": 0.25,
+            "wait": 1.0
+          },
+          {
+            "content": "separar",
+            "duration": 0.7
+          },
+          {
+            "content": "as",
+            "duration": 0.2
+          },
+          {
+            "content": "nossas",
+            "duration": 1.1
+          },
+          {
+            "content": "vidas",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 208.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "E",
+            "duration": 0.3
+          },
+          {
+            "content": "nessa",
+            "duration": 0.4
+          },
+          {
+            "content": "loucura",
+            "duration": 0.9
+          },
+          {
+            "content": "de",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "dizer",
+            "duration": 0.4
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "te",
+            "duration": 0.3
+          },
+          {
+            "content": "quero",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 216.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Vou",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "negando",
+            "duration": 0.7
+          },
+          {
+            "content": "as",
+            "duration": 0.2
+          },
+          {
+            "content": "aparências",
+            "duration": 1.15
+          }
+        ]
+      },
+      {
+        "startAt": 218.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Disfarçando",
+            "duration": 0.8,
+            "wait": 1.0
+          },
+          {
+            "content": "as",
+            "duration": 0.3
+          },
+          {
+            "content": "evidências",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 220.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Mas",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "pra",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "viver",
+            "duration": 0.3
+          },
+          {
+            "content": "fingindo",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 223.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Se",
+            "duration": 0.1,
+            "wait": 1.0
+          },
+          {
+            "content": "eu",
+            "duration": 0.2
+          },
+          {
+            "content": "não",
+            "duration": 0.3
+          },
+          {
+            "content": "posso",
+            "duration": 0.5
+          },
+          {
+            "content": "enganar",
+            "duration": 1.1
+          },
+          {
+            "content": "meu",
+            "duration": 0.3
+          },
+          {
+            "content": "coração?",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 228.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "sei",
+            "duration": 0.4
+          },
+          {
+            "content": "que",
+            "duration": 0.2,
+            "wait": 0.1
+          },
+          {
+            "content": "te",
+            "duration": 0.3
+          },
+          {
+            "content": "amo!",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 230.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Chega",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "de",
+            "duration": 0.1
+          },
+          {
+            "content": "mentiras",
+            "duration": 1.1
+          }
+        ]
+      },
+      {
+        "startAt": 232.9,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "De",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "negar",
+            "duration": 0.3
+          },
+          {
+            "content": "o",
+            "duration": 0.2
+          },
+          {
+            "content": "meu",
+            "duration": 0.3
+          },
+          {
+            "content": "desejo",
+            "duration": 1.1
+          }
+        ]
+      },
+      {
+        "startAt": 234.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "te",
+            "duration": 0.2
+          },
+          {
+            "content": "quero",
+            "duration": 0.5
+          },
+          {
+            "content": "mais",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "tudo",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 237.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "preciso",
+            "duration": 0.6,
+            "wait": 0.1
+          },
+          {
+            "content": "do",
+            "duration": 0.3
+          },
+          {
+            "content": "seu",
+            "duration": 0.3,
+            "wait": 0.1
+          },
+          {
+            "content": "beijo",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 239.1,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Eu",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "entrego",
+            "duration": 0.5
+          },
+          {
+            "content": "a",
+            "duration": 0.2
+          },
+          {
+            "content": "minha",
+            "duration": 0.4
+          },
+          {
+            "content": "vida",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 242.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Pra",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "você",
+            "duration": 0.4
+          },
+          {
+            "content": "fazer",
+            "duration": 0.4
+          },
+          {
+            "content": "o",
+            "duration": 0.2
+          },
+          {
+            "content": "que",
+            "duration": 0.2
+          },
+          {
+            "content": "quiser",
+            "duration": 0.8
+          },
+          {
+            "content": "de",
+            "duration": 0.3
+          },
+          {
+            "content": "mim",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 247.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Só",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "quero",
+            "duration": 0.6
+          },
+          {
+            "content": "ouvir",
+            "duration": 0.3
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          },
+          {
+            "content": "dizer",
+            "duration": 0.6
+          },
+          {
+            "content": "que",
+            "duration": 0.4
+          },
+          {
+            "content": "sim!",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 251.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Diz",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "é",
+            "duration": 0.2
+          },
+          {
+            "content": "verdade,",
+            "duration": 1.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "tem",
+            "duration": 0.3
+          },
+          {
+            "content": "saudade",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 256.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Que",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "ainda",
+            "duration": 0.4
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          },
+          {
+            "content": "pensa",
+            "duration": 0.7
+          },
+          {
+            "content": "muito",
+            "duration": 0.6
+          },
+          {
+            "content": "em",
+            "duration": 0.3
+          },
+          {
+            "content": "mim",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 260.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Diz",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "é",
+            "duration": 0.2
+          },
+          {
+            "content": "verdade,",
+            "duration": 1.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "tem",
+            "duration": 0.3
+          },
+          {
+            "content": "saudade",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 266.2,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Que",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "ainda",
+            "duration": 0.4
+          },
+          {
+            "content": "você",
+            "duration": 0.5
+          },
+          {
+            "content": "pensa",
+            "duration": 0.7
+          },
+          {
+            "content": "muito",
+            "duration": 0.6
+          },
+          {
+            "content": "em",
+            "duration": 0.3
+          },
+          {
+            "content": "mim",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 270.1,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Diz",
+            "duration": 0.2,
+            "wait": 1.0
+          },
+          {
+            "content": "que",
+            "duration": 0.3
+          },
+          {
+            "content": "é",
+            "duration": 0.2
+          },
+          {
+            "content": "verdade,",
+            "duration": 1.2
+          },
+          {
+            "content": "que",
+            "duration": 0.3,
+            "wait": 0.4
+          },
+          {
+            "content": "tem",
+            "duration": 0.3
+          },
+          {
+            "content": "saudade",
+            "duration": 1.3
+          }
+        ]
+      },
+      {
+        "startAt": 275.7,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Que",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "ainda",
+            "duration": 0.7
+          },
+          {
+            "content": "você",
+            "duration": 0.7
+          },
+          {
+            "content": "quer",
+            "duration": 1.9
+          },
+          {
+            "content": "viver",
+            "duration": 1.5
+          },
+          {
+            "content": "pra",
+            "duration": 1.0
+          },
+          {
+            "content": "mim",
+            "duration": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

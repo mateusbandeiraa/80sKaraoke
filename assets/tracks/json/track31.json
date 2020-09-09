@@ -1,0 +1,1008 @@
+{
+  "trackId": 31,
+  "title": "TAKE ON ME",
+  "artist": "Ah Ha",
+  "year": "1985",
+  "lyrics": {
+    "lines": [
+      {
+        "startAt": 29.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "We're",
+            "duration": 0.3
+          },
+          {
+            "content": "talking",
+            "duration": 0.8,
+            "wait": 0.1
+          },
+          {
+            "content": "away",
+            "duration": 0.3,
+            "wait": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 36.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.1,
+            "wait": 1.0
+          },
+          {
+            "content": "don't",
+            "duration": 0.36
+          },
+          {
+            "content": "know",
+            "duration": 0.36
+          },
+          {
+            "content": "what",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 37.42,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'm",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "to",
+            "duration": 0.18
+          },
+          {
+            "content": "say",
+            "duration": 0.36
+          },
+          {
+            "content": "I'll",
+            "duration": 0.36
+          },
+          {
+            "content": "say",
+            "duration": 0.53
+          },
+          {
+            "content": "it",
+            "duration": 0.18
+          },
+          {
+            "content": "anyway",
+            "duration": 0.8
+          }
+        ]
+      },
+      {
+        "startAt": 41.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Today's",
+            "duration": 0.4,
+            "wait": 1.0
+          },
+          {
+            "content": "another",
+            "duration": 1.2
+          },
+          {
+            "content": "day",
+            "duration": 0.4
+          },
+          {
+            "content": "to",
+            "duration": 0.18,
+            "wait": 0.1
+          },
+          {
+            "content": "find",
+            "duration": 0.36
+          },
+          {
+            "content": "you",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 45.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Shying",
+            "duration": 0.6,
+            "wait": 1.0
+          },
+          {
+            "content": "away",
+            "duration": 0.2
+          }
+        ]
+      },
+      {
+        "startAt": 47.39,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'll",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "be",
+            "duration": 0.18
+          },
+          {
+            "content": "coming",
+            "duration": 0.36
+          },
+          {
+            "content": "for",
+            "duration": 0.17
+          },
+          {
+            "content": "your",
+            "duration": 0.18
+          },
+          {
+            "content": "love,",
+            "duration": 0.53
+          },
+          {
+            "content": "OK?",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 50.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 1.42
+          },
+          {
+            "content": "me,",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 54.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.5
+          },
+          {
+            "content": "me)",
+            "duration": 0.2
+          }
+        ]
+      },
+      {
+        "startAt": 55.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 1.42
+          },
+          {
+            "content": "on",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 60.21,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.44
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 61.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'll",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "be",
+            "duration": 1.42
+          },
+          {
+            "content": "gone",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 65.91,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "In",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "a",
+            "duration": 0.36
+          },
+          {
+            "content": "day",
+            "duration": 0.17
+          },
+          {
+            "content": "or",
+            "duration": 0.36
+          },
+          {
+            "content": "two",
+            "duration": 1.0,
+            "wait": 0.2
+          }
+        ]
+      },
+      {
+        "startAt": 73.03,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "So",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "needless",
+            "duration": 0.36
+          },
+          {
+            "content": "to",
+            "duration": 0.18
+          },
+          {
+            "content": "say",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 75.53,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'm",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "odds",
+            "duration": 0.36
+          },
+          {
+            "content": "and",
+            "duration": 0.36
+          },
+          {
+            "content": "ends",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 77.31,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "But",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "that's",
+            "duration": 0.18
+          },
+          {
+            "content": "me",
+            "duration": 0.36
+          },
+          {
+            "content": "that",
+            "duration": 0.36
+          },
+          {
+            "content": "stumbling",
+            "duration": 0.89
+          },
+          {
+            "content": "away",
+            "duration": 0.36
+          }
+        ]
+      },
+      {
+        "startAt": 81.57,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Slowly",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "learning",
+            "duration": 0.71
+          },
+          {
+            "content": "that",
+            "duration": 0.36
+          },
+          {
+            "content": "life",
+            "duration": 0.36
+          },
+          {
+            "content": "is",
+            "duration": 0.18
+          },
+          {
+            "content": "OK.",
+            "duration": 0.36
+          }
+        ]
+      },
+      {
+        "startAt": 84.79,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Say",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "after",
+            "duration": 0.35
+          },
+          {
+            "content": "me",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 87.28,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "It's",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "no",
+            "duration": 0.18
+          },
+          {
+            "content": "better",
+            "duration": 0.36
+          },
+          {
+            "content": "to",
+            "duration": 0.18
+          },
+          {
+            "content": "be",
+            "duration": 0.17
+          },
+          {
+            "content": "safe",
+            "duration": 0.18
+          },
+          {
+            "content": "than",
+            "duration": 0.36
+          },
+          {
+            "content": "sorry",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 90.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 1.42
+          },
+          {
+            "content": "me,",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 94.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.44
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 95.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 1.42
+          },
+          {
+            "content": "on",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 100.1,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.44
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 101.41,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'll",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "be",
+            "duration": 1.42
+          },
+          {
+            "content": "gone",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 105.79,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "In",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "a",
+            "duration": 0.36
+          },
+          {
+            "content": "day",
+            "duration": 0.17
+          },
+          {
+            "content": "or",
+            "duration": 0.36
+          },
+          {
+            "content": "two",
+            "duration": 1.2,
+            "wait": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 149.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "...",
+            "duration": 3.0,
+            "wait": 1.0
+          },
+          {
+            "content": "Oh",
+            "duration": 0.3
+          },
+          {
+            "content": "things",
+            "duration": 0.4
+          },
+          {
+            "content": "that",
+            "duration": 0.36,
+            "wait": 0.1
+          },
+          {
+            "content": "you",
+            "duration": 0.18
+          },
+          {
+            "content": "say",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 155.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Is",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "it",
+            "duration": 0.36
+          },
+          {
+            "content": "live",
+            "duration": 0.36
+          },
+          {
+            "content": "or",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 157.08,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Just",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "to",
+            "duration": 0.18
+          },
+          {
+            "content": "play",
+            "duration": 0.36
+          },
+          {
+            "content": "my",
+            "duration": 0.36
+          },
+          {
+            "content": "worries",
+            "duration": 0.71
+          },
+          {
+            "content": "away",
+            "duration": 0.54,
+            "wait": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 161.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "You're",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "all",
+            "duration": 0.36
+          },
+          {
+            "content": "the",
+            "duration": 0.36
+          },
+          {
+            "content": "things",
+            "duration": 0.36
+          },
+          {
+            "content": "I've",
+            "duration": 0.36
+          },
+          {
+            "content": "got",
+            "duration": 0.36
+          },
+          {
+            "content": "to",
+            "duration": 0.18
+          },
+          {
+            "content": "remember",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 164.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Shying",
+            "duration": 0.8,
+            "wait": 1.0
+          },
+          {
+            "content": "away",
+            "duration": 0.4,
+            "wait": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 167.05,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'll",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "be",
+            "duration": 0.2
+          },
+          {
+            "content": "coming",
+            "duration": 0.36
+          },
+          {
+            "content": "for",
+            "duration": 0.18
+          },
+          {
+            "content": "you",
+            "duration": 0.18
+          },
+          {
+            "content": "anyway",
+            "duration": 1.0,
+            "wait": 0.2
+          }
+        ]
+      },
+      {
+        "startAt": 169.8,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 1.42,
+            "wait": 0.1
+          },
+          {
+            "content": "me,",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 174.17,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.44
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 175.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 1.42
+          },
+          {
+            "content": "on",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 179.86,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.45
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 181.0,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'll",
+            "duration": 1.0,
+            "wait": 1.0
+          },
+          {
+            "content": "be",
+            "duration": 1.6,
+            "wait": 0.1
+          },
+          {
+            "content": "gone",
+            "duration": 1.0,
+            "wait": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 185.56,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "In",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "a",
+            "duration": 0.36
+          },
+          {
+            "content": "day",
+            "duration": 0.18
+          },
+          {
+            "content": "or",
+            "duration": 0.3
+          },
+          {
+            "content": "two",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 187.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 0.7,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 1.42
+          },
+          {
+            "content": "me,",
+            "duration": 0.4
+          }
+        ]
+      },
+      {
+        "startAt": 191.27,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.54
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 192.5,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Take",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 1.42
+          },
+          {
+            "content": "on",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 196.97,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "(Take",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "on",
+            "duration": 0.45
+          },
+          {
+            "content": "me)",
+            "duration": 0.1
+          }
+        ]
+      },
+      {
+        "startAt": 198.28,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I'll",
+            "duration": 1.4,
+            "wait": 1.0
+          },
+          {
+            "content": "be",
+            "duration": 1.42
+          },
+          {
+            "content": "gone",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 202.66,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "In",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "a",
+            "duration": 0.36
+          },
+          {
+            "content": "day",
+            "duration": 0.18
+          },
+          {
+            "content": "or",
+            "duration": 0.36
+          },
+          {
+            "content": "two",
+            "duration": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

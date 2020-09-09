@@ -1,5 +1,5 @@
 /* METADATA */
-const API_ENDPOINT = '/rest';
+const API_ENDPOINT = '/assets';
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const urlTrackId = urlParams.get("trackid");
@@ -253,11 +253,11 @@ function removeOutOfSyncLines(timecode) {
 /* HELPER METHODS */
 
 function fetchTrack(trackId) {
-    return fetch(`${API_ENDPOINT}/track/${trackId}`).then((response) => response.json());
+    return fetch(`${API_ENDPOINT}/tracks/json/track${trackId}.json`).then((response) => response.json());
 }
 
 function fetchTrackAudio(trackId) {
-    let trackPlayer = new Howl({ src: [`${API_ENDPOINT}/track/${trackId}/audio`], format: ['mp3'] });
+    let trackPlayer = new Howl({ src: [`${API_ENDPOINT}/tracks/audio/track${trackId}.mp3`]});
     let promise = new Promise(function (resolve, reject) {
         trackPlayer.once('load', () => {
             resolve(trackPlayer);

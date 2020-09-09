@@ -1,0 +1,1372 @@
+{
+  "trackId": 41,
+  "title": "I Want It That Way",
+  "artist": "Backstreet Boys",
+  "year": "1999",
+  "lyrics": {
+    "lines": [
+      {
+        "startAt": 1.9299998,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Yeah-eh-yeah",
+            "duration": 1.5,
+            "wait": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 8.01,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "You",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "are,",
+            "duration": 1.5
+          },
+          {
+            "content": "my",
+            "duration": 0.57,
+            "wait": 0.5
+          },
+          {
+            "content": "fire,",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 12.88,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "The",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "one,",
+            "duration": 1.5
+          },
+          {
+            "content": "desire,",
+            "duration": 2.0,
+            "wait": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 17.66,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Believe,",
+            "duration": 1.5,
+            "wait": 1.0
+          },
+          {
+            "content": "when",
+            "duration": 0.61,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.8
+          },
+          {
+            "content": "say",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 23.18,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.5,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.94,
+            "wait": 0.4
+          },
+          {
+            "content": "it",
+            "duration": 0.57
+          },
+          {
+            "content": "that",
+            "duration": 0.9
+          },
+          {
+            "content": "way",
+            "duration": 0.92
+          }
+        ]
+      },
+      {
+        "startAt": 27.4,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "But",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "we,",
+            "duration": 0.5
+          },
+          {
+            "content": "are",
+            "duration": 0.57,
+            "wait": 1.5
+          },
+          {
+            "content": "two",
+            "duration": 0.93
+          },
+          {
+            "content": "worlds",
+            "duration": 0.92
+          },
+          {
+            "content": "apart,",
+            "duration": 1.0
+          }
+        ]
+      },
+      {
+        "startAt": 34.69,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Can't",
+            "duration": 0.62,
+            "wait": 1.0
+          },
+          {
+            "content": "reach",
+            "duration": 0.56
+          },
+          {
+            "content": "to",
+            "duration": 0.8
+          },
+          {
+            "content": "your",
+            "duration": 0.34,
+            "wait": 0.4
+          },
+          {
+            "content": "heart,",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 39.53,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "When",
+            "duration": 0.61,
+            "wait": 1.0
+          },
+          {
+            "content": "you",
+            "duration": 0.91
+          },
+          {
+            "content": "say,",
+            "duration": 1.21
+          }
+        ]
+      },
+      {
+        "startAt": 42.26,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "That",
+            "duration": 0.32,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.6
+          },
+          {
+            "content": "want",
+            "duration": 0.94,
+            "wait": 0.3
+          },
+          {
+            "content": "it",
+            "duration": 0.57
+          },
+          {
+            "content": "that",
+            "duration": 0.9
+          },
+          {
+            "content": "way",
+            "duration": 0.93
+          }
+        ]
+      },
+      {
+        "startAt": 46.81,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.28,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.32
+          },
+          {
+            "content": "why,",
+            "duration": 0.61
+          }
+        ]
+      },
+      {
+        "startAt": 48.02,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.64,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.6
+          },
+          {
+            "content": "but",
+            "duration": 0.28
+          },
+          {
+            "content": "a",
+            "duration": 0.3
+          },
+          {
+            "content": "heartache,",
+            "duration": 1.81
+          }
+        ]
+      },
+      {
+        "startAt": 51.65,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.62
+          }
+        ]
+      },
+      {
+        "startAt": 52.86,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.62,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.59
+          },
+          {
+            "content": "but",
+            "duration": 0.29
+          },
+          {
+            "content": "a",
+            "duration": 0.32
+          },
+          {
+            "content": "mistake,",
+            "duration": 1.83
+          }
+        ]
+      },
+      {
+        "startAt": 56.51,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 57.71,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.57,
+            "wait": 1.0
+          },
+          {
+            "content": "never",
+            "duration": 0.64
+          },
+          {
+            "content": "wanna",
+            "duration": 0.61
+          },
+          {
+            "content": "hear",
+            "duration": 0.59
+          },
+          {
+            "content": "you",
+            "duration": 0.32
+          },
+          {
+            "content": "say,",
+            "duration": 1.52
+          }
+        ]
+      },
+      {
+        "startAt": 61.949997,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.9,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.93
+          },
+          {
+            "content": "it",
+            "duration": 0.59
+          },
+          {
+            "content": "that",
+            "duration": 0.92
+          },
+          {
+            "content": "way",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 66.19,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Am",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "I,",
+            "duration": 2.16
+          },
+          {
+            "content": "your",
+            "duration": 0.57
+          },
+          {
+            "content": "fire?",
+            "duration": 1.84
+          }
+        ]
+      },
+      {
+        "startAt": 71.06,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Your",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "one,",
+            "duration": 2.12
+          },
+          {
+            "content": "desire,",
+            "duration": 2.1
+          }
+        ]
+      },
+      {
+        "startAt": 75.58,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Yes",
+            "duration": 0.27,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.34
+          },
+          {
+            "content": "know,",
+            "duration": 2.13
+          },
+          {
+            "content": "it's",
+            "duration": 0.61
+          },
+          {
+            "content": "too",
+            "duration": 0.91
+          },
+          {
+            "content": "late,",
+            "duration": 1.21
+          }
+        ]
+      },
+      {
+        "startAt": 81.05,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "But",
+            "duration": 0.32,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.9
+          },
+          {
+            "content": "want",
+            "duration": 0.94
+          },
+          {
+            "content": "it",
+            "duration": 0.57
+          },
+          {
+            "content": "that",
+            "duration": 0.9
+          },
+          {
+            "content": "way",
+            "duration": 0.93
+          }
+        ]
+      },
+      {
+        "startAt": 85.6,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.28,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.32
+          },
+          {
+            "content": "why,",
+            "duration": 0.61
+          }
+        ]
+      },
+      {
+        "startAt": 86.81,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.64,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.6
+          },
+          {
+            "content": "but",
+            "duration": 0.28
+          },
+          {
+            "content": "a",
+            "duration": 0.3
+          },
+          {
+            "content": "heartache,",
+            "duration": 1.81
+          }
+        ]
+      },
+      {
+        "startAt": 90.43,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.62
+          }
+        ]
+      },
+      {
+        "startAt": 91.65,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.62,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.59
+          },
+          {
+            "content": "but",
+            "duration": 0.29
+          },
+          {
+            "content": "a",
+            "duration": 0.32
+          },
+          {
+            "content": "mistake,",
+            "duration": 1.83
+          }
+        ]
+      },
+      {
+        "startAt": 95.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 96.49,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.57,
+            "wait": 1.0
+          },
+          {
+            "content": "never",
+            "duration": 0.64
+          },
+          {
+            "content": "wanna",
+            "duration": 0.61
+          },
+          {
+            "content": "hear",
+            "duration": 0.59
+          },
+          {
+            "content": "you",
+            "duration": 0.32
+          },
+          {
+            "content": "say,",
+            "duration": 1.52
+          }
+        ]
+      },
+      {
+        "startAt": 100.74,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.9,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.93
+          },
+          {
+            "content": "it",
+            "duration": 0.59
+          },
+          {
+            "content": "that",
+            "duration": 0.92
+          },
+          {
+            "content": "way",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "startAt": 105.58,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Now",
+            "duration": 0.33,
+            "wait": 1.0
+          },
+          {
+            "content": "I",
+            "duration": 0.29
+          },
+          {
+            "content": "can",
+            "duration": 0.32
+          },
+          {
+            "content": "see",
+            "duration": 0.58
+          },
+          {
+            "content": "that",
+            "duration": 0.31
+          },
+          {
+            "content": "we've",
+            "duration": 0.3
+          },
+          {
+            "content": "fallen",
+            "duration": 0.92
+          },
+          {
+            "content": "apart,",
+            "duration": 0.5
+          }
+        ]
+      },
+      {
+        "startAt": 110.15,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "From",
+            "duration": 0.29,
+            "wait": 1.0
+          },
+          {
+            "content": "the",
+            "duration": 0.3
+          },
+          {
+            "content": "way",
+            "duration": 0.33
+          },
+          {
+            "content": "that",
+            "duration": 0.29
+          },
+          {
+            "content": "it",
+            "duration": 0.59
+          },
+          {
+            "content": "used",
+            "duration": 0.32
+          },
+          {
+            "content": "to",
+            "duration": 0.3
+          },
+          {
+            "content": "be,",
+            "duration": 0.88
+          },
+          {
+            "content": "Yeah,",
+            "duration": 1.54
+          }
+        ]
+      },
+      {
+        "startAt": 114.98,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "No",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "matter",
+            "duration": 0.62
+          },
+          {
+            "content": "the",
+            "duration": 0.32
+          },
+          {
+            "content": "distance,",
+            "duration": 1.19
+          }
+        ]
+      },
+      {
+        "startAt": 117.41,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.3
+          },
+          {
+            "content": "you",
+            "duration": 0.3
+          },
+          {
+            "content": "to",
+            "duration": 0.31
+          },
+          {
+            "content": "know,",
+            "duration": 1.21
+          }
+        ]
+      },
+      {
+        "startAt": 119.84,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "That",
+            "duration": 0.31,
+            "wait": 1.0
+          },
+          {
+            "content": "deep",
+            "duration": 0.29
+          },
+          {
+            "content": "down",
+            "duration": 0.32
+          },
+          {
+            "content": "inside",
+            "duration": 1.21
+          },
+          {
+            "content": "of",
+            "duration": 0.3
+          },
+          {
+            "content": "me...",
+            "duration": 2.1
+          }
+        ]
+      },
+      {
+        "startAt": 124.37,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "You",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "are,",
+            "duration": 2.16
+          },
+          {
+            "content": "my",
+            "duration": 0.57
+          },
+          {
+            "content": "fire,",
+            "duration": 1.84
+          }
+        ]
+      },
+      {
+        "startAt": 129.24,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "The",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "one,",
+            "duration": 2.12
+          },
+          {
+            "content": "desire,",
+            "duration": 2.36
+          }
+        ]
+      },
+      {
+        "startAt": 134.03,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "You",
+            "duration": 0.34,
+            "wait": 1.0
+          },
+          {
+            "content": "are",
+            "duration": 0.92
+          },
+          {
+            "content": "(You",
+            "duration": 0.3
+          },
+          {
+            "content": "are,",
+            "duration": 0.91
+          },
+          {
+            "content": "You",
+            "duration": 0.3
+          },
+          {
+            "content": "are,",
+            "duration": 0.91
+          },
+          {
+            "content": "You",
+            "duration": 0.3
+          },
+          {
+            "content": "are...)",
+            "duration": 4.23
+          }
+        ]
+      },
+      {
+        "startAt": 142.24,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Don't",
+            "duration": 0.31,
+            "wait": 1.0
+          },
+          {
+            "content": "wanna",
+            "duration": 0.62
+          },
+          {
+            "content": "hear",
+            "duration": 0.59
+          },
+          {
+            "content": "you",
+            "duration": 0.61
+          },
+          {
+            "content": "say,",
+            "duration": 0.92
+          }
+        ]
+      },
+      {
+        "startAt": 145.3,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.61,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.59
+          },
+          {
+            "content": "but",
+            "duration": 0.15
+          },
+          {
+            "content": "a",
+            "duration": 0.16
+          },
+          {
+            "content": "heartache,",
+            "duration": 2.42
+          }
+        ]
+      },
+      {
+        "startAt": 149.23,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.92,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.91
+          },
+          {
+            "content": "but",
+            "duration": 0.29
+          },
+          {
+            "content": "a",
+            "duration": 0.32
+          },
+          {
+            "content": "mistake,",
+            "duration": 2.46
+          }
+        ]
+      },
+      {
+        "startAt": 154.12,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.87,
+            "wait": 1.0
+          },
+          {
+            "content": "never",
+            "duration": 0.91
+          },
+          {
+            "content": "wanna",
+            "duration": 0.61
+          },
+          {
+            "content": "hear",
+            "duration": 0.59
+          },
+          {
+            "content": "you",
+            "duration": 0.29
+          },
+          {
+            "content": "say,",
+            "duration": 2.13
+          }
+        ]
+      },
+      {
+        "startAt": 159.53,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 1.2,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.33
+          },
+          {
+            "content": "it",
+            "duration": 0.31
+          },
+          {
+            "content": "that",
+            "duration": 0.9
+          },
+          {
+            "content": "way",
+            "duration": 0.9
+          }
+        ]
+      },
+      {
+        "startAt": 163.17,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.28,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.32
+          },
+          {
+            "content": "why,",
+            "duration": 0.61
+          }
+        ]
+      },
+      {
+        "startAt": 164.38,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.64,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.6
+          },
+          {
+            "content": "but",
+            "duration": 0.28
+          },
+          {
+            "content": "a",
+            "duration": 0.3
+          },
+          {
+            "content": "heartache,",
+            "duration": 1.81
+          }
+        ]
+      },
+      {
+        "startAt": 168.01,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.62
+          }
+        ]
+      },
+      {
+        "startAt": 169.23,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.62,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.59
+          },
+          {
+            "content": "but",
+            "duration": 0.29
+          },
+          {
+            "content": "a",
+            "duration": 0.32
+          },
+          {
+            "content": "mistake,",
+            "duration": 1.83
+          }
+        ]
+      },
+      {
+        "startAt": 172.88,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 174.07,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.57,
+            "wait": 1.0
+          },
+          {
+            "content": "never",
+            "duration": 0.64
+          },
+          {
+            "content": "wanna",
+            "duration": 0.61
+          },
+          {
+            "content": "hear",
+            "duration": 0.59
+          },
+          {
+            "content": "you",
+            "duration": 0.32
+          },
+          {
+            "content": "say,",
+            "duration": 1.52
+          }
+        ]
+      },
+      {
+        "startAt": 178.32,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.9,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.93
+          },
+          {
+            "content": "it",
+            "duration": 0.59
+          },
+          {
+            "content": "that",
+            "duration": 0.92
+          },
+          {
+            "content": "way",
+            "duration": 0.91
+          }
+        ]
+      },
+      {
+        "startAt": 182.57,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.28,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.32
+          },
+          {
+            "content": "why...",
+            "duration": 0.61
+          }
+        ]
+      },
+      {
+        "startAt": 183.78,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.64,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.6
+          },
+          {
+            "content": "but",
+            "duration": 0.3
+          },
+          {
+            "content": "a",
+            "duration": 0.28
+          },
+          {
+            "content": "heartache,",
+            "duration": 3.02
+          }
+        ]
+      },
+      {
+        "startAt": 188.62,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Ain't",
+            "duration": 0.62,
+            "wait": 1.0
+          },
+          {
+            "content": "nothin'",
+            "duration": 0.59
+          },
+          {
+            "content": "but",
+            "duration": 0.29
+          },
+          {
+            "content": "a",
+            "duration": 0.32
+          },
+          {
+            "content": "mistake,",
+            "duration": 1.83
+          }
+        ]
+      },
+      {
+        "startAt": 192.27,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "Tell",
+            "duration": 0.3,
+            "wait": 1.0
+          },
+          {
+            "content": "me",
+            "duration": 0.3
+          },
+          {
+            "content": "why,",
+            "duration": 0.6
+          }
+        ]
+      },
+      {
+        "startAt": 193.46,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.57,
+            "wait": 1.0
+          },
+          {
+            "content": "never",
+            "duration": 0.64
+          },
+          {
+            "content": "wanna",
+            "duration": 0.61
+          },
+          {
+            "content": "hear",
+            "duration": 0.59
+          },
+          {
+            "content": "you",
+            "duration": 0.32
+          },
+          {
+            "content": "say,",
+            "duration": 1.52
+          }
+        ]
+      },
+      {
+        "startAt": 197.71,
+        "remain": 1.0,
+        "words": [
+          {
+            "content": "I",
+            "duration": 0.9,
+            "wait": 1.0
+          },
+          {
+            "content": "want",
+            "duration": 0.93
+          },
+          {
+            "content": "it",
+            "duration": 0.59
+          },
+          {
+            "content": "that",
+            "duration": 0.92
+          },
+          {
+            "content": "way",
+            "duration": 1.21
+          }
+        ]
+      }
+    ]
+  }
+}
